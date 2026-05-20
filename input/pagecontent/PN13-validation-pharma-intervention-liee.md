@@ -1,6 +1,6 @@
-### Exemple PN13 de validation pharmaceutique avec suggestion
+### Exemple PN13 de validation pharmaceutique et intervention pharmaceutique liée
 
-Cette validation PN13 est traduite en FHIR dans l'instance [Analyse-Validation-Proposition-Trad-PN13-FHIR](Task-Analyse-Validation-Proposition-Trad-PN13-FHIR.html)
+Cette validation PN13 est traduite en FHIR dans les instances [Analyse-Validation-Proposition-Trad-PN13-FHIR](Task-Analyse-Validation-Proposition-Trad-PN13-FHIR.html) et [Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR](Task-Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR.html)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
