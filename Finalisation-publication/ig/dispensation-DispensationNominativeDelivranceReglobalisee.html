@@ -370,9 +370,9 @@ Exemple:</p>
         <p>3 dispensations nominatives, de DOLIPRANE 500 mg gélule, une par prescription courante</p>
 
         <ol>
-          <li><a name="l656">​</a><a href="MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.html">6 gélules</a></li>
-          <li><a name="l660">​</a><a href="MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html">2 gélules</a></li>
-          <li><a name="l664">​</a><a href="MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html">6 gélules</a></li>
+          <li><a href="MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.html">6 gélules</a></li>
+          <li><a href="MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html">2 gélules</a></li>
+          <li><a href="MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html">6 gélules</a></li>
         </ol>
 
         <ul>
@@ -383,7 +383,7 @@ Exemple:</p>
         <p>1 délivrance reglobalisée, cumulant les 3 dispensations nominatives</p>
 
         <ul>
-          <li><a name="l686">​</a><a href="MedicationDispense-Disp-group01-1.html">14 gélules</a></li>
+          <li><a href="MedicationDispense-Disp-group01-1.html">14 gélules</a></li>
           <li>l’usage de l’extension standard <a href="https://hl7.org/fhir/R4/extension-event-basedon.html">event-basedOn</a> référence les dispensations nominatives à l’origine de la délivrance reglobalisée</li>
           <li>une ressource <strong>Group</strong> de <code class="language-plaintext highlighter-rouge">type</code> <strong>person</strong> est constituée pour référencer les patients <code class="language-plaintext highlighter-rouge">subject</code> de la délivrance reglobalisée</li>
           <li>il n’y a pas de posologie globale (pas de <code class="language-plaintext highlighter-rouge">dosageInstruction</code>) pour cette délivrance reglobalisée.</li>
@@ -405,7 +405,7 @@ Exemple:</p>
 </span><span class="p">]</span><span class="w">
 </span></code></pre></div></div>
 
-<p><a name="l782">​</a>Une autre option est de référencer les dispensations nominatives dans l’élément répétable <code class="language-plaintext highlighter-rouge">supportingInformation</code>. Cette solution est nativement conforme au schéma de la ressource <em>MedicationDispense</em>. <a href="MedicationDispense-Disp-group01-2.html">Voir cette alternative</a>.</p>
+<p>Une autre option est de référencer les dispensations nominatives dans l’élément répétable <code class="language-plaintext highlighter-rouge">supportingInformation</code>. Cette solution est nativement conforme au schéma de la ressource <em>MedicationDispense</em>. <a href="MedicationDispense-Disp-group01-2.html">Voir cette alternative</a>.</p>
 
 <p>Une ressource <em>MedicationDispense</em> globale comme agrégateur de <em>MedicationDispense</em> individualisées est discutable : une ressource <em>SupplyDelivery</em> ne serait-elle pas plus appropriée ?</p>
 
@@ -454,7 +454,7 @@ Exemple:</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package hl7.fhir.fr.medication#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 21, 2026 08:53+0000">2026-05-21</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package hl7.fhir.fr.medication#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 21, 2026 08:52+0000">2026-05-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

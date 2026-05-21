@@ -10,7 +10,7 @@
   <name value="MED"/>
   <title value="Guide d'implémentation du médicament"/>
   <status value="draft"/>
-  <date value="2026-05-21T08:53:37+00:00"/>
+  <date value="2026-05-21T08:52:40+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -1187,6 +1187,83 @@
       <name value="Conversion PN13 vers FHIR pour un séjour d'une prescription de médicaments"/>
       <description value="ConceptMap pour la conversion PN13 vers FHIR d'un séjour d'une prescritpion de médicament"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC"/>
+      </reference>
+      <name value="Disp-DOLIPRANE-Refill-Compl-presc-DC"/>
+      <description value="Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC"/>
+      </reference>
+      <name value="Disp-DOLIPRANE-Refill-presc-DC"/>
+      <description value="Dispensation complémentaire et partielle de DOLIPRANE sur une prescription de Paracétamol"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-DOLIPRANE-Refill-Substit"/>
+      </reference>
+      <name value="Disp-DOLIPRANE-Refill-Substit"/>
+      <description value="Dispensation complémentaire et partielle de DOLIPRANE sur une prescription d'EFFERALGAN"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-EFFERALGAN"/>
+      </reference>
+      <name value="Disp-EFFERALGAN"/>
+      <description value="Dispensation complète d'EFFERALGANT sur une prescription d'EFFERALGAN"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-EFFERALGAN-presc-DC"/>
+      </reference>
+      <name value="Disp-EFFERALGAN-presc-DC"/>
+      <description value="Dispensation complète de Paracétamol sur une prescription d'EFFERALGAN"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-group01-1"/>
+      </reference>
+      <name value="Disp-group01-1"/>
+      <description value="Délivrance reglobalisée, cumulant 3 dispensations nominatives"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationDispense"/>
+      </extension>
+      <reference>
+        <reference value="MedicationDispense/Disp-group01-2"/>
+      </reference>
+      <name value="Disp-group01-2"/>
+      <description value="Délivrance reglobalisée, cumulant 3 dispensations nominatives - Option 2"/>
+      <exampleCanonical value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

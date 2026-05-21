@@ -189,6 +189,13 @@ These are example instances that show what data produced and consumed by systems
 | [Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR](Task-Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR.md) | Validation pharmaceutique associée à une intervention pharmaceutique pour exemple traduction PN13-FHIR de resultats d’analyse pharmaceutique |
 | [Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR](Task-Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR.md) | Validation pharmaceutique sans commentaire pour exemple traduction PN13-FHIR de resultats d’analyse pharmaceutique |
 | [Analyse-Validation-Simple-paracetamol](Task-Analyse-Validation-Simple-paracetamol.md) | Validation simple d’une prescription de paracétamol |
+| [Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md) | Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol |
+| [Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md) | Dispensation complémentaire et partielle de DOLIPRANE sur une prescription d’EFFERALGAN |
+| [Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md) | Dispensation complémentaire et partielle de DOLIPRANE sur une prescription de Paracétamol |
+| [Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md) | Dispensation complète d’EFFERALGANT sur une prescription d’EFFERALGAN |
+| [Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md) | Dispensation complète de Paracétamol sur une prescription d’EFFERALGAN |
+| [Disp-group01-1](MedicationDispense-Disp-group01-1.md) | Délivrance reglobalisée, cumulant 3 dispensations nominatives |
+| [Disp-group01-2](MedicationDispense-Disp-group01-2.md) | Délivrance reglobalisée, cumulant 3 dispensations nominatives - Option 2 |
 | [HAS-01-Presc-Pantoprazole-DC](Bundle-HAS-01-Presc-Pantoprazole-DC.md) | PANTOPRAZOLE 40 mg comprimé: 40 mg le soir en DC |
 | [HAS-01-Presc-Pantoprazole-MV](Bundle-HAS-01-Presc-Pantoprazole-MV.md) | PANTOPRAZOLE 40 mg comprimé: 40 mg le soir en MV |
 | [HAS-02-Presc-Fluindione](Bundle-HAS-02-Presc-Fluindione.md) | FLUINDIONE 20 mg comprimé : 0,5 comprimé par jour |

@@ -1096,6 +1096,9 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
+      "MedicationDispense"
+    ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Bundle.entry.resource"
     ],

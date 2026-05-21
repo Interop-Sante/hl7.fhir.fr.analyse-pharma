@@ -48,7 +48,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-strength-codeable
   "name" : "FrStrengthCodeableConcept",
   "title" : "Strength CodeableConcept",
   "status" : "draft",
-  "date" : "2026-05-21T08:53:37+00:00",
+  "date" : "2026-05-21T08:52:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

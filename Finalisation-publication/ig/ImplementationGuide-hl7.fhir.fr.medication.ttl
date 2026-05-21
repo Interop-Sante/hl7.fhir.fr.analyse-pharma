@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "MED"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation du médicament"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-21T08:53:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-21T08:52:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -2778,6 +2778,160 @@
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-DOLIPRANE-Refill-Compl-presc-DC" ] ;
+       fhir:description [ fhir:v "Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-DOLIPRANE-Refill-presc-DC" ] ;
+       fhir:description [ fhir:v "Dispensation complémentaire et partielle de DOLIPRANE sur une prescription de Paracétamol" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-DOLIPRANE-Refill-Substit> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-Substit" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-DOLIPRANE-Refill-Substit" ] ;
+       fhir:description [ fhir:v "Dispensation complémentaire et partielle de DOLIPRANE sur une prescription d'EFFERALGAN" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-EFFERALGAN> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-EFFERALGAN" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-EFFERALGAN" ] ;
+       fhir:description [ fhir:v "Dispensation complète d'EFFERALGANT sur une prescription d'EFFERALGAN" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-EFFERALGAN-presc-DC> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-EFFERALGAN-presc-DC" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-EFFERALGAN-presc-DC" ] ;
+       fhir:description [ fhir:v "Dispensation complète de Paracétamol sur une prescription d'EFFERALGAN" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-group01-1> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-group01-1" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-group01-1" ] ;
+       fhir:description [ fhir:v "Délivrance reglobalisée, cumulant 3 dispensations nominatives" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "MedicationDispense"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-group01-2> ;
+         fhir:reference [ fhir:v "MedicationDispense/Disp-group01-2" ]
+       ] ;
+       fhir:name [ fhir:v "Disp-group01-2" ] ;
+       fhir:description [ fhir:v "Délivrance reglobalisée, cumulant 3 dispensations nominatives - Option 2" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
        ]
      ] [
        fhir:extension ( [

@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’un résultat d’une analyse ph
   "name" : "FrPN13FHIRPharmaceuticalAnalysisValidationConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type validation",
   "status" : "draft",
-  "date" : "2026-05-21T08:53:37+00:00",
+  "date" : "2026-05-21T08:52:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
