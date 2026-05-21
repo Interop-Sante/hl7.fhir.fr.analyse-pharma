@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FRMedicationRequestNoteScope"] ; # 
   fhir:title [ fhir:v "Scope for note element in MedicationRequest"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-21T12:36:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-21T12:38:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

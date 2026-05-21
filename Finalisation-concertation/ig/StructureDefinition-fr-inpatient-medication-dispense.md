@@ -16,7 +16,7 @@ French medication dispense profile
 
 **Utilisations:**
 
-* Exemples pour ce/t/te Profil: [MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md), [MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md), [MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md), [MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md)... Show 3 more, [MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md), [MedicationDispense/Disp-group01-1](MedicationDispense-Disp-group01-1.md) and [MedicationDispense/Disp-group01-2](MedicationDispense-Disp-group01-2.md)
+* Exemples pour ce/t/te Profil: [MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md), [MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md), [MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md), [MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md)... Show 2 more, [MedicationDispense/Disp-group01-1](MedicationDispense-Disp-group01-1.md) and [MedicationDispense/Disp-group01-2](MedicationDispense-Disp-group01-2.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-inpatient-medication-dispense)
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "name" : "FRInpatientMedicationDispense",
   "title" : "FR Inpatient MedicationDispense",
   "status" : "draft",
-  "date" : "2026-05-21T12:36:59+00:00",
+  "date" : "2026-05-21T12:38:31+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

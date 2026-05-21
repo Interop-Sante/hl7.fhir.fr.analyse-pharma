@@ -35,7 +35,7 @@ Le système de codage du type d’écart/erreur sur une ligne de traitement d’
   "title" : "code system Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:36:59+00:00",
+  "date" : "2026-05-21T12:38:31+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

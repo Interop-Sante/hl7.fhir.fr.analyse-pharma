@@ -69,7 +69,7 @@ Medication Ingredient Strength Codes
   "version" : "0.1.0",
   "name" : "MedicationIngredientStrengthCodes",
   "status" : "draft",
-  "date" : "2026-05-21T12:36:59+00:00",
+  "date" : "2026-05-21T12:38:31+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

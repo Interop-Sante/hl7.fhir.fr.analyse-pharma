@@ -10,7 +10,7 @@
   "name" : "MED",
   "title" : "Guide d'implémentation du médicament",
   "status" : "draft",
-  "date" : "2026-05-21T12:36:59+00:00",
+  "date" : "2026-05-21T12:38:31+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -1425,18 +1425,6 @@
       "name" : "Conversion PN13 vers FHIR pour un séjour d'une prescription de médicaments",
       "description" : "ConceptMap pour la conversion PN13 vers FHIR d'un séjour d'une prescritpion de médicament",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicationDispense"
-      }],
-      "reference" : {
-        "reference" : "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC"
-      },
-      "name" : "Disp-DOLIPRANE-Refill-Compl-presc-DC",
-      "description" : "Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol",
-      "exampleCanonical" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"
     },
     {
       "extension" : [{

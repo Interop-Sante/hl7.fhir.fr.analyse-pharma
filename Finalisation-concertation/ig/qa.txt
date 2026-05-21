@@ -1,10 +1,10 @@
 MED : Validation Results
 =========================================
 
-err = 1625, warn = 2295, info = 150
+err = 1622, warn = 2295, info = 148
 IG Publisher Version: 2.2.7
-Generated Thu May 21 12:42:22 UTC 2026. FHIR version 4.0.1 for hl7.fhir.fr.medication#0.1.0 (canonical = https://hl7.fr/ig/fhir/medication)
- Build Errors : 1852 / 4 / 0
+Generated Thu May 21 12:44:28 UTC 2026. FHIR version 4.0.1 for hl7.fhir.fr.medication#0.1.0 (canonical = https://hl7.fr/ig/fhir/medication)
+ Build Errors : 1847 / 4 / 0
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 11 / 5 / 6
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 3
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Bundle-HAS-02-Presc-Fluindione : 7 / 4 / 3
@@ -130,13 +130,12 @@ Generated Thu May 21 12:42:22 UTC 2026. FHIR version 4.0.1 for hl7.fhir.fr.medic
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Medication-InLine-DOLIPRANE : 1 / 2 / 1
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Medication-InLine-med-EFFERALGAN : 1 / 2 / 1
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Medication-InLine-med-Paracetamol : 0 / 1 / 1
- /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC : 7 / 0 / 3
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Substit : 8 / 0 / 2
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC : 8 / 0 / 2
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN : 6 / 0 / 3
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN-presc-DC : 5 / 0 / 3
- /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-1 : 8 / 0 / 1
- /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-2 : 7 / 0 / 1
+ /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-1 : 10 / 0 / 1
+ /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-2 : 9 / 0 / 1
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationRequest-InLine-Analyse-Presc-BINOCRIT : 4 / 2 / 1
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationRequest-InLine-Analyse-Presc-CALCIDOSE : 4 / 2 / 1
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/MedicationRequest-InLine-Analyse-Presc-CELLUVISC : 9 / 2 / 1
@@ -1094,14 +1093,6 @@ ERROR: Medication-InLine-med-Paracetamol.html#/html/body/div/div/nav/div/div/ul/
 ERROR: Medication-InLine-med-Paracetamol.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: Medication-InLine-med-Paracetamol.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: Medication-InLine-med-Paracetamol.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 204, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 541: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 641: The link 'Patient/14603' for "Patient/14603" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 371, column 827: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 204, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 527: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
@@ -1134,9 +1125,10 @@ ERROR: MedicationDispense-Disp-EFFERALGAN.ttl.html#/html/body/div/div/nav/div/di
 ERROR: MedicationDispense-Disp-EFFERALGAN.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 204, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 1495: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 1595: The link 'Group/InLine-patient-group01' for "Group/InLine-patient-group01" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 371, column 1811: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 793: The link 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' for "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 1304: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 1404: The link 'Group/InLine-patient-group01' for "Group/InLine-patient-group01" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 371, column 1620: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
@@ -1144,7 +1136,8 @@ ERROR: MedicationDispense-Disp-group01-2.change.history.html#/html/body/div/div/
 ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 497: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/p/a at Line 371, column 597: The link 'Group/InLine-patient-group01' for "Group/InLine-patient-group01" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 371, column 1812: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 371, column 1031: The link 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' for "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC" cannot be resolved
+ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 371, column 1621: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: MedicationDispense-Disp-group01-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 202, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
@@ -2095,6 +2088,7 @@ ERROR: conciliation-VueEnsemble.html#/html/body/div/div/nav/div/div/ul/li/ul/li/
 ERROR: dispensation-DelivrancePlusSimple.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: dispensation-Discussion.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: dispensation-DispensationNominativeDelivranceReglobalisee.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
+ERROR: dispensation-DispensationNominativeDelivranceReglobalisee.html#/html/body/div/div/div/div/div/ul/li/ul/li/ol/li/a at Line 374, column 16: The link 'MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html' for "2 gélules" cannot be resolved
 ERROR: dispensation-Intro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: dispensation-RessourceMedicationDispense.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 200, column 10: The link 'PN13-exemples-Intro.html' for "Inroduction" cannot be resolved
@@ -5345,16 +5339,6 @@ ERROR: Medication/InLine-med-EFFERALGAN: Medication.form.coding[0].display: Wron
 WARNING: Medication/InLine-med-EFFERALGAN: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
 == fsh-generated/resources/Medication-InLine-med-Paracetamol.json ==
 WARNING: Medication/InLine-med-Paracetamol: Medication.code.coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-== fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.json ==
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14603'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.type.coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/v3-ActCode#RFC for language(s) 'fr-FR'. The display is 'Refill - Complete' which is the default language display
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.dosageInstruction[0].doseAndRate[0].type.coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/dose-rate-type#ordered for language(s) 'fr-FR'. The display is 'Ordered' which is the default language display
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14603' at 'div/p/a' for 'Patient/14603' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
 == fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Substit.json ==
 ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
 ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14604'
@@ -5394,20 +5378,24 @@ ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for '
 ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
 == fsh-generated/resources/MedicationDispense-Disp-group01-1.json ==
 ERROR: MedicationDispense/Disp-group01-1: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn v5.3.0 is not allowed to be used at this point (this element is [MedicationDispense]; allowed for this version = e:Condition, e:ChargeItem, e:ClinicalImpression, e:Composition, e:Consent, e:Coverage, e:EpisodeOfCare, e:ExplanationOfBenefit, e:FamilyMemberHistory, e:ImmunizationEvaluation, e:MedicationStatement, e:PaymentNotice, e:PaymentReconciliation)
+ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.extension[1].value.ofType(Reference): Unable to resolve resource with reference 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC'
 ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
 ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.subject: Unable to resolve resource with reference 'Group/InLine-patient-group01'
 ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
 ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
+ERROR: MedicationDispense.text.div: Hyperlink 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' at 'div/p/a' for 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' does not resolve
 ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
 ERROR: MedicationDispense.text.div: Hyperlink 'Group/InLine-patient-group01' at 'div/p/a' for 'Group/InLine-patient-group01' does not resolve
 ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
 == fsh-generated/resources/MedicationDispense-Disp-group01-2.json ==
 ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
 ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.subject: Unable to resolve resource with reference 'Group/InLine-patient-group01'
+ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.supportingInformation[1]: Unable to resolve resource with reference 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC'
 ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
 ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
 ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
 ERROR: MedicationDispense.text.div: Hyperlink 'Group/InLine-patient-group01' at 'div/p/a' for 'Group/InLine-patient-group01' does not resolve
+ERROR: MedicationDispense.text.div: Hyperlink 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' at 'div/ul/li/a' for 'MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC' does not resolve
 ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
 == fsh-generated/resources/MedicationRequest-InLine-Analyse-Presc-BINOCRIT.json ==
 WARNING: MedicationRequest/InLine-Analyse-Presc-BINOCRIT: MedicationRequest.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated

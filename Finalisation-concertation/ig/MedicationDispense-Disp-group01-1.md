@@ -10,7 +10,7 @@ Profil: [FR Inpatient MedicationDispense](StructureDefinition-fr-inpatient-medic
 
 **Based on**: [MedicationDispense : status = completed; medication[x] = ->Medication/InLine-med-DOLIPRANE; type = Refill - Part; quantity = 6 1; daysSupply = 2 jour; whenPrepared = 2021-07-16 10:10:00+0000; whenHandedOver = 2021-07-16 10:24:00+0000](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md)
 
-**Based on**: [MedicationDispense : status = completed; medication[x] = ->Medication/InLine-med-DOLIPRANE; type = Refill - Complete; quantity = 2 1; daysSupply = 2 jours; whenPrepared = 2021-07-16 10:10:00+0000; whenHandedOver = 2021-07-16 10:24:00+0000](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md)
+**Based on**: [MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC)
 
 **Based on**: [MedicationDispense : status = completed; medication[x] = ->Medication/InLine-med-DOLIPRANE; type = Refill - Part; quantity = 6 1; daysSupply = 2 jours; whenPrepared = 2021-07-16 10:10:00+0000; whenHandedOver = 2021-07-16 10:24:00+0000](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md)
 

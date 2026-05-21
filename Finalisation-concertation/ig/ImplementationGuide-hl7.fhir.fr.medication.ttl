@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "MED"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation du médicament"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-21T12:36:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-21T12:38:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -2778,28 +2778,6 @@
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "MedicationDispense"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://hl7.fr/ig/fhir/medication/MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC> ;
-         fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC" ]
-       ] ;
-       fhir:name [ fhir:v "Disp-DOLIPRANE-Refill-Compl-presc-DC" ] ;
-       fhir:description [ fhir:v "Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol" ] ;
-       fhir:example [
-         a fhir:Canonical ;
-         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medication-dispense>
        ]
      ] [
        fhir:extension ( [
