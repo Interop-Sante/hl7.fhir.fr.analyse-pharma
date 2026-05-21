@@ -1,8 +1,6 @@
 # Description
 
-Guide d'implémentation du médicament contenant trois domaines : la conciliation, la prescription et la dispensation.
-
-Aujourd'hui, uniquement la prescription a été retravaillée, les parties conciliation et dispensation sont en draft et nécessitent des travaux complémentaires.
+Guide d'implémentation concernant l'analyse pharmaceutique.
 
 # Accès au guide
 
@@ -20,6 +18,6 @@ https://interop-sante.github.io/hl7.fhir.fr.analyse-pharma/[nom-branche]/ig
 
 ## En version publiée
 
-La version publiée est à utiliser pour les développements. Le guide d'implémentation medication n'étant pas encore publié, le lien n'est pas encore accessible.
+La version publiée est à utiliser pour les développements. Le guide d'implémentation analyse pharmaceutique n'étant pas encore publié, le lien n'est pas encore accessible.
 
 https://hl7.fr/ig/fhir/analyse-pharma
