@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/Presc-DIPROSONE-AppCut> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/Presc-DIPROSONE-AppCut> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Presc-DIPROSONE-AppCut"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medication-Presc-DIPROSONE-AppCut" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -93,8 +93,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-DIPROSONE-AppCut" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -110,12 +110,12 @@
          fhir:reference [ fhir:v "#medication-Presc-DIPROSONE-AppCut" ]
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2021-07-29T13:04:23.435Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
        ] ;
        fhir:groupIdentifier [

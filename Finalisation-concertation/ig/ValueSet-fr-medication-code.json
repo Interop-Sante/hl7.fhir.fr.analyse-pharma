@@ -5,13 +5,13 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-medication-code</b></p><a name=\"fr-medication-code\"> </a><a name=\"hcfr-medication-code\"> </a><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut tous les codes définis dans <code>http://data.esante.gouv.fr/ansm/medicament/UCD</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span></li><li>Inclut tous les codes définis dans <code>http://data.esante.gouv.fr/ansm/medicament/codeSMS</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span></li><li>Inclut tous les codes définis dans <code>http://data.esante.gouv.fr/ansm/medicament/substance</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span></li></ul></div>"
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-code",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-medication-code",
   "version" : "0.1.0",
   "name" : "FRMedicationCodes",
   "title" : "value set Interop'Santé - Codes identifiant les médicaments",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

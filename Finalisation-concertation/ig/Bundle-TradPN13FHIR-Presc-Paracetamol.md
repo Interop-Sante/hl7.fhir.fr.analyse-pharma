@@ -1,4 +1,4 @@
-# TradPN13FHIR-Presc-Paracetamol - Guide d'implémentation du médicament v0.1.0
+# TradPN13FHIR-Presc-Paracetamol - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "TradPN13FHIR-Presc-Paracetamol",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -91,7 +91,7 @@
       "resourceType" : "Medication",
       "id" : "medication-TradPN13FHIR-Presc-Paracetamol",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound",
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound",
         "https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
@@ -192,7 +192,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-TradPN13FHIR-Presc-Paracetamol",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -219,7 +219,7 @@
       },
       "supportingInformation" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFMED"
         }],
         "identifier" : {
@@ -243,21 +243,21 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "**Prescritpion textuelle:** PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME  (Voie orale) - A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours"
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCIND"
         }],
         "text" : "**Indication:** Si douleur"
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCCOMM"
         }],
         "text" : "**Commentaire:** Test paracetamol 2 (à la demande)"

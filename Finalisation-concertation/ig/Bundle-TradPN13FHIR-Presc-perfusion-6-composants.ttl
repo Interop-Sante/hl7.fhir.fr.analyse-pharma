@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/TradPN13FHIR-Presc-perfusion-6-composants> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/TradPN13FHIR-Presc-perfusion-6-composants> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TradPN13FHIR-Presc-perfusion-6-composants"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -104,8 +104,8 @@
        fhir:id [ fhir:v "medication-1-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -144,8 +144,8 @@
        fhir:id [ fhir:v "medication-2-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -184,8 +184,8 @@
        fhir:id [ fhir:v "medication-3-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -224,8 +224,8 @@
        fhir:id [ fhir:v "medication-4-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -264,8 +264,8 @@
        fhir:id [ fhir:v "medication-5-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -304,8 +304,8 @@
        fhir:id [ fhir:v "medication-6-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -344,8 +344,8 @@
        fhir:id [ fhir:v "medication-C-prescr-perf-6-exemple" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound>
          ] )
        ] ;
        fhir:text [
@@ -388,8 +388,8 @@
        ] [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle>
            ] ;
            fhir:value [
              a fhir:Boolean ;
@@ -562,8 +562,8 @@
        fhir:id [ fhir:v "medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -623,8 +623,8 @@
        fhir:note ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;

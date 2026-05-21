@@ -1,4 +1,4 @@
-# code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient - Guide d'implémentation du médicament v0.1.0
+# code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrUFRoleCodes |
 
  
@@ -29,13 +29,13 @@ Le système de codage pour les types de rôle qu’une UF peut avoir par rapport
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes",
   "version" : "0.1.0",
   "name" : "FrUFRoleCodes",
   "title" : "code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

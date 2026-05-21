@@ -1,4 +1,4 @@
-# FR Medication Request - Guide d'implémentation du médicament v0.1.0
+# FR Medication Request - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMedicationRequest |
 
  
@@ -18,7 +18,7 @@ French medication request profile
 
 * Dérivé de ce Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medicationrequest)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medicationrequest)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationrequest",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest",
   "version" : "0.1.0",
   "name" : "FRMedicationRequest",
   "title" : "FR Medication Request",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -127,7 +127,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-treatment-intent"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent"]
       }],
       "meaningWhenMissing" : "overall intention of the treatment not specified"
     },
@@ -156,8 +156,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound",
-        "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound",
+        "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"]
       }]
     },
     {
@@ -171,7 +171,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-code"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-medication-code"
       }
     },
     {
@@ -224,7 +224,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-when-values"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values"]
       }]
     },
     {
@@ -232,7 +232,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.route",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-route-of-administration"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-route-of-administration"
       }
     },
     {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.method",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/FrMethodOfAdministration"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/FrMethodOfAdministration"
       }
     },
     {
@@ -251,7 +251,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component"]
       }]
     },
     {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Range",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRangeMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRangeMedication"]
       }]
     },
     {
@@ -285,7 +285,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRatioMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRatioMedication"]
       }]
     },
     {
@@ -320,7 +320,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Range",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRangeMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRangeMedication"]
       }]
     },
     {
@@ -331,7 +331,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "max" : "1",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -339,7 +339,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.maxDosePerPeriod.numerator",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -347,7 +347,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.maxDosePerPeriod.denominator",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.maxDosePerAdministration",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -363,7 +363,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       "path" : "MedicationRequest.dosageInstruction.maxDosePerLifetime",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     }]
   }

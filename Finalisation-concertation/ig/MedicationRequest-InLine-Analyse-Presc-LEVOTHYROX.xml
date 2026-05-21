@@ -3,7 +3,7 @@
 <MedicationRequest xmlns="http://hl7.org/fhir">
   <id value="InLine-Analyse-Presc-LEVOTHYROX"/>
   <meta>
-    <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"/>
+    <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : PrescriptionMédicamenteuseTODO InLine-Analyse-Presc-LEVOTHYROX</b></p><a name="InLine-Analyse-Presc-LEVOTHYROX"> </a><a name="hcInLine-Analyse-Presc-LEVOTHYROX"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-inpatient-medicationrequest.html">FR Inpatient MedicationRequest</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1 comprimé une heure avant le petit déjeuner</p>

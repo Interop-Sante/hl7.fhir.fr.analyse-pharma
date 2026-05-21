@@ -1,4 +1,4 @@
-# Presc-PerfDobutamine-Qsp40mL - Guide d'implémentation du médicament v0.1.0
+# Presc-PerfDobutamine-Qsp40mL - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "Presc-PerfDobutamine-Qsp40mL",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -23,7 +23,7 @@
       "resourceType" : "Medication",
       "id" : "medication-1-Presc-PerfDobutamine-Qsp40mL",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -55,7 +55,7 @@
       "resourceType" : "Medication",
       "id" : "medication-2-Presc-PerfDobutamine-Qsp40mL",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -108,7 +108,7 @@
       "resourceType" : "Medication",
       "id" : "medication-C-Presc-PerfDobutamine-Qsp40mL",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"]
       },
       "text" : {
         "status" : "generated",
@@ -130,7 +130,7 @@
       },
       "ingredient" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle",
           "valueBoolean" : true
         }],
         "itemReference" : {
@@ -144,7 +144,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Presc-PerfDobutamine-Qsp40mL",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -189,7 +189,7 @@
         },
         "doseAndRate" : [{
           "extension" : [{
-            "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component",
+            "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component",
             "valueReference" : {
               "reference" : "#medication-1-Presc-PerfDobutamine-Qsp40mL"
             }

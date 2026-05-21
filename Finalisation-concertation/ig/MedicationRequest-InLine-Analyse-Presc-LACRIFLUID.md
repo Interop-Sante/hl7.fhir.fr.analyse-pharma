@@ -1,4 +1,4 @@
-# InLine-Analyse-Presc-LACRIFLUID - Guide d'implémentation du médicament v0.1.0
+# InLine-Analyse-Presc-LACRIFLUID - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -54,7 +54,7 @@ Prescription textuelle: LACRIFLUID 0,13% CY UNIDOS: 1 goutte 2 fois par jour​
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-LACRIFLUID",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",

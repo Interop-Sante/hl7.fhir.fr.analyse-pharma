@@ -1,4 +1,4 @@
-# Medication component which is the vehicle of the compound Medication - Guide d'implémentation du médicament v0.1.0
+# Medication component which is the vehicle of the compound Medication - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrIsVehicle |
 
 Medication component which is the vehicle of the compound Medication
@@ -22,7 +22,7 @@ Medication component which is the vehicle of the compound Medication
 * Utilise ce/t/te Extension: [FR Medication Compound](StructureDefinition-fr-medication-compound.md)
 * Exemples pour ce/t/te Extension: [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md), [Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md), [Bundle/Presc-PerfGl-NaCl-KCl-500ml](Bundle-Presc-PerfGl-NaCl-KCl-500ml.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-is-vehicle)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-is-vehicle)
 
 ### Formal Views of Extension Content
 
@@ -42,12 +42,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-is-vehicle",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle",
   "version" : "0.1.0",
   "name" : "FrIsVehicle",
   "title" : "Medication component which is the vehicle of the compound Medication",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -94,7 +94,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle"
     },
     {
       "id" : "Extension.value[x]",

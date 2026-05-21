@@ -7,7 +7,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Observation/InLine-observation-taille-Avion> a fhir:Observation ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Observation/InLine-observation-taille-Avion> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-observation-taille-Avion"] ; # 
   fhir:meta [
@@ -41,7 +41,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Patient/InLine-patient-Avion> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/InLine-patient-Avion> ;
      fhir:reference [ fhir:v "Patient/InLine-patient-Avion" ]
   ] ; # 
   fhir:effective [

@@ -1,4 +1,4 @@
-# Presc-MiniperfCefotaxime-En20min-Pdt4j - Guide d'implémentation du médicament v0.1.0
+# Presc-MiniperfCefotaxime-En20min-Pdt4j - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "Presc-MiniperfCefotaxime-En20min-Pdt4j",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -23,7 +23,7 @@
       "resourceType" : "Medication",
       "id" : "medication-1-Presc-MiniperfCefotaxime-En20min-Pdt4j",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -44,7 +44,7 @@
       "resourceType" : "Medication",
       "id" : "medication-2-Presc-MiniperfCefotaxime-En20min-Pdt4j",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -108,7 +108,7 @@
       "resourceType" : "Medication",
       "id" : "medication-C-Presc-MiniperfCefotaxime-En20min-Pdt4j",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"]
       },
       "text" : {
         "status" : "generated",
@@ -131,7 +131,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Presc-MiniperfCefotaxime-En20min-Pdt4j",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -175,7 +175,7 @@
         },
         "doseAndRate" : [{
           "extension" : [{
-            "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component",
+            "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component",
             "valueReference" : {
               "reference" : "#medication-1-Presc-MiniperfCefotaxime-En20min-Pdt4j"
             }

@@ -1,4 +1,4 @@
-# FR Pharmaceutical Intervention Suggestion - Guide d'implémentation du médicament v0.1.0
+# FR Pharmaceutical Intervention Suggestion - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRInpatientPharmaceuticalInterventionSuggestionProfile |
 
  
@@ -19,7 +19,7 @@ Profile de proposition d’évolution de ligne de prescritpion dans le cadre d�
 * Référence ce Profil: [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.md)
 * Exemples pour ce/t/te Profil: [MedicationRequest/InLine-Analyse-Presc-CELLUVISC](MedicationRequest-InLine-Analyse-Presc-CELLUVISC.md), [MedicationRequest/InLine-Analyse-Presc-CETAFEN-CPR](MedicationRequest-InLine-Analyse-Presc-CETAFEN-CPR.md), [MedicationRequest/InLine-Analyse-Presc-ELIQUIS-25](MedicationRequest-InLine-Analyse-Presc-ELIQUIS-25.md), [MedicationRequest/InLine-Analyse-Presc-ESIDREX](MedicationRequest-InLine-Analyse-Presc-ESIDREX.md)... Show 8 more, [MedicationRequest/InLine-Analyse-Presc-INEGY](MedicationRequest-InLine-Analyse-Presc-INEGY.md), [MedicationRequest/InLine-Analyse-Presc-LANSOPRAZOLE](MedicationRequest-InLine-Analyse-Presc-LANSOPRAZOLE.md), [MedicationRequest/InLine-Analyse-Presc-MACROGOL](MedicationRequest-InLine-Analyse-Presc-MACROGOL.md), [MedicationRequest/InLine-Analyse-Presc-TAREG](MedicationRequest-InLine-Analyse-Presc-TAREG.md), [MedicationRequest/InLine-Inter-Arret-Paracetamol-Si-Douleur](MedicationRequest-InLine-Inter-Arret-Paracetamol-Si-Douleur.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution.md) and [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion)
 
 ### Formal Views of Profile Content
 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-pharmaceutical-intervention-suggestion",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion",
   "version" : "0.1.0",
   "name" : "FRInpatientPharmaceuticalInterventionSuggestionProfile",
   "title" : "FR Pharmaceutical Intervention Suggestion",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -88,7 +88,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationRequest",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "max" : "*",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       }]
     },
     {
@@ -131,7 +131,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
       }]
     },
     {

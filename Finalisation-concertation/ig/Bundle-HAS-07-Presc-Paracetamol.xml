@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="HAS-07-Presc-Paracetamol"/>
   <meta>
-    <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"/>
+    <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"/>
   </meta>
   <type value="searchset"/>
   <entry>
@@ -11,7 +11,7 @@
       <MedicationRequest>
         <id value="medicationrequest-HAS-7-Presc-Paracetamol"/>
         <meta>
-          <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"/>
+          <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"/>
         </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_medicationrequest-HAS-7-Presc-Paracetamol"> </a><p class="res-header-id"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-7-Presc-Paracetamol</b></p><a name="medicationrequest-HAS-7-Presc-Paracetamol"> </a><a name="hcmedicationrequest-HAS-7-Presc-Paracetamol"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-medicationrequest.html">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>Si douleur -dose max/prise de 1000 mg (soit 2 gélules) -4000 mg maximum par jour (soit 8 gélules)</p>

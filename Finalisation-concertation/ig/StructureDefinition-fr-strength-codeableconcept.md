@@ -1,4 +1,4 @@
-# Strength CodeableConcept - Guide d'implémentation du médicament v0.1.0
+# Strength CodeableConcept - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-strength-codeableconcept | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-strength-codeableconcept | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrStrengthCodeableConcept |
 
 Additional non unit value for strength
@@ -21,7 +21,7 @@ Additional non unit value for strength
 
 * Ce Extension n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-strength-codeableconcept)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-strength-codeableconcept)
 
 ### Formal Views of Extension Content
 
@@ -43,12 +43,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-strength-codeable
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-strength-codeableconcept",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-strength-codeableconcept",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-strength-codeableconcept",
   "version" : "0.1.0",
   "name" : "FrStrengthCodeableConcept",
   "title" : "Strength CodeableConcept",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-strength-codeable
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-strength-codeableconcept"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-strength-codeableconcept"
     },
     {
       "id" : "Extension.value[x]",

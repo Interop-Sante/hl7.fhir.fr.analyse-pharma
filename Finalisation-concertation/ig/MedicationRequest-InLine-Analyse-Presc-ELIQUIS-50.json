@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-ELIQUIS-50",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "text" : {
     "status" : "extensions",

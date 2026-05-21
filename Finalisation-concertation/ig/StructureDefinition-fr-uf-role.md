@@ -1,4 +1,4 @@
-# UF Role - Guide d'implémentation du médicament v0.1.0
+# UF Role - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrUFRole |
 
 Caracterization of the role of a functionnal unit for the patient encounter
@@ -22,7 +22,7 @@ Caracterization of the role of a functionnal unit for the patient encounter
 * Utilise ce/t/te Extension: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
 * Exemples pour ce/t/te Extension: [Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE](Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.md), [Bundle/TradPN13FHIR-Presc-DOLIPRANE-Interpret](Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md), [Bundle/TradPN13FHIR-Presc-DOLIPRANE](Bundle-TradPN13FHIR-Presc-DOLIPRANE.md), [Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md)... Show 6 more, [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md), [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol.md) and [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-uf-role)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-uf-role)
 
 ### Formal Views of Extension Content
 
@@ -44,12 +44,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-uf-role",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
   "version" : "0.1.0",
   "name" : "FrUFRole",
   "title" : "UF Role",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"
     },
     {
       "id" : "Extension.value[x]",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription"
       }
     }]
   }

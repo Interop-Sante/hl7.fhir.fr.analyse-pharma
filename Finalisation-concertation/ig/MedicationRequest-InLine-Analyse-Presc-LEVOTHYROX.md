@@ -1,4 +1,4 @@
-# InLine-Analyse-Presc-LEVOTHYROX - Guide d'implémentation du médicament v0.1.0
+# InLine-Analyse-Presc-LEVOTHYROX - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -54,7 +54,7 @@ Prescription textuelle: LEVOTHYROX 38µG: 1 comprimé une heure avant le petit d
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-LEVOTHYROX",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",

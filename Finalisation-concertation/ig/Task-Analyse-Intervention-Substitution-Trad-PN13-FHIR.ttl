@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Task/Analyse-Intervention-Substitution-Trad-PN13-FHIR> a fhir:Task ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Task/Analyse-Intervention-Substitution-Trad-PN13-FHIR> a fhir:Task ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Analyse-Intervention-Substitution-Trad-PN13-FHIR"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result>
      ] )
   ] ; # 
   fhir:text [
@@ -40,7 +40,7 @@
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol> ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol> ;
        fhir:reference [ fhir:v "MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol" ]
      ]
   ] ) ; # 
@@ -77,7 +77,7 @@
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution> ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution> ;
        fhir:reference [ fhir:v "MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution" ]
      ]
   ] ) . # 

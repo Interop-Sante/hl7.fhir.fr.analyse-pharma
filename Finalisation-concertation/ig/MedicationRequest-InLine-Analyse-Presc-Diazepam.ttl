@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Analyse-Presc-Diazepam> a fhir:MedicationRequest ;
+<https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Analyse-Presc-Diazepam> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-Analyse-Presc-Diazepam"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
      ] )
   ] ; # 
   fhir:text [
@@ -44,12 +44,12 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
      fhir:reference [ fhir:v "Patient/14602" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2026-03-17T10:33:00+01:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
      fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
   ] ; # 
   fhir:groupIdentifier [

@@ -1,4 +1,4 @@
-# Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec uniquement un identifiant fourni - Guide d'implémentation du médicament v0.1.0
+# Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec uniquement un identifiant fourni - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap |
 
  
@@ -22,12 +22,12 @@ ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’u
 {
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-prescmed-practitioner-id-seul-conceptmap",
-  "url" : "https://hl7.fr/ig/fhir/medication/ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap",
   "version" : "0.1.0",
   "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec uniquement un identifiant fourni",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -45,7 +45,7 @@ ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’u
     }]
   }],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
-  "targetUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest",
+  "targetUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest",
   "group" : [{
     "element" : [{
       "code" : "Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Id_prescripteur",

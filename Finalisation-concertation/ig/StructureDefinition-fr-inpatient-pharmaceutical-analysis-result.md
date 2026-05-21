@@ -1,4 +1,4 @@
-# FR Pharmaceutical Analysis Result - Guide d'implémentation du médicament v0.1.0
+# FR Pharmaceutical Analysis Result - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRInpatientPharmaceuticalAnalysisResultProfile |
 
  
@@ -19,7 +19,7 @@ French Pharmaceutical Analysis Result profile
 * Référence ce Profil: [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.md) and [FR Pharmaceutical Intervention Suggestion](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.md)
 * Exemples pour ce/t/te Profil: [Task/Analyse-Intervention-Acceptee](Task-Analyse-Intervention-Acceptee.md), [Task/Analyse-Intervention-Commentaire-Trad-PN13-FHIR](Task-Analyse-Intervention-Commentaire-Trad-PN13-FHIR.md), [Task/Analyse-Intervention-Liee-Validation-Trad-PN13-FHIR](Task-Analyse-Intervention-Liee-Validation-Trad-PN13-FHIR.md), [Task/Analyse-Intervention-NonAcceptee](Task-Analyse-Intervention-NonAcceptee.md)... Show 25 more, [Task/Analyse-Intervention-Proposition-Trad-PN13-FHIR](Task-Analyse-Intervention-Proposition-Trad-PN13-FHIR.md), [Task/Analyse-Intervention-Substitution-Trad-PN13-FHIR](Task-Analyse-Intervention-Substitution-Trad-PN13-FHIR.md), [Task/Analyse-Intervention-Type1-DOSTINEX](Task-Analyse-Intervention-Type1-DOSTINEX.md), [Task/Analyse-Intervention-Type1-MACROGOL](Task-Analyse-Intervention-Type1-MACROGOL.md), [Task/Analyse-Intervention-Type1-METFORMINE](Task-Analyse-Intervention-Type1-METFORMINE.md), [Task/Analyse-Intervention-Type2-Arret-Paracetamol](Task-Analyse-Intervention-Type2-Arret-Paracetamol.md), [Task/Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM](Task-Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM.md), [Task/Analyse-Intervention-Type3-ELIQUIS](Task-Analyse-Intervention-Type3-ELIQUIS.md), [Task/Analyse-Intervention-Type3-ESOMEPRAZOLE](Task-Analyse-Intervention-Type3-ESOMEPRAZOLE.md), [Task/Analyse-Intervention-Type3-Remplacement1pour2-INEGY](Task-Analyse-Intervention-Type3-Remplacement1pour2-INEGY.md), [Task/Analyse-Intervention-Type3-Remplacement2pour1-COTAREG](Task-Analyse-Intervention-Type3-Remplacement2pour1-COTAREG.md), [Task/Analyse-Intervention-Type4-CETAFEN-INJ](Task-Analyse-Intervention-Type4-CETAFEN-INJ.md), [Task/Analyse-Intervention-Type5-DOSTINEX](Task-Analyse-Intervention-Type5-DOSTINEX.md), [Task/Analyse-Intervention-Type5-INNOHEP](Task-Analyse-Intervention-Type5-INNOHEP.md), [Task/Analyse-Intervention-Type6-CALCIDOSE](Task-Analyse-Intervention-Type6-CALCIDOSE.md), [Task/Analyse-Intervention-Type6-LOXAPAC](Task-Analyse-Intervention-Type6-LOXAPAC.md), [Task/Analyse-Intervention-Type7-BINOCRIT](Task-Analyse-Intervention-Type7-BINOCRIT.md), [Task/Analyse-Validation-Ajout-Morphine](Task-Analyse-Validation-Ajout-Morphine.md), [Task/Analyse-Validation-Commentaire-Diazepam](Task-Analyse-Validation-Commentaire-Diazepam.md), [Task/Analyse-Validation-Commentaire-LACRIFLUID](Task-Analyse-Validation-Commentaire-LACRIFLUID.md), [Task/Analyse-Validation-Commentaire-Morphine](Task-Analyse-Validation-Commentaire-Morphine.md), [Task/Analyse-Validation-Commentaire-Trad-PN13-FHIR](Task-Analyse-Validation-Commentaire-Trad-PN13-FHIR.md), [Task/Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR](Task-Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR.md), [Task/Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR](Task-Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR.md) and [Task/Analyse-Validation-Simple-paracetamol](Task-Analyse-Validation-Simple-paracetamol.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result)
 
 ### Formal Views of Profile Content
 
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-pharmaceutical-analysis-result",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result",
   "version" : "0.1.0",
   "name" : "FRInpatientPharmaceuticalAnalysisResultProfile",
   "title" : "FR Pharmaceutical Analysis Result",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.businessStatus",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set"
       }
     },
     {
@@ -119,7 +119,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.performerType",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set"
       }
     },
     {
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.input.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       }]
     },
     {
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-analysis-result-code-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set"
       }
     },
     {
@@ -219,7 +219,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       }],
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-type-code-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set"
       }
     },
     {
@@ -243,7 +243,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       }],
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set"
       }
     },
     {
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.output.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
       }]
     },
     {
@@ -285,7 +285,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.output.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
       }]
     }]
   }

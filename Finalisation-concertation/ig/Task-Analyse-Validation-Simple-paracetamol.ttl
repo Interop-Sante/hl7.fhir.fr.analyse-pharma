@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Task/Analyse-Validation-Simple-paracetamol> a fhir:Task ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Task/Analyse-Validation-Simple-paracetamol> a fhir:Task ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Analyse-Validation-Simple-paracetamol"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result>
      ] )
   ] ; # 
   fhir:text [
@@ -36,7 +36,7 @@
      ] )
   ] ) ; # 
   fhir:owner [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-27865023> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-27865023> ;
      fhir:reference [ fhir:v "Practitioner/smart-Practitioner-27865023" ]
   ] ; # 
   fhir:input ( [
@@ -45,7 +45,7 @@
      ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Analyse-Presc-Paracetamol> ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Analyse-Presc-Paracetamol> ;
        fhir:reference [ fhir:v "MedicationRequest/InLine-Analyse-Presc-Paracetamol" ]
      ]
   ] ) ; # 

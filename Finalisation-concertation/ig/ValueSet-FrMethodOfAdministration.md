@@ -1,4 +1,4 @@
-# French Method Of Administration - Guide d'implémentation du médicament v0.1.0
+# French Method Of Administration - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/ValueSet/FrMethodOfAdministration | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/FrMethodOfAdministration | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrMethodOfAdministration |
 
  
@@ -48,13 +48,13 @@ Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.metho
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/FrMethodOfAdministration",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/FrMethodOfAdministration",
   "version" : "0.1.0",
   "name" : "FrMethodOfAdministration",
   "title" : "French Method Of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

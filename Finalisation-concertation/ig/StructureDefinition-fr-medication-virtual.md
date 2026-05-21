@@ -1,4 +1,4 @@
-# FR Medication Virtual - Guide d'implémentation du médicament v0.1.0
+# FR Medication Virtual - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-virtual | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-virtual | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMedicationVirtual |
 
  
@@ -18,7 +18,7 @@ Virtual medication composed of one to many substances.
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medication-virtual)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medication-virtual)
 
 ### Formal Views of Profile Content
 
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-virtual",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-virtual",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-virtual",
   "version" : "0.1.0",
   "name" : "FRMedicationVirtual",
   "title" : "FR Medication Virtual",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -110,7 +110,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-drug-characteristic"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-drug-characteristic"]
       }]
     },
     {
@@ -120,7 +120,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
       "min" : 1,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-mp-dose-form"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-mp-dose-form"
       }
     },
     {
@@ -134,7 +134,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
       "min" : 1,
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRatioMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRatioMedication"]
       }]
     }]
   }

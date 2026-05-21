@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Analyse-Presc-TAREG> a fhir:MedicationRequest ;
+<https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Analyse-Presc-TAREG> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-Analyse-Presc-TAREG"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion>
      ] )
   ] ; # 
   fhir:text [
@@ -44,19 +44,19 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
      fhir:reference [ fhir:v "Patient/14602" ]
   ] ; # 
   fhir:supportingInformation ( [
-     fhir:l <https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Analyse-Presc-COTAREG> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Analyse-Presc-COTAREG> ;
      fhir:reference [ fhir:v "MedicationRequest/InLine-Analyse-Presc-COTAREG" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Task/Analyse-Intervention-Type3-Remplacement2pour1-COTAREG> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Task/Analyse-Intervention-Type3-Remplacement2pour1-COTAREG> ;
      fhir:reference [ fhir:v "Task/Analyse-Intervention-Type3-Remplacement2pour1-COTAREG" ]
   ] ) ; # 
   fhir:authoredOn [ fhir:v "2026-03-18T17:39:00+01:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-27865023> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-27865023> ;
      fhir:reference [ fhir:v "Practitioner/smart-Practitioner-27865023" ]
   ] ; # 
   fhir:groupIdentifier [

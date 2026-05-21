@@ -1,4 +1,4 @@
-# InLine-med-Paracetamol - Guide d'implémentation du médicament v0.1.0
+# InLine-med-Paracetamol - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,7 +19,7 @@ Profil: [FR Medication](StructureDefinition-fr-medication.md)
   "resourceType" : "Medication",
   "id" : "InLine-med-Paracetamol",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication"]
   },
   "code" : {
     "coding" : [{

@@ -1,4 +1,4 @@
-# FR Meditinal Product Substance - Guide d'implémentation du médicament v0.1.0
+# FR Meditinal Product Substance - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMPSubstance |
 
  
@@ -18,7 +18,7 @@ code for the medicinal product substance
 
 * Utilise ce/t/te profil de type de données: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-mp-substance)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-mp-substance)
 
 ### Formal Views of Profile Content
 
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-mp-substance",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-mp-substance",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-mp-substance",
   "version" : "0.1.0",
   "name" : "FRMPSubstance",
   "title" : "FR Meditinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -114,7 +114,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
       "binding" : {
         "strength" : "required",
         "description" : "Medicinal product Substance",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-substance-code"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-substance-code"
       }
     }]
   }

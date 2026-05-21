@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/CodeSystem/medication-ingredient-strength-codes> a fhir:CodeSystem ;
+<https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/medication-ingredient-strength-codes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "medication-ingredient-strength-codes"] ; # 
   fhir:meta [
@@ -44,7 +44,7 @@
   fhir:name [ fhir:v "Medication_Ingredient_Strength_Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-21T12:38:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-21T13:21:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

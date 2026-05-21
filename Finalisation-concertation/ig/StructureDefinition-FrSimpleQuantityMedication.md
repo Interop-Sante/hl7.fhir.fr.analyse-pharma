@@ -1,4 +1,4 @@
-# SimpleQuantity with UCUM or EDQM codes or code not used - Guide d'implémentation du médicament v0.1.0
+# SimpleQuantity with UCUM or EDQM codes or code not used - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrSimpleQuantityMedication |
 
  
@@ -16,9 +16,9 @@ simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)
 
 **Utilisations:**
 
-* Utilise ce/t/te profil de type de données: [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md), [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md), [FR Current Medication MedicationStatement](StructureDefinition-fr-current-medication-medicationstatement.md), [FR Medication History MedicationStatement](StructureDefinition-fr-medication-history-medicationstatement.md)... Show 2 more, [FR Medication Reconciliation MedicationStatement](StructureDefinition-fr-medication-reconciliation-statement.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utilise ce/t/te profil de type de données: [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md), [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/FrSimpleQuantityMedication)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/FrSimpleQuantityMedication)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
 {
   "resourceType" : "StructureDefinition",
   "id" : "FrSimpleQuantityMedication",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication",
   "version" : "0.1.0",
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -94,14 +94,14 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
         "severity" : "error",
         "human" : "system SHALL be UCUM or EDQM if code is used",
         "expression" : "code.exists() implies (system.exists() and (system = 'http://standardterms.edqm.eu' or system = 'http://unitsofmeasure.org'))",
-        "source" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"
+        "source" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"
       },
       {
         "key" : "fr-med-smpl-quant-2",
         "severity" : "error",
         "human" : "system SHALL not be used if code is not used",
         "expression" : "code.empty() implies system.empty()",
-        "source" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"
+        "source" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"
       }]
     }]
   }

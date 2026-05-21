@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "text" : {
     "status" : "extensions",
@@ -37,7 +37,7 @@
   },
   "supportingInformation" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
       "valueCode" : "UFMED"
     }],
     "identifier" : {
@@ -61,14 +61,14 @@
   },
   "note" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCTXT"
     }],
     "text" : "Prescription textuelle: PARACETAMOL (Voie orale) A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours"
   },
   {
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCIND"
     }],
     "text" : "Indication: En cas de douleur"

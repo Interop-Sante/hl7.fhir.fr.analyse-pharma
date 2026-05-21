@@ -1,4 +1,4 @@
-# TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE - Guide d'implémentation du médicament v0.1.0
+# TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -97,7 +97,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Trad-Presc-Alt-METFORMINE",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -127,7 +127,7 @@
       },
       "supportingInformation" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFHEB"
         }],
         "type" : "Organization",
@@ -138,7 +138,7 @@
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFMED"
         }],
         "type" : "Organization",
@@ -160,7 +160,7 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "Prescription textuelle: Par voie orale : METFORMINE 1000MG 0,5 comprimé 2 fois par jour avec les repas -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"
@@ -201,7 +201,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Trad-Presc-Alt-GLICLAZIDE",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -231,7 +231,7 @@
       },
       "supportingInformation" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFHEB"
         }],
         "type" : "Organization",
@@ -242,7 +242,7 @@
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFMED"
         }],
         "type" : "Organization",
@@ -264,7 +264,7 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "Prescription textuelle: Par voie orale : GLICLAZIDE 30MG 3 comprimés au petit déjeuner -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"
@@ -303,7 +303,7 @@
       "resourceType" : "RequestGroup",
       "id" : "requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription"]
       },
       "text" : {
         "status" : "generated",
@@ -324,7 +324,7 @@
         "description" : "En cas d'intolérance digestive au METFORMINE",
         "relatedAction" : [{
           "extension" : [{
-            "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship",
+            "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship",
             "valueCode" : "ALT"
           }],
           "actionId" : "20250502144844569",
@@ -339,7 +339,7 @@
         "description" : "Sans intolérance digestive au METFORMINE",
         "relatedAction" : [{
           "extension" : [{
-            "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship",
+            "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship",
             "valueCode" : "ALT"
           }],
           "actionId" : "20250502144844570",

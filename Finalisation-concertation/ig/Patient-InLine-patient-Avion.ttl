@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Patient/InLine-patient-Avion> a fhir:Patient ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Patient/InLine-patient-Avion> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-patient-Avion"] ; # 
   fhir:meta [

@@ -1,4 +1,4 @@
-# Ligne de prescription - Guide d'implémentation du médicament v0.1.0
+# Ligne de prescription - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-ligne-prescription | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-ligne-prescription | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:LignePrescription |
 
  
@@ -18,7 +18,7 @@ Structuration d’une ligne de prescription [WIP - à compléter].
 
 * Ce Modèle logique n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-ligne-prescription)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-ligne-prescription)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-ligne-prescription",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-ligne-prescription",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-ligne-prescription",
   "version" : "0.1.0",
   "name" : "LignePrescription",
   "title" : "Ligne de prescription",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-ligne-prescription",
+  "type" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-ligne-prescription",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {
@@ -167,7 +167,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
       "min" : 0,
       "max" : "*",
       "type" : [{
-        "code" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-posologie"
+        "code" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-posologie"
       }]
     },
     {

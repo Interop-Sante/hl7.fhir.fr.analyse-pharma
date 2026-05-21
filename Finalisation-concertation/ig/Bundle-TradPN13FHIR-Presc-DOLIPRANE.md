@@ -1,4 +1,4 @@
-# TradPN13FHIR-Presc-DOLIPRANE - Guide d'implémentation du médicament v0.1.0
+# TradPN13FHIR-Presc-DOLIPRANE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "TradPN13FHIR-Presc-DOLIPRANE",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -23,7 +23,7 @@
       "resourceType" : "Medication",
       "id" : "medication-TradPN13FHIR-Presc-DOLIPRANE",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -44,7 +44,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-TradPN13FHIR-Presc-DOLIPRANE",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -74,7 +74,7 @@
       },
       "supportingInformation" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFMED"
         }],
         "type" : "Organization",
@@ -96,7 +96,7 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "Prescription textuelle: Doliprane cpr 3x1g/j x 3j"

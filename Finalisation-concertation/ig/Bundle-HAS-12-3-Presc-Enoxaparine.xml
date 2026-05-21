@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="HAS-12-3-Presc-Enoxaparine"/>
   <meta>
-    <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"/>
+    <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"/>
   </meta>
   <type value="searchset"/>
   <entry>
@@ -11,7 +11,7 @@
       <Medication>
         <id value="medication-HAS-12-3-Presc-Enoxaparine"/>
         <meta>
-          <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"/>
+          <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Medication_medication-HAS-12-3-Presc-Enoxaparine"> </a><p class="res-header-id"><b>Narratif généré : Médication medication-HAS-12-3-Presc-Enoxaparine</b></p><a name="medication-HAS-12-3-Presc-Enoxaparine"> </a><a name="hcmedication-HAS-12-3-Presc-Enoxaparine"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-medication-noncompound.html">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title="Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090152}">énoxaparine sodique</span></p><p><b>form</b>: <span title="Codes :{http://standardterms.edqm.eu 11201000}">Solution injectable</span></p><h3>Ingredients</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090152}">énoxaparine sodique</span></td><td>4000 UI/0.4 ml<span style="background: LightGoldenRodYellow"> (Détails : code UCUMmL = 'mL')</span></td></tr></table></div>
@@ -59,7 +59,7 @@
       <MedicationRequest>
         <id value="medicationrequest-HAS-12-3-Presc-Enoxaparine"/>
         <meta>
-          <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"/>
+          <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"/>
         </meta>
         <text>
           <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_medicationrequest-HAS-12-3-Presc-Enoxaparine"> </a><p class="res-header-id"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-12-3-Presc-Enoxaparine</b></p><a name="medicationrequest-HAS-12-3-Presc-Enoxaparine"> </a><a name="hcmedicationrequest-HAS-12-3-Presc-Enoxaparine"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-medicationrequest.html">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1 seringue, 1 fois toutes les 12 heures - voie sous-cutanée</p>

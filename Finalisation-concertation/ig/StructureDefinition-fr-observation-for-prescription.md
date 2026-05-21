@@ -1,4 +1,4 @@
-# FR Observation For Prescription - Guide d'implémentation du médicament v0.1.0
+# FR Observation For Prescription - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRObservationForPrescription |
 
  
@@ -18,7 +18,7 @@ Observation provided as context of the prescription (ex. weight, height…)
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-observation-for-prescription)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-observation-for-prescription)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-observation-for-prescription",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-observation-for-prescription",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-observation-for-prescription",
   "version" : "0.1.0",
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

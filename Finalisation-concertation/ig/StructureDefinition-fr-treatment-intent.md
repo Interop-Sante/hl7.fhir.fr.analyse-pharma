@@ -1,4 +1,4 @@
-# MedicationRequest overall treatment intent - Guide d'implémentation du médicament v0.1.0
+# MedicationRequest overall treatment intent - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-treatment-intent | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrTeatmentIntent |
 
 The overall intention of the treatment
@@ -21,7 +21,7 @@ The overall intention of the treatment
 
 * Utilise ce/t/te Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-treatment-intent)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-treatment-intent)
 
 ### Formal Views of Extension Content
 
@@ -43,12 +43,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-treatment-intent",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-treatment-intent",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent",
   "version" : "0.1.0",
   "name" : "FrTeatmentIntent",
   "title" : "MedicationRequest overall treatment intent",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-treatment-intent"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent"
     },
     {
       "id" : "Extension.value[x]",
@@ -109,7 +109,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
       "binding" : {
         "strength" : "extensible",
         "description" : "SNOMED CT encoded treatment overall intent",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-treatment-intent"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-treatment-intent"
       }
     }]
   }

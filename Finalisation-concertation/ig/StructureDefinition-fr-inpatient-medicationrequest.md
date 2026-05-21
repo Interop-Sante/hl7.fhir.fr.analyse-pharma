@@ -1,4 +1,4 @@
-# FR Inpatient MedicationRequest - Guide d'implémentation du médicament v0.1.0
+# FR Inpatient MedicationRequest - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRInpatientMedicationRequest |
 
  
@@ -17,10 +17,10 @@ French inpatient medication request profile
 **Utilisations:**
 
 * Dérivé de ce Profil: [FR Pharmaceutical Intervention Suggestion](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.md)
-* Référence ce Profil: [FR Inpatient MedicationDispense](StructureDefinition-fr-inpatient-medication-dispense.md), [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.md) and [FR Pharmaceutical Intervention Suggestion](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.md)
+* Référence ce Profil: [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.md) and [FR Pharmaceutical Intervention Suggestion](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.md)
 * Exemples pour ce/t/te Profil: [MedicationRequest/InLine-Analyse-Presc-BINOCRIT](MedicationRequest-InLine-Analyse-Presc-BINOCRIT.md), [MedicationRequest/InLine-Analyse-Presc-CALCIDOSE](MedicationRequest-InLine-Analyse-Presc-CALCIDOSE.md), [MedicationRequest/InLine-Analyse-Presc-CETAFEN-INJ](MedicationRequest-InLine-Analyse-Presc-CETAFEN-INJ.md), [MedicationRequest/InLine-Analyse-Presc-COTAREG](MedicationRequest-InLine-Analyse-Presc-COTAREG.md)... Show 20 more, [MedicationRequest/InLine-Analyse-Presc-DOSTINEX](MedicationRequest-InLine-Analyse-Presc-DOSTINEX.md), [MedicationRequest/InLine-Analyse-Presc-Diazepam](MedicationRequest-InLine-Analyse-Presc-Diazepam.md), [MedicationRequest/InLine-Analyse-Presc-ELIQUIS-50](MedicationRequest-InLine-Analyse-Presc-ELIQUIS-50.md), [MedicationRequest/InLine-Analyse-Presc-ESOMEPRAZOLE](MedicationRequest-InLine-Analyse-Presc-ESOMEPRAZOLE.md), [MedicationRequest/InLine-Analyse-Presc-EZETIMIBE](MedicationRequest-InLine-Analyse-Presc-EZETIMIBE.md), [MedicationRequest/InLine-Analyse-Presc-INNOHEP](MedicationRequest-InLine-Analyse-Presc-INNOHEP.md), [MedicationRequest/InLine-Analyse-Presc-LACRIFLUID](MedicationRequest-InLine-Analyse-Presc-LACRIFLUID.md), [MedicationRequest/InLine-Analyse-Presc-LEVOTHYROX](MedicationRequest-InLine-Analyse-Presc-LEVOTHYROX.md), [MedicationRequest/InLine-Analyse-Presc-LOXAPAC](MedicationRequest-InLine-Analyse-Presc-LOXAPAC.md), [MedicationRequest/InLine-Analyse-Presc-METFORMINE](MedicationRequest-InLine-Analyse-Presc-METFORMINE.md), [MedicationRequest/InLine-Analyse-Presc-Morphine](MedicationRequest-InLine-Analyse-Presc-Morphine.md), [MedicationRequest/InLine-Analyse-Presc-NEFOPAM](MedicationRequest-InLine-Analyse-Presc-NEFOPAM.md), [MedicationRequest/InLine-Analyse-Presc-Paracetamol-Si-Douleur](MedicationRequest-InLine-Analyse-Presc-Paracetamol-Si-Douleur.md), [MedicationRequest/InLine-Analyse-Presc-Paracetamol](MedicationRequest-InLine-Analyse-Presc-Paracetamol.md), [MedicationRequest/InLine-Analyse-Presc-SIMVASTATINE](MedicationRequest-InLine-Analyse-Presc-SIMVASTATINE.md), [MedicationRequest/InLine-Presc-EFFERALGAN](MedicationRequest-InLine-Presc-EFFERALGAN.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol.md), [MedicationRequest/InLine-presc-EFFERALGAN2](MedicationRequest-InLine-presc-EFFERALGAN2.md), [MedicationRequest/InLine-presc-Paracetamol1](MedicationRequest-InLine-presc-Paracetamol1.md) and [MedicationRequest/InLine-presc-Paracetamol2](MedicationRequest-InLine-presc-Paracetamol2.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-inpatient-medicationrequest)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-inpatient-medicationrequest)
 
 ### Formal Views of Profile Content
 
@@ -38,12 +38,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-medicationrequest",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest",
   "version" : "0.1.0",
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationRequest",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest",
+  "baseDefinition" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{
@@ -104,7 +104,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"]
       }]
     },
     {
@@ -118,7 +118,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"]
       }]
     },
     {

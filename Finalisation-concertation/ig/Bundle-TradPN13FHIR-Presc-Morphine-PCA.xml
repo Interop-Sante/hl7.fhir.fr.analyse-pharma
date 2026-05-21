@@ -3,7 +3,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
   <id value="TradPN13FHIR-Presc-Morphine-PCA"/>
   <meta>
-    <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"/>
+    <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"/>
   </meta>
   <type value="searchset"/>
   <entry>
@@ -80,7 +80,7 @@
       <MedicationRequest>
         <id value="medicationrequest-Trad-Presc-Morphine-PCA"/>
         <meta>
-          <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"/>
+          <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"/>
         </meta>
         <text>
           <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="MedicationRequest_medicationrequest-Trad-Presc-Morphine-PCA"> </a><p class="res-header-id"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Trad-Presc-Morphine-PCA</b></p><a name="medicationrequest-Trad-Presc-Morphine-PCA"> </a><a name="hcmedicationrequest-Trad-Presc-Morphine-PCA"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-inpatient-medicationrequest.html">FR Inpatient MedicationRequest</a></p></div><p><b>identifier</b>: https://somehospital.fr/Medication-ID</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title="Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000091372}">morphine</span></p><p><b>subject</b>: <code>#patient-Trad-Presc-Morphine-PCA</code></p><p><b>encounter</b>: Identifier: <code>https://somehospital.fr/Sejour</code>/765093464568</p><p><b>supportingInformation</b>: </p><ul><li>Identifier: <code>https://somehospital.fr/UF</code>/603</li><li>Identifier: <code>https://somehospital.fr/UF</code>/506</li></ul><p><b>authoredOn</b>: 2025-05-07 15:35:00+0200</p><p><b>requester</b>: Identifier: <code>urn:oid:1.2.250.1.71.4.2.1</code>/899999999999</p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/10543745</p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 10 mg Période refractaire 2h -- À partir du 07/05/2025 à 17:30 jusqu'au 11/05/2025 à 17h30</p>
@@ -109,7 +109,7 @@
           </identifier>
         </encounter>
         <supportingInformation>
-          <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role">
+          <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role">
             <valueCode value="UFHEB"/>
           </extension>
           <type value="Organization"/>
@@ -119,7 +119,7 @@
           </identifier>
         </supportingInformation>
         <supportingInformation>
-          <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role">
+          <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role">
             <valueCode value="UFMED"/>
           </extension>
           <type value="Organization"/>
@@ -140,7 +140,7 @@
           <value value="10543745"/>
         </groupIdentifier>
         <note>
-          <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope">
+          <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope">
             <valueCode value="LIPRESCTXT"/>
           </extension>
           <text value="Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 10 mg Période refractaire 2h -- À partir du 07/05/2025 à 17:30 jusqu'au 11/05/2025 à 17h30"/>

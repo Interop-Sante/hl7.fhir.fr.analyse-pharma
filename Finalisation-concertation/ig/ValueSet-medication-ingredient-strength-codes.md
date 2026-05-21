@@ -1,4 +1,4 @@
-# MedicationIngredientStrengthCodes - Guide d'implémentation du médicament v0.1.0
+# MedicationIngredientStrengthCodes - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -69,7 +69,7 @@ Medication Ingredient Strength Codes
   "version" : "0.1.0",
   "name" : "MedicationIngredientStrengthCodes",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

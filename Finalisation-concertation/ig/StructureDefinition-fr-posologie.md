@@ -1,4 +1,4 @@
-# Posologie - Guide d'implémentation du médicament v0.1.0
+# Posologie - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-posologie | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-posologie | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:Posologie |
 
  
@@ -18,7 +18,7 @@ Structuration d’une posologie en fonction des critères de la HAS. Cette struc
 
 * Utilise ce/t/te Modèle logique: [Ligne de prescription](StructureDefinition-fr-ligne-prescription.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-posologie)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-posologie)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-posologie",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-posologie",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-posologie",
   "version" : "0.1.0",
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-posologie",
+  "type" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-posologie",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {

@@ -1,4 +1,4 @@
-# FR Medication Compound - Guide d'implémentation du médicament v0.1.0
+# FR Medication Compound - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrRedicationCompound |
 
  
@@ -21,7 +21,7 @@ Compound medication description
 
 * Référence ce Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medication-compound)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medication-compound)
 
 ### Formal Views of Profile Content
 
@@ -39,13 +39,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-compound",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound",
   "version" : "0.1.0",
   "name" : "FrRedicationCompound",
   "title" : "FR Medication Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
       "path" : "Medication.form",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-mp-dose-form"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-mp-dose-form"
       }
     },
     {
@@ -132,7 +132,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle"]
       }]
     },
     {
@@ -157,7 +157,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       }]
     },
     {

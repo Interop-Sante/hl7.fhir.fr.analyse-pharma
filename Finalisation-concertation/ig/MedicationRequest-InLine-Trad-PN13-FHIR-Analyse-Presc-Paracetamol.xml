@@ -3,7 +3,7 @@
 <MedicationRequest xmlns="http://hl7.org/fhir">
   <id value="InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol"/>
   <meta>
-    <profile value="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"/>
+    <profile value="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : PrescriptionMédicamenteuseTODO InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol</b></p><a name="InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol"> </a><a name="hcInLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-fr-inpatient-medicationrequest.html">FR Inpatient MedicationRequest</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours</p>
@@ -38,7 +38,7 @@
     </identifier>
   </encounter>
   <supportingInformation>
-    <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role">
+    <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role">
       <valueCode value="UFMED"/>
     </extension>
     <identifier>
@@ -61,13 +61,13 @@
     <value value="10723"/>
   </groupIdentifier>
   <note>
-    <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope">
+    <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope">
       <valueCode value="LIPRESCTXT"/>
     </extension>
     <text value="Prescription textuelle: PARACETAMOL (Voie orale) A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours"/>
   </note>
   <note>
-    <extension url="https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope">
+    <extension url="https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope">
       <valueCode value="LIPRESCIND"/>
     </extension>
     <text value="Indication: En cas de douleur"/>

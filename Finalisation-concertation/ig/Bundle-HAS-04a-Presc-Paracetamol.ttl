@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/HAS-04a-Presc-Paracetamol> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/HAS-04a-Presc-Paracetamol> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "HAS-04a-Presc-Paracetamol"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -23,8 +23,8 @@
        fhir:id [ fhir:v "medicationrequest-HAS-4a-Presc-Paracetamol" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -56,7 +56,7 @@
          ] )
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2025-06-06T14:48:44+02:00"^^xsd:dateTime ] ;

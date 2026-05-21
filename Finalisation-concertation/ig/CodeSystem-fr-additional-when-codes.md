@@ -1,4 +1,4 @@
-# code system Interop'Santé - Codes additionnels pour l'élément when - Guide d'implémentation du médicament v0.1.0
+# code system Interop'Santé - Codes additionnels pour l'élément when - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-when-codes | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-when-codes | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrAdditionalWhenCodes |
 
  
@@ -29,13 +29,13 @@ Le système de codage pour des périodes d’occurrence qui ne sont pas définie
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-when-codes",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-when-codes",
   "version" : "0.1.0",
   "name" : "FrAdditionalWhenCodes",
   "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

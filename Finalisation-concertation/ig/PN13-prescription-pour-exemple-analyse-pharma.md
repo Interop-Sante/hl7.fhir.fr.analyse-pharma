@@ -1,4 +1,4 @@
-# Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique - Guide d'implémentation du médicament v0.1.0
+# Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique**

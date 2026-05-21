@@ -1,4 +1,4 @@
-# code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique - Guide d'implémentation du médicament v0.1.0
+# code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-analysis-result-code | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrPharmaceuticalAnalysisResultCode |
 
  
@@ -29,13 +29,13 @@ Le système de codage pour le typage du résultat d’analyse pharmaceutique.
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-analysis-result-code",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code",
   "version" : "0.1.0",
   "name" : "FrPharmaceuticalAnalysisResultCode",
   "title" : "code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# Range with UCUM or EDQM codes if code is used - Guide d'implémentation du médicament v0.1.0
+# Range with UCUM or EDQM codes if code is used - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrRangeMedication |
 
  
@@ -16,9 +16,9 @@ Range with low and high unit UCUM or EDQM codes if code is used
 
 **Utilisations:**
 
-* Utilise ce/t/te profil de type de données: [FR Current Medication MedicationStatement](StructureDefinition-fr-current-medication-medicationstatement.md), [FR Medication History MedicationStatement](StructureDefinition-fr-medication-history-medicationstatement.md), [FR Medication Reconciliation MedicationStatement](StructureDefinition-fr-medication-reconciliation-statement.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utilise ce/t/te profil de type de données: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/FrRangeMedication)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/FrRangeMedication)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "FrRangeMedication",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRangeMedication",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRangeMedication",
   "version" : "0.1.0",
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -87,7 +87,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
       "path" : "Range.low",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     },
     {
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
       "path" : "Range.high",
       "type" : [{
         "code" : "Quantity",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrSimpleQuantityMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrSimpleQuantityMedication"]
       }]
     }]
   }

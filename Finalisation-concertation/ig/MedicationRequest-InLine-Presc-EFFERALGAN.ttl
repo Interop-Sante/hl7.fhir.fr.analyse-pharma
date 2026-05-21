@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Presc-EFFERALGAN> a fhir:MedicationRequest ;
+<https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Presc-EFFERALGAN> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-Presc-EFFERALGAN"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
      ] )
   ] ; # 
   fhir:text [
@@ -24,16 +24,16 @@
   fhir:priority [ fhir:v "routine"] ; # 
   fhir:medication [
      a fhir:Reference ;
-     fhir:l <https://hl7.fr/ig/fhir/medication/Medication/InLine-med-EFFERALGAN> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Medication/InLine-med-EFFERALGAN> ;
      fhir:reference [ fhir:v "Medication/InLine-med-EFFERALGAN" ]
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
      fhir:reference [ fhir:v "Patient/14602" ]
   ] ; # 
   fhir:authoredOn [ fhir:v "2021-07-28T14:52:40.936Z"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
      fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
   ] ; # 
   fhir:groupIdentifier [

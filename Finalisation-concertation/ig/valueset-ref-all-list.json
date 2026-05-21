@@ -123,28 +123,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.95"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTAdministrationMethodCodes",
-    "title" : "SNOMED CT Administration Method Codes",
-    "description" : "This value set includes some method codes from SNOMED CT - provided as an exemplar",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.97"],
-    "sources" : ["2.16.840.1.113883.4.642.3.97"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/approach-site-codes",
@@ -158,12 +139,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.346"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -194,57 +172,6 @@
     "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
   },
   {
-    "url" : "http://hl7.org/fhir/ValueSet/common-tags",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "CommonTags",
-    "title" : "Common Tags",
-    "description" : "Common Tag Codes defined by FHIR project",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/common-tags"],
-    "oids" : ["2.16.840.1.113883.4.642.3.79"],
-    "sources" : ["2.16.840.1.113883.4.642.3.79"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "CompositionAttestationMode",
-    "title" : "CompositionAttestationMode",
-    "description" : "The way in which a person authenticated a composition.",
-    "systems" : ["http://hl7.org/fhir/composition-attestation-mode"],
-    "oids" : ["2.16.840.1.113883.4.642.3.238"],
-    "sources" : ["2.16.840.1.113883.4.642.3.238"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/composition-status",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "CompositionStatus",
-    "title" : "CompositionStatus",
-    "description" : "The workflow/clinical status of the composition.",
-    "systems" : ["http://hl7.org/fhir/composition-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.241"],
-    "sources" : ["2.16.840.1.113883.4.642.3.241"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
     "url" : "http://hl7.org/fhir/ValueSet/condition-code",
     "version" : "4.0.1",
     "status" : "draft",
@@ -256,12 +183,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.161"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -289,77 +213,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.512"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "DocumentSectionCodes",
-    "title" : "Document Section Codes",
-    "description" : "Document section codes (LOINC codes used in CCDA sections).",
-    "systems" : ["http://loinc.org"],
-    "oids" : ["2.16.840.1.113883.4.642.3.237"],
-    "sources" : ["2.16.840.1.113883.4.642.3.237"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "FHIRDocumentTypeCodes",
-    "title" : "FHIR Document Type Codes",
-    "description" : "FHIR Document Codes - all LOINC codes where scale type = 'DOC'.",
-    "systems" : ["http://loinc.org"],
-    "oids" : ["2.16.840.1.113883.4.642.3.240"],
-    "sources" : ["2.16.840.1.113883.4.642.3.240"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "DocumentClassValueSet",
-    "title" : "Document Class Value Set",
-    "description" : "This is the code specifying the high-level kind of document (e.g. Prescription, Discharge Summary, Report, etc.). Note: Class code for documents comes from LOINC, and is based upon one of the following:The type of service described by the document. It is described at a very high level in Section 7.3 of the LOINC Manual. The type study performed. It was determined by identifying modalities for study reports. The section of the chart where the document is placed. It was determined from the SETs created for Claims Attachment requests.",
-    "systems" : ["http://loinc.org"],
-    "oids" : ["2.16.840.1.113883.3.88.12.80.46"],
-    "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "DocumentRelationshipType",
-    "title" : "DocumentRelationshipType",
-    "description" : "The type of relationship between documents.",
-    "systems" : ["http://hl7.org/fhir/document-relationship-type"],
-    "oids" : ["2.16.840.1.113883.4.642.3.244"],
-    "sources" : ["2.16.840.1.113883.4.642.3.244"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
@@ -373,12 +229,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.981"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/event-timing",
@@ -393,9 +246,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.75"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/http-verb",
@@ -423,80 +276,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense",
     "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result",
     "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
+    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
+    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
     "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ListEmptyReasons",
-    "title" : "List Empty Reasons",
-    "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/list-empty-reason"],
-    "oids" : ["2.16.840.1.113883.4.642.3.322"],
-    "sources" : ["2.16.840.1.113883.4.642.3.322"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/list-mode",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ListMode",
-    "title" : "ListMode",
-    "description" : "The processing mode that applies to this list.",
-    "systems" : ["http://hl7.org/fhir/list-mode"],
-    "oids" : ["2.16.840.1.113883.4.642.3.318"],
-    "sources" : ["2.16.840.1.113883.4.642.3.318"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/list-order",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ListOrderCodes",
-    "title" : "List Order Codes",
-    "description" : "Base values for the order of the items in a list resource.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/list-order"],
-    "oids" : ["2.16.840.1.113883.4.642.3.324"],
-    "sources" : ["2.16.840.1.113883.4.642.3.324"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
+    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -510,12 +300,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.96"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -529,14 +316,13 @@
     "sources" : ["2.16.840.1.113883.4.642.3.375"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
     "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
+    "StructureDefinition-fr-medication.html" : "FR Medication"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
@@ -567,38 +353,6 @@
     "StructureDefinition-fr-strength-codeableconcept.html" : "Strength CodeableConcept"
   },
   {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "Medication usage category codes",
-    "title" : "Medication usage category codes",
-    "description" : "Medication Status Codes",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/medication-statement-category"],
-    "oids" : ["2.16.840.1.113883.4.642.3.370"],
-    "sources" : ["2.16.840.1.113883.4.642.3.370"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "Medication Status Codes",
-    "title" : "Medication  status  codes",
-    "description" : "Medication Status Codes",
-    "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.367"],
-    "sources" : ["2.16.840.1.113883.4.642.3.367"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
-  },
-  {
     "url" : "http://hl7.org/fhir/ValueSet/medication-status",
     "version" : "4.0.1",
     "status" : "draft",
@@ -610,66 +364,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.376"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
     "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-category",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "MedicationDispense Category Codes",
-    "title" : "Medication dispense  category  codes",
-    "description" : "MedicationDispense Category Codes",
-    "systems" : ["http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1314"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1314"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-performer-function",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "MedicationDispense Performer Function Codes",
-    "title" : "Medication dispense  performer  function  codes",
-    "description" : "MedicationDispense Performer Function Codes",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/medicationdispense-performer-function"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1318"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1318"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "MedicationDispense Status Codes",
-    "title" : "Medication dispense  status  codes",
-    "description" : "MedicationDispense Status Codes",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/medicationdispense-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1312"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1312"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status-reason",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "MedicationDispense Status Reason Codes",
-    "title" : "Medication dispense  status  reason  codes",
-    "description" : "MedicationDispense Status Codes",
-    "systems" : ["http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-status-reason"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1316"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1316"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medication.html" : "FR Medication"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic",
@@ -697,9 +395,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1322"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
@@ -713,9 +411,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1326"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
@@ -729,9 +427,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1321"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
@@ -745,9 +443,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1320"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
@@ -761,9 +459,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1324"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -847,9 +545,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.433"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -863,25 +561,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
-    "StructureDefinition-FrSimpleQuantityMedication.html" : "SimpleQuantity with UCUM or EDQM codes or code not used",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTDrugTherapyStatusCodes",
-    "title" : "SNOMED CT Drug Therapy Status codes ",
-    "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.369"],
-    "sources" : ["2.16.840.1.113883.4.642.3.369"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
+    "StructureDefinition-FrSimpleQuantityMedication.html" : "SimpleQuantity with UCUM or EDQM codes or code not used"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -938,11 +620,11 @@
     "sources" : ["2.16.840.1.113883.4.642.3.115"],
     "uses" : {
     },
+    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result",
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -971,31 +653,7 @@
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/route-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTRouteCodes",
-    "title" : "SNOMED CT Route Codes",
-    "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.98"],
-    "sources" : ["2.16.840.1.113883.4.642.3.98"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-current-medication-medicationstatement.html" : "FR Current Medication MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -1010,25 +668,6 @@
     "uses" : {
     },
     "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/security-labels",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "All Security Labels",
-    "title" : "SecurityLabels",
-    "description" : "A single value set for all security labels defined by FHIR.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason",
-    "http://terminology.hl7.org/CodeSystem/v3-ActUSPrivacyLaw",
-    "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-    "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-    "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
-    "oids" : ["2.16.840.1.113883.4.642.3.47"],
-    "sources" : ["2.16.840.1.113883.4.642.3.47"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-statement.html" : "FR Medication Reconciliation MedicationStatement",
-    "StructureDefinition-fr-medication-history-medicationstatement.html" : "FR Medication History MedicationStatement"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/task-code",
@@ -1085,9 +724,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.78"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/units-of-time",
@@ -1101,39 +740,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.77"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
-    "version" : "3.0.0",
-    "status" : "active",
-    "name" : "ActCode",
-    "title" : "v3 Code System ActCode",
-    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.  Constraints:\r\nThe kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems.  The coding system will depend on the class of Act, such as LOINC for observations, etc. Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure. Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
-  },
-  {
-    "url" : "http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType",
-    "version" : "3.0.0",
-    "status" : "active",
-    "name" : "ActPharmacySupplyType",
-    "title" : "ActPharmacySupplyType",
-    "description" : "Identifies types of dispensing events",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
-    "oids" : ["2.16.840.1.113883.1.11.16208"],
-    "sources" : ["2.16.840.1.113883.1.11.16208"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
@@ -1147,28 +756,9 @@
     "sources" : ["2.16.840.1.113883.1.11.16621"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
-  },
-  {
-    "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
-    "version" : "2014-03-26",
-    "status" : "active",
-    "name" : "v3.ConfidentialityClassification",
-    "title" : "V3 Value SetConfidentialityClassification",
-    "description" : " Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
-    "oids" : ["2.16.840.1.113883.1.11.10228"],
-    "sources" : ["2.16.840.1.113883.1.11.10228"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition",
-    "StructureDefinition-fr-medication-history-composition.html" : "FR Medication History Composition"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
@@ -1182,13 +772,12 @@
     "sources" : ["2.16.840.1.113883.1.11.19377"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-inpatient-medication-dispense.html" : "FR Inpatient MedicationDispense"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/FrMethodOfAdministration",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/FrMethodOfAdministration",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrMethodOfAdministration",
@@ -1197,61 +786,36 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-additional-action-relationship-type-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-action-relationship-type-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrAdditionalRequestGroupRelationshipValueSet",
     "title" : "Interop'Santé value set - Additional codes for relationship between action",
     "description" : "Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type.",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-action-relationship-type"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-action-relationship-type"],
     "uses" : {
     },
     "StructureDefinition-fr-additional-action-relationship.html" : "Additional relatedAction relationship"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-additional-when-codes",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-when-codes",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrAdditionalWhenCodes",
     "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
     "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-when-codes"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-when-codes"],
     "uses" : {
     },
     "StructureDefinition-fr-additional-when-values.html" : "Additional values for when element"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-current-medication-document-type",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrCurrentMedicationDocumentType",
-    "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une liste des Traitements Médicamenteux Courants.",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-document-type"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-on-admission-medication-composition.html" : "FR On Admission Medication Composition",
-    "StructureDefinition-fr-current-medication-composition.html" : "FR Current Medication Composition"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-editorial-status",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrEditorialStatus",
-    "title" : "value set Interop'Santé - Statut éditorial d'une valeur",
-    "description" : "Le jeu de valeurs à utiliser pour coder le statut éditorial d'une valeur.",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-editorial-status"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-code",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-medication-code",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FRMedicationCodes",
@@ -1262,98 +826,13 @@
     "http://data.esante.gouv.fr/ansm/medicament/UCD"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-history-source-type",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationHistorySourceType",
-    "title" : "value set SIPh - Nature des sources d'un Bilan Médicamenteux",
-    "description" : "Un jeu de valeurs à utiliser pour coder les sources d'un Bilan Médicamenteux.",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-history-source-type"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-history-sources.html" : "FRMedicationHistorySources"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-document-type",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationDocumentType",
-    "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-document-type"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-reconciliation-composition.html" : "FR Medication Reconciliation Composition",
-    "StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.html" : "FR On Admission Retroactive Reconciliation Composition"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-outcome",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationOutcome",
-    "title" : "value set Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder la gravité de l'erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-reconciliation-outcome"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationQualifiedDiscrepancy",
-    "title" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder la qualification de la divergence identifiée sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-reconciliation-discrepancy"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-resolution",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationResolution",
-    "title" : "value set Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
-    "description" : "Un jeu de valeurs à utiliser pour coder la résolution d'une divergence sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-reconciliation-resolution"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-status",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationStatus",
-    "title" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder le statut d'une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-reconciliation-status"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-reconciliation-type",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationReconciliationType",
-    "title" : "value set Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
-    "description" : "Le jeu de valeurs à utiliser pour coder le type d'écart/erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-medication-reconciliation-type"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationstatement-reconciliation-properties.html" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-mp-dose-form",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-mp-dose-form",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrMpDoseForm",
@@ -1362,24 +841,24 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
     "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
     "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-note-scope-codes-vs",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-note-scope-codes-vs",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrNoteScopeCodeValueSet",
     "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
     "description" : "Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-note-scope-codes"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-note-scope-codes"],
     "uses" : {
     },
     "StructureDefinition-fr-medicationrequest-note-scope.html" : "Scope for note element in MedicationRequest"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrPharmaceuticalAnalysisPerformerTypeValueSet",
@@ -1393,55 +872,55 @@
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-analysis-result-code-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrPharmaceuticalAnalysisResultCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique",
     "description" : "Codes représentant le type de résultat de l'analyse pharmaceutique",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-analysis-result-code"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code"],
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionDevenirCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes de devenir de l'intervention pharmaceutique",
     "description" : "Codes représentant le devenir de l'intervention pharmaceutique",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-intervention-devenir-code"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code"],
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionProblemCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique",
     "description" : "Codes représentant le problème identifié dans l'intervention pharmaceutique",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-intervention-problem-code"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"],
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-pharmaceutical-intervention-type-code-value-set",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionTypeCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes du type d'intervention pharmaceutique",
     "description" : "Codes représentant le type d'intervention pharmaceutique",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-intervention-type-code"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"],
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-route-of-administration",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-route-of-administration",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrRouteOfAdministration",
@@ -1450,12 +929,12 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-substance-code",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-substance-code",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrSubstanceCode",
@@ -1468,7 +947,7 @@
     "StructureDefinition-fr-mp-substance.html" : "FR Meditinal Product Substance"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-treatment-intent",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-treatment-intent",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrTreatmentIntent",
@@ -1477,19 +956,19 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription",
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription",
     "version" : "0.1.0",
     "status" : "draft",
     "name" : "FrUfRoleCodesForPrescriptionValueSet",
     "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
     "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
-    "systems" : ["https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes"],
+    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes"],
     "uses" : {
     },
     "StructureDefinition-fr-uf-role.html" : "UF Role"

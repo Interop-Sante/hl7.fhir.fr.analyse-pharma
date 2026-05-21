@@ -1,4 +1,4 @@
-# Conversion PN13 vers FHIR pour un médicament composé d'une prescription de médicaments - Guide d'implémentation du médicament v0.1.0
+# Conversion PN13 vers FHIR pour un médicament composé d'une prescription de médicaments - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap |
 
  
@@ -22,12 +22,12 @@ ConceptMap pour la conversion PN13 vers FHIR d’un médicament composé d’une
 {
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-prescmed-medicationcomp-conceptmap",
-  "url" : "https://hl7.fr/ig/fhir/medication/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap",
   "version" : "0.1.0",
   "name" : "FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un médicament composé d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -45,7 +45,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’un médicament composé d’une
     }]
   }],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
-  "targetUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound",
+  "targetUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound",
   "group" : [{
     "element" : [{
       "code" : "Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Forme",

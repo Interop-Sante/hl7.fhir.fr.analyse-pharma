@@ -1,4 +1,4 @@
-# HAS-16-Presc-Racecadotril - Guide d'implémentation du médicament v0.1.0
+# HAS-16-Presc-Racecadotril - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "HAS-16-Presc-Racecadotril",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -23,7 +23,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-HAS-16-Presc-Racecadotril",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"]
       },
       "text" : {
         "status" : "extensions",

@@ -1,4 +1,4 @@
-# value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription - Guide d'implémentation du médicament v0.1.0
+# value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
 
  
@@ -45,13 +45,13 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
 {
   "resourceType" : "ValueSet",
   "id" : "fr-uf-role-code-for-prescription",
-  "url" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription",
   "version" : "0.1.0",
   "name" : "FrUfRoleCodesForPrescriptionValueSet",
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -71,7 +71,7 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "immutable" : false,
   "compose" : {
     "include" : [{
-      "system" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes"
+      "system" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes"
     }]
   }
 }

@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/TradPN13FHIR-Presc-Paracetamol> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/TradPN13FHIR-Presc-Paracetamol> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TradPN13FHIR-Presc-Paracetamol"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -105,8 +105,8 @@
        fhir:id [ fhir:v "medication-TradPN13FHIR-Presc-Paracetamol" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] [
            fhir:v "https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
            fhir:l <https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound>
@@ -250,8 +250,8 @@
        fhir:id [ fhir:v "medicationrequest-TradPN13FHIR-Presc-Paracetamol" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -289,8 +289,8 @@
        fhir:supportingInformation ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -326,8 +326,8 @@
        fhir:note ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -338,8 +338,8 @@
        ] [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -350,8 +350,8 @@
        ] [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;

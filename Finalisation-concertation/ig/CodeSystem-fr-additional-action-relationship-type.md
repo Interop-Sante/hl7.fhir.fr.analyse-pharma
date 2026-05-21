@@ -1,4 +1,4 @@
-# Interop'Santé code system - Additional codes for relationship between action - Guide d'implémentation du médicament v0.1.0
+# Interop'Santé code system - Additional codes for relationship between action - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-action-relationship-type | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-action-relationship-type | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrAdditionalActionRelationshipType |
 
  
@@ -29,13 +29,13 @@ Codes to specify relationship between action in a RequestGroup that are not in t
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-additional-action-relationship-type",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-action-relationship-type",
   "version" : "0.1.0",
   "name" : "FrAdditionalActionRelationshipType",
   "title" : "Interop'Santé code system - Additional codes for relationship between action",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

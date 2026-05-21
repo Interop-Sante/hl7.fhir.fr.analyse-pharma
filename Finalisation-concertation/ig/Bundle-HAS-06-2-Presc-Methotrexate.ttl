@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/HAS-06-2-Presc-Methotrexate> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/HAS-06-2-Presc-Methotrexate> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "HAS-06-2-Presc-Methotrexate"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medicationrequest-HAS-6-2-Presc-Methotrexate" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -55,12 +55,12 @@
          ] )
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2025-07-23T10:33:00+01:00"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
        ] ;
        fhir:note ( [

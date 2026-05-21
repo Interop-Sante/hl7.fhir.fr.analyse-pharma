@@ -1,4 +1,4 @@
-# TradPN13FHIR-Presc-perfusion-6-composants - Guide d'implémentation du médicament v0.1.0
+# TradPN13FHIR-Presc-perfusion-6-composants - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "TradPN13FHIR-Presc-perfusion-6-composants",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -90,7 +90,7 @@
       "resourceType" : "Medication",
       "id" : "medication-1-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -122,7 +122,7 @@
       "resourceType" : "Medication",
       "id" : "medication-2-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -154,7 +154,7 @@
       "resourceType" : "Medication",
       "id" : "medication-3-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -186,7 +186,7 @@
       "resourceType" : "Medication",
       "id" : "medication-4-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -218,7 +218,7 @@
       "resourceType" : "Medication",
       "id" : "medication-5-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -250,7 +250,7 @@
       "resourceType" : "Medication",
       "id" : "medication-6-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"]
       },
       "text" : {
         "status" : "generated",
@@ -282,7 +282,7 @@
       "resourceType" : "Medication",
       "id" : "medication-C-prescr-perf-6-exemple",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"]
       },
       "text" : {
         "status" : "extensions",
@@ -318,7 +318,7 @@
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle",
           "valueBoolean" : true
         }],
         "itemReference" : {
@@ -437,7 +437,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -481,7 +481,7 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "**Prescription textuelle:** 1 préparation en continu sur 12h00 par jour"

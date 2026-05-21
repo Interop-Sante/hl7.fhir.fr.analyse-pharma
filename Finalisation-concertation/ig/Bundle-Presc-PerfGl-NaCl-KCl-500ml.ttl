@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/Presc-PerfGl-NaCl-KCl-500ml> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/Presc-PerfGl-NaCl-KCl-500ml> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Presc-PerfGl-NaCl-KCl-500ml"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medication-1-Presc-PerfGl-NaCl-KCl-500ml" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -107,8 +107,8 @@
        fhir:id [ fhir:v "medication-2-Presc-PerfGl-NaCl-KCl-500ml" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -147,8 +147,8 @@
        fhir:id [ fhir:v "medication-3-Presc-PerfGl-NaCl-KCl-500ml" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -187,8 +187,8 @@
        fhir:id [ fhir:v "medication-C-Presc-PerfGl-NaCl-KCl-500ml" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound>
          ] )
        ] ;
        fhir:text [
@@ -201,8 +201,8 @@
        fhir:ingredient ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle>
            ] ;
            fhir:value [
              a fhir:Boolean ;
@@ -234,8 +234,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-PerfGl-NaCl-KCl-500ml" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -251,12 +251,12 @@
          fhir:reference [ fhir:v "#medication-C-Presc-PerfGl-NaCl-KCl-500ml" ]
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2021-08-02T16:27:47.623Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
        ] ;
        fhir:groupIdentifier [

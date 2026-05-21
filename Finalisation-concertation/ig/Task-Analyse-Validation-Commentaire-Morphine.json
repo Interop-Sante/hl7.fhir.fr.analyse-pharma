@@ -2,7 +2,7 @@
   "resourceType" : "Task",
   "id" : "Analyse-Validation-Commentaire-Morphine",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
   },
   "text" : {
     "status" : "generated",

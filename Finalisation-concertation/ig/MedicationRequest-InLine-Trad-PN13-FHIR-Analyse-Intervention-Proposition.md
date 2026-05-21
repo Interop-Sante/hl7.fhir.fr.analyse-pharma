@@ -1,4 +1,4 @@
-# InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition - Guide d'implémentation du médicament v0.1.0
+# InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -67,7 +67,7 @@ Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 12 heures 
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
@@ -98,7 +98,7 @@ Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 12 heures 
   },
   "supportingInformation" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
       "valueCode" : "UFMED"
     }],
     "identifier" : {
@@ -131,7 +131,7 @@ Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 12 heures 
   },
   "note" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCTXT"
     }],
     "text" : "Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 12 heures pendant 2 jours, 2000 mg max/j"

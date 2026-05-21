@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/Presc-PerfDobutamine-Qsp40mL> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/Presc-PerfDobutamine-Qsp40mL> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Presc-PerfDobutamine-Qsp40mL"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medication-1-Presc-PerfDobutamine-Qsp40mL" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -62,8 +62,8 @@
        fhir:id [ fhir:v "medication-2-Presc-PerfDobutamine-Qsp40mL" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -133,8 +133,8 @@
        fhir:id [ fhir:v "medication-C-Presc-PerfDobutamine-Qsp40mL" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-compound>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-compound>
          ] )
        ] ;
        fhir:text [
@@ -161,8 +161,8 @@
        fhir:ingredient ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-is-vehicle>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-is-vehicle>
            ] ;
            fhir:value [
              a fhir:Boolean ;
@@ -182,8 +182,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-PerfDobutamine-Qsp40mL" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -199,12 +199,12 @@
          fhir:reference [ fhir:v "#medication-C-Presc-PerfDobutamine-Qsp40mL" ]
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/14602> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2021-10-15T10:25:27.401Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-71482713> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-71482713> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
        ] ;
        fhir:groupIdentifier [
@@ -241,8 +241,8 @@
          fhir:doseAndRate ( [
            fhir:extension ( [
              fhir:url [
-               fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component"^^xsd:anyURI ;
-               fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component>
+               fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component"^^xsd:anyURI ;
+               fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component>
              ] ;
              fhir:value [
                a fhir:Reference ;

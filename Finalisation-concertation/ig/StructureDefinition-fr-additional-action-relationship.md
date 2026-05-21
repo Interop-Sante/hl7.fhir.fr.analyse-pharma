@@ -1,4 +1,4 @@
-# Additional relatedAction relationship - Guide d'implémentation du médicament v0.1.0
+# Additional relatedAction relationship - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrAdditionalActionRelationship |
 
 Extension to specify relationship between action in a RequestGroup
@@ -22,7 +22,7 @@ Extension to specify relationship between action in a RequestGroup
 * Utilise ce/t/te Extension: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-for-prescription.md)
 * Exemples pour ce/t/te Extension: [Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE](Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.md) and [Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE](Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-additional-action-relationship)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-additional-action-relationship)
 
 ### Formal Views of Extension Content
 
@@ -44,12 +44,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-additional-action-relationship",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship",
   "version" : "0.1.0",
   "name" : "FrAdditionalActionRelationship",
   "title" : "Additional relatedAction relationship",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship"
     },
     {
       "id" : "Extension.value[x]",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-additional-action-relationship-type-value-set"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-action-relationship-type-value-set"
       }
     }]
   }

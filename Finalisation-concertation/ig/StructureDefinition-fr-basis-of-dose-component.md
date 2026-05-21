@@ -1,4 +1,4 @@
-# Medication component Basis of dose - Guide d'implémentation du médicament v0.1.0
+# Medication component Basis of dose - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrBasisOfDoseComponent |
 
 When the medication element of the resource in which a dose applies is compound, this extension references the Medication resource component of the medication element which is the Basis of the dose quantity or volume.
@@ -24,7 +24,7 @@ When To reference the Medication resource component which is the Basis of the do
 * Utilise ce/t/te Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 * Exemples pour ce/t/te Extension: [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md), [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md) and [Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-basis-of-dose-component)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-basis-of-dose-component)
 
 ### Formal Views of Extension Content
 
@@ -44,12 +44,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-basis-of-dose-component",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component",
   "version" : "0.1.0",
   "name" : "FrBasisOfDoseComponent",
   "title" : "Medication component Basis of dose",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -97,7 +97,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-basis-of-dose-component"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component"
     },
     {
       "id" : "Extension.value[x]",

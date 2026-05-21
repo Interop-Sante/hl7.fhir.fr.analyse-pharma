@@ -1,4 +1,4 @@
-# FR Medication - Guide d'implémentation du médicament v0.1.0
+# FR Medication - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMedication |
 
  
@@ -19,10 +19,9 @@ décrit le médicament figurant dans une ressource InterOp’Santé (fr) Medicat
 
 **Utilisations:**
 
-* Référence ce Profil: [FR Current Medication MedicationStatement](StructureDefinition-fr-current-medication-medicationstatement.md), [FR Inpatient MedicationDispense](StructureDefinition-fr-inpatient-medication-dispense.md), [FR Medication History MedicationStatement](StructureDefinition-fr-medication-history-medicationstatement.md) and [FR Medication Reconciliation MedicationStatement](StructureDefinition-fr-medication-reconciliation-statement.md)
 * Exemples pour ce/t/te Profil: [Medication/InLine-DOLIPRANE](Medication-InLine-DOLIPRANE.md), [Medication/InLine-med-EFFERALGAN](Medication-InLine-med-EFFERALGAN.md) and [Medication/InLine-med-Paracetamol](Medication-InLine-med-Paracetamol.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medication)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medication)
 
 ### Formal Views of Profile Content
 
@@ -40,12 +39,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication",
   "version" : "0.1.0",
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -125,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
       "requirements" : "unit SHALL be UCUM or EDQM encoded",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRatioMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRatioMedication"]
       }]
     },
     {

@@ -1,4 +1,4 @@
-# La prescription - Cas d'usage - Guide d'implémentation du médicament v0.1.0
+# La prescription - Cas d'usage - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **La prescription - Cas d'usage**

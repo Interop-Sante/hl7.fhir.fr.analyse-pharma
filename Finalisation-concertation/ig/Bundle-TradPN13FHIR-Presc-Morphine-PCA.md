@@ -1,4 +1,4 @@
-# TradPN13FHIR-Presc-Morphine-PCA - Guide d'implémentation du médicament v0.1.0
+# TradPN13FHIR-Presc-Morphine-PCA - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -15,7 +15,7 @@
   "resourceType" : "Bundle",
   "id" : "TradPN13FHIR-Presc-Morphine-PCA",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -97,7 +97,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Trad-Presc-Morphine-PCA",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",
@@ -127,7 +127,7 @@
       },
       "supportingInformation" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFHEB"
         }],
         "type" : "Organization",
@@ -138,7 +138,7 @@
       },
       {
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
           "valueCode" : "UFMED"
         }],
         "type" : "Organization",
@@ -160,7 +160,7 @@
       },
       "note" : [{
         "extension" : [{
-          "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+          "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
           "valueCode" : "LIPRESCTXT"
         }],
         "text" : "Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 10 mg Période refractaire 2h -- À partir du 07/05/2025 à 17:30 jusqu'au 11/05/2025 à 17h30"

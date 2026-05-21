@@ -1,4 +1,4 @@
-# Additional values for when element - Guide d'implémentation du médicament v0.1.0
+# Additional values for when element - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-when-values | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrAdditionalWhenValues |
 
 Additional values for Timing.repeat.when
@@ -21,7 +21,7 @@ Additional values for Timing.repeat.when
 
 * Utilise ce/t/te Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-additional-when-values)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-additional-when-values)
 
 ### Formal Views of Extension Content
 
@@ -43,12 +43,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-additional-when-values",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-when-values",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values",
   "version" : "0.1.0",
   "name" : "FrAdditionalWhenValues",
   "title" : "Additional values for when element",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -95,7 +95,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-when-values"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values"
     },
     {
       "id" : "Extension.value[x]",
@@ -105,7 +105,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-additional-when-codes"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-when-codes"
       }
     }]
   }

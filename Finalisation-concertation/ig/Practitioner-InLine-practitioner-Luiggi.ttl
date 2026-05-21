@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Practitioner/InLine-practitioner-Luiggi> a fhir:Practitioner ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/InLine-practitioner-Luiggi> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-practitioner-Luiggi"] ; # 
   fhir:meta [

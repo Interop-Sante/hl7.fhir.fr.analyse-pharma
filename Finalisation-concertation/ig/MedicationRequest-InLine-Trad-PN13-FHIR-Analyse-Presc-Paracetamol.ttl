@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol> a fhir:MedicationRequest ;
+<https://hl7.fr/ig/fhir/analyse-pharma/MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
      ] )
   ] ; # 
   fhir:text [
@@ -52,7 +52,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Patient/InLine-patient-Avion> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/InLine-patient-Avion> ;
      fhir:reference [ fhir:v "Patient/InLine-patient-Avion" ]
   ] ; # 
   fhir:encounter [
@@ -67,8 +67,8 @@
   fhir:supportingInformation ( [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
        ] ;
        fhir:value [
          a fhir:Code ;
@@ -83,15 +83,15 @@
        fhir:value [ fhir:v "2571" ]
      ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Observation/InLine-Observation-poids-Avion> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Observation/InLine-Observation-poids-Avion> ;
      fhir:reference [ fhir:v "Observation/InLine-Observation-poids-Avion" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Observation/InLine-observation-taille-Avion> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Observation/InLine-observation-taille-Avion> ;
      fhir:reference [ fhir:v "Observation/InLine-observation-taille-Avion" ]
   ] ) ; # 
   fhir:authoredOn [ fhir:v "2022-04-11T16:42:53+02:00"^^xsd:dateTime] ; # 
   fhir:requester [
-     fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/InLine-practitioner-Luiggi> ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/InLine-practitioner-Luiggi> ;
      fhir:reference [ fhir:v "Practitioner/InLine-practitioner-Luiggi" ]
   ] ; # 
   fhir:groupIdentifier [
@@ -104,8 +104,8 @@
   fhir:note ( [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
        ] ;
        fhir:value [
          a fhir:Code ;
@@ -116,8 +116,8 @@
   ] [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
        ] ;
        fhir:value [
          a fhir:Code ;

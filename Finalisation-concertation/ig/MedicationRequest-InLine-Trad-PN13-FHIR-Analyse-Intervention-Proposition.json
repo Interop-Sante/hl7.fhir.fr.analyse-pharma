@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
   },
   "text" : {
     "status" : "extensions",
@@ -37,7 +37,7 @@
   },
   "supportingInformation" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
       "valueCode" : "UFMED"
     }],
     "identifier" : {
@@ -70,7 +70,7 @@
   },
   "note" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCTXT"
     }],
     "text" : "Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 12 heures pendant 2 jours, 2000 mg max/j"

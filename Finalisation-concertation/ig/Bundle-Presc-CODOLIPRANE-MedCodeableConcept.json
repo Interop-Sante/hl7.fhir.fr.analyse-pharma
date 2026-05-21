@@ -2,7 +2,7 @@
   "resourceType" : "Bundle",
   "id" : "Presc-CODOLIPRANE-MedCodeableConcept",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -10,7 +10,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
       },
       "text" : {
         "status" : "generated",

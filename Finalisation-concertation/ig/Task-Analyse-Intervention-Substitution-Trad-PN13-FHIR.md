@@ -1,4 +1,4 @@
-# Analyse-Intervention-Substitution-Trad-PN13-FHIR - Guide d'implémentation du médicament v0.1.0
+# Analyse-Intervention-Substitution-Trad-PN13-FHIR - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -42,7 +42,7 @@ Profil: [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pha
   "resourceType" : "Task",
   "id" : "Analyse-Intervention-Substitution-Trad-PN13-FHIR",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result"]
   },
   "groupIdentifier" : {
     "value" : "10723"

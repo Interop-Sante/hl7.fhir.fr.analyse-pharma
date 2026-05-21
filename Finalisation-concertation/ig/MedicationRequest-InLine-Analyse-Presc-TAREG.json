@@ -2,7 +2,7 @@
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-TAREG",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion"]
   },
   "text" : {
     "status" : "extensions",

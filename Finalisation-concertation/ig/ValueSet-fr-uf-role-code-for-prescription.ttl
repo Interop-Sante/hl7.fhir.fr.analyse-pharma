@@ -6,23 +6,23 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription> a fhir:ValueSet ;
+<https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fr-uf-role-code-for-prescription"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-uf-role-code-for-prescription</b></p><a name=\"fr-uf-role-code-for-prescription\"> </a><a name=\"hcfr-uf-role-code-for-prescription\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-fr-uf-role-codes.html\"><code>https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-uf-role-code-for-prescription</b></p><a name=\"fr-uf-role-code-for-prescription\"> </a><a name=\"hcfr-uf-role-code-for-prescription\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-fr-uf-role-codes.html\"><code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?0.1.0</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
-     fhir:v "https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription"^^xsd:anyURI ;
-     fhir:l <https://hl7.fr/ig/fhir/medication/ValueSet/fr-uf-role-code-for-prescription>
+     fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription"^^xsd:anyURI ;
+     fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription>
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "FrUfRoleCodesForPrescriptionValueSet"] ; # 
   fhir:title [ fhir:v "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-21T12:38:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-21T13:21:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -46,8 +46,8 @@
   fhir:compose [
      fhir:include ( [
        fhir:system [
-         fhir:v "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/medication/CodeSystem/fr-uf-role-codes>
+         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes"^^xsd:anyURI ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes>
        ]
      ] )
   ] . # 

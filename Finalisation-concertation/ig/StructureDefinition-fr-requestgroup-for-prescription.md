@@ -1,4 +1,4 @@
-# FR RequestGroup For Prescription - Guide d'implémentation du médicament v0.1.0
+# FR RequestGroup For Prescription - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRRequestGroupForPrescription |
 
  
@@ -18,7 +18,7 @@ RequestGroup for expressing links between lines of a prescription
 
 * Ce Profil n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-requestgroup-for-prescription)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-requestgroup-for-prescription)
 
 ### Formal Views of Profile Content
 
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-requestgroup-for-prescription",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription",
   "version" : "0.1.0",
   "name" : "FRRequestGroupForPrescription",
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -112,7 +112,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship"]
       }]
     }]
   }

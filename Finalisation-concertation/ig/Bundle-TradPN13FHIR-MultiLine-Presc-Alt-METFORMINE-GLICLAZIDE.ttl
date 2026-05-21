@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -134,8 +134,8 @@
        fhir:id [ fhir:v "medicationrequest-Trad-Presc-Alt-METFORMINE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -175,8 +175,8 @@
        fhir:supportingInformation ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -197,8 +197,8 @@
        ] [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -237,8 +237,8 @@
        fhir:note ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -291,8 +291,8 @@
        fhir:id [ fhir:v "medicationrequest-Trad-Presc-Alt-GLICLAZIDE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -332,8 +332,8 @@
        fhir:supportingInformation ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -354,8 +354,8 @@
        ] [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-uf-role>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -394,8 +394,8 @@
        fhir:note ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -446,8 +446,8 @@
        fhir:id [ fhir:v "requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription>
          ] )
        ] ;
        fhir:text [
@@ -474,8 +474,8 @@
          fhir:relatedAction ( [
            fhir:extension ( [
              fhir:url [
-               fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
-               fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship>
+               fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
+               fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship>
              ] ;
              fhir:value [
                a fhir:Code ;
@@ -495,8 +495,8 @@
          fhir:relatedAction ( [
            fhir:extension ( [
              fhir:url [
-               fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
-               fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship>
+               fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
+               fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship>
              ] ;
              fhir:value [
                a fhir:Code ;

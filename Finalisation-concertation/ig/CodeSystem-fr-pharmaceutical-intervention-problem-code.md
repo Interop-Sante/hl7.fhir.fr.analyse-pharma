@@ -1,4 +1,4 @@
-# code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique - Guide d'implémentation du médicament v0.1.0
+# code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-intervention-problem-code | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrPharmaceuticalInterventionProblemCode |
 
  
@@ -29,13 +29,13 @@ Le système de codage pour le typage du problème identifié dans l’interventi
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "url" : "https://hl7.fr/ig/fhir/medication/CodeSystem/fr-pharmaceutical-intervention-problem-code",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code",
   "version" : "0.1.0",
   "name" : "FrPharmaceuticalInterventionProblemCode",
   "title" : "code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

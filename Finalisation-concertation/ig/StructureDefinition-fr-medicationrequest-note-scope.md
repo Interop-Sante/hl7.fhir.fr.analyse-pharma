@@ -1,4 +1,4 @@
-# Scope for note element in MedicationRequest - Guide d'implémentation du médicament v0.1.0
+# Scope for note element in MedicationRequest - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMedicationRequestNoteScope |
 
 Scope of a note associated in a MedicationRequest resource
@@ -22,7 +22,7 @@ Scope of a note associated in a MedicationRequest resource
 * Utilise ce/t/te Extension: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
 * Exemples pour ce/t/te Extension: [Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE](Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.md), [Bundle/TradPN13FHIR-Presc-DOLIPRANE-Interpret](Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md), [Bundle/TradPN13FHIR-Presc-DOLIPRANE](Bundle-TradPN13FHIR-Presc-DOLIPRANE.md), [Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md)... Show 7 more, [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md), [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution.md), [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol.md) and [MedicationRequest/InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medicationrequest-note-scope)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medicationrequest-note-scope)
 
 ### Formal Views of Extension Content
 
@@ -44,12 +44,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationrequest-note-scope",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
   "version" : "0.1.0",
   "name" : "FRMedicationRequestNoteScope",
   "title" : "Scope for note element in MedicationRequest",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest-note-scope"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"
     },
     {
       "id" : "Extension.value[x]",
@@ -106,7 +106,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       }],
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-note-scope-codes-vs"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-note-scope-codes-vs"
       }
     }]
   }

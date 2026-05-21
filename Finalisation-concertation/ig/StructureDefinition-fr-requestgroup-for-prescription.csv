@@ -151,7 +151,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"RequestGroup.action.relatedAction.extension:additionalRelationship","RequestGroup.action.relatedAction.extension","additionalRelationship","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship]]} {[]}
+"RequestGroup.action.relatedAction.extension:additionalRelationship","RequestGroup.action.relatedAction.extension","additionalRelationship","","",0,1,"","","","Extension {[CanonicalType[https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship]]} {[]}
 ","Additional relatedAction relationship","If the extension is used, RequestGroup.action.relatedAction.relationship shall be concurrent","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

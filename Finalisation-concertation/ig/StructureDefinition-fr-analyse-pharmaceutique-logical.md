@@ -1,4 +1,4 @@
-# Résultat d'analyse pharmaceutique - Guide d'implémentation du médicament v0.1.0
+# Résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-analyse-pharmaceutique-logical | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrAnalysePharmaceutiqueLogical |
 
  
@@ -18,7 +18,7 @@ Structure du résultat d’analyse pharmaceutique (validation ou intervention ph
 
 * Ce Modèle logique n'est utilisé par aucun autre profil dans ce guide d'implémentation
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-analyse-pharmaceutique-logical)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-analyse-pharmaceutique-logical)
 
 ### Formal Views of Profile Content
 
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-analyse-pharmaceu
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-analyse-pharmaceutique-logical",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-analyse-pharmaceutique-logical",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical",
   "version" : "0.1.0",
   "name" : "FrAnalysePharmaceutiqueLogical",
   "title" : "Résultat d'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -61,7 +61,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-analyse-pharmaceu
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-analyse-pharmaceutique-logical",
+  "type" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {

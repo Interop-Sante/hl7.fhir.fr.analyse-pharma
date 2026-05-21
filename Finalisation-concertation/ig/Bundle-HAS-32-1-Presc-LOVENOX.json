@@ -2,7 +2,7 @@
   "resourceType" : "Bundle",
   "id" : "HAS-32-1-Presc-LOVENOX",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"]
   },
   "type" : "searchset",
   "entry" : [{
@@ -10,7 +10,7 @@
       "resourceType" : "MedicationRequest",
       "id" : "medicationrequest-HAS-32-1-Presc-LOVENOX",
       "meta" : {
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medicationrequest"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest"]
       },
       "text" : {
         "status" : "extensions",

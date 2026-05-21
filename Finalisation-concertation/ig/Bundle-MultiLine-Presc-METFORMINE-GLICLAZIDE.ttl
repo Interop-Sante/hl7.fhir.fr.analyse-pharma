@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/medication/Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE> a fhir:Bundle ;
+<https://hl7.fr/ig/fhir/analyse-pharma/Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "MultiLine-Presc-METFORMINE-GLICLAZIDE"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-METFORMINE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -45,12 +45,12 @@
          ] )
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/30002> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/30002> ;
          fhir:reference [ fhir:v "Patient/30002" ]
        ] ;
        fhir:authoredOn [ fhir:v "2025-05-02T14:48:44.461Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-3002> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-3002> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-3002" ]
        ] ;
        fhir:groupIdentifier [
@@ -104,8 +104,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-GLICLAZIDE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -127,12 +127,12 @@
          ] )
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/30002> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/30002> ;
          fhir:reference [ fhir:v "Patient/30002" ]
        ] ;
        fhir:authoredOn [ fhir:v "2025-05-02T14:48:44.461Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Practitioner/smart-Practitioner-3002> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Practitioner/smart-Practitioner-3002> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-3002" ]
        ] ;
        fhir:groupIdentifier [
@@ -184,8 +184,8 @@
        fhir:id [ fhir:v "requestgroup-Presc-METFORMINE-GLICLAZIDE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-requestgroup-for-prescription>
+           fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription"^^xsd:anyURI ;
+           fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-requestgroup-for-prescription>
          ] )
        ] ;
        fhir:text [
@@ -203,7 +203,7 @@
        fhir:intent [ fhir:v "order" ] ;
        fhir:priority [ fhir:v "routine" ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/medication/Patient/30002> ;
+         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/Patient/30002> ;
          fhir:reference [ fhir:v "Patient/30002" ]
        ] ;
        fhir:action ( [
@@ -212,8 +212,8 @@
          fhir:relatedAction ( [
            fhir:extension ( [
              fhir:url [
-               fhir:v "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
-               fhir:l <https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-additional-action-relationship>
+               fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship"^^xsd:anyURI ;
+               fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-action-relationship>
              ] ;
              fhir:value [
                a fhir:Code ;

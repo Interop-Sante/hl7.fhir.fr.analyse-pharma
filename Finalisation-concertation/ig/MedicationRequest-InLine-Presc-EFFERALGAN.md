@@ -1,4 +1,4 @@
-# InLine-Presc-EFFERALGAN - Guide d'implémentation du médicament v0.1.0
+# InLine-Presc-EFFERALGAN - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -43,7 +43,7 @@ Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medica
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Presc-EFFERALGAN",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "status" : "active",
   "intent" : "order",

@@ -1,4 +1,4 @@
-# FR Medication Non Compound - Guide d'implémentation du médicament v0.1.0
+# FR Medication Non Compound - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FRMedicationNonCompound |
 
  
@@ -21,7 +21,7 @@ Simple medication description, include those composed of many substances.
 
 * Référence ce Profil: [FR Medication Compound](StructureDefinition-fr-medication-compound.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-medication-noncompound)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-medication-noncompound)
 
 ### Formal Views of Profile Content
 
@@ -39,13 +39,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-noncompound",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound",
   "version" : "0.1.0",
   "name" : "FRMedicationNonCompound",
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -101,7 +101,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
         "severity" : "error",
         "human" : "If fr-medication is a simple medication, ingredient SHALL NOT be a Reference",
         "expression" : "code.coding.system.exists() implies (ingredient.item as Reference).empty()",
-        "source" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-medication-noncompound"
+        "source" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication-noncompound"
       }]
     },
     {
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       "max" : "*",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-drug-characteristic"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-drug-characteristic"]
       }]
     },
     {
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       "binding" : {
         "strength" : "required",
         "description" : "UCD, SMS or ANSM code",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-medication-code"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-medication-code"
       }
     },
     {
@@ -173,7 +173,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       "comment" : "When branded medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When branded medication is referenced within MedicationAdministration, this is administered form.",
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://hl7.fr/ig/fhir/medication/ValueSet/fr-mp-dose-form"
+        "valueSet" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-mp-dose-form"
       }
     },
     {
@@ -194,7 +194,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       "requirements" : "The composition of the medication for this ingredient SHALL be defined for prescrption of virtual medication so that strength can be defined. It MAY be defined for other medication",
       "type" : [{
         "code" : "CodeableConcept",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-mp-substance"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-mp-substance"]
       }]
     },
     {
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       "requirements" : "In cas of virtual medication strength SHALL be provided",
       "type" : [{
         "code" : "Ratio",
-        "profile" : ["https://hl7.fr/ig/fhir/medication/StructureDefinition/FrRatioMedication"]
+        "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/FrRatioMedication"]
       }]
     },
     {

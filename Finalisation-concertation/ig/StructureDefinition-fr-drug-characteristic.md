@@ -1,4 +1,4 @@
-# Medication descriptive properties - Guide d'implémentation du médicament v0.1.0
+# Medication descriptive properties - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
 | Draft as of 2026-05-21 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
@@ -21,7 +21,7 @@ Specifies descriptive properties of the medicine
 
 * Utilise ce/t/te Extension: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md) and [FR Medication Virtual](StructureDefinition-fr-medication-virtual.md)
 
-Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.medication|current/StructureDefinition/fr-drug-characteristic)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.fr.analyse-pharma|current/StructureDefinition/fr-drug-characteristic)
 
 ### Formal Views of Extension Content
 
@@ -43,12 +43,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-drug-characteristic",
-  "url" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-drug-characteristic",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-drug-characteristic",
   "version" : "0.1.0",
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2026-05-21T12:38:31+00:00",
+  "date" : "2026-05-21T13:21:36+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -160,7 +160,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
     {
       "id" : "Extension.url",
       "path" : "Extension.url",
-      "fixedUri" : "https://hl7.fr/ig/fhir/medication/StructureDefinition/fr-drug-characteristic"
+      "fixedUri" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-drug-characteristic"
     },
     {
       "id" : "Extension.value[x]",

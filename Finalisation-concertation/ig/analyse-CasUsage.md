@@ -1,4 +1,4 @@
-# L'analyse pharmaceutique - Cas d'usage - Guide d'implémentation du médicament v0.1.0
+# L'analyse pharmaceutique - Cas d'usage - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **L'analyse pharmaceutique - Cas d'usage**
