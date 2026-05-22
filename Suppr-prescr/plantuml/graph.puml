@@ -1,0 +1,474 @@
+@startuml
+set namespaceSeparator ?
+hide circle
+hide class fields
+
+package IG #DDDDDD{
+
+     package Profiles #DDDDDD{
+
+        class FrRangeMedication{
+
+             Range.low => [None..None]
+             Range.high => [None..None]
+        } 
+
+        class FrRatioMedication{
+
+             Ratio.numerator => [None..None]
+             Ratio.denominator => [None..None]
+        } 
+
+        class FrSimpleQuantityMedication{
+
+             Quantity => [None..None]
+        } 
+
+        class FrAnalysePharmaceutiqueLogical{
+
+             fr-analyse-pharmaceutique-logical => [None..None]
+             fr-analyse-pharmaceutique-logical.date => [1..1]
+             fr-analyse-pharmaceutique-logical.auteur => [1..1]
+             fr-analyse-pharmaceutique-logical.lignePrescriptionAnalysee => [1..*]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse => [1..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.type => [1..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.commentaire => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.proposition => [0..*]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.typeIntervention => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.typeProbleme => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.devenirIntervention => [0..1]
+        } 
+
+        class FRInpatientMedicationRequest{
+
+             MedicationRequest => [None..None]
+             MedicationRequest.supportingInformation.extension:UFRole => <&plus>[0..1]
+             MedicationRequest.note.extension:noteScope => <&plus>[0..1]
+             MedicationRequest.dispenseRequest.dispenseInterval => [None..0]
+             MedicationRequest.dispenseRequest.validityPeriod.start => [1..None]
+             MedicationRequest.dispenseRequest.validityPeriod.end => [None..None]
+             MedicationRequest.dispenseRequest.quantity => [None..0]
+             MedicationRequest.dispenseRequest.expectedSupplyDuration.comparator => [None..0]
+             MedicationRequest.dispenseRequest.performer => [None..0]
+        } 
+
+        class FRInpatientPharmaceuticalAnalysisResultProfile{
+
+             Task.groupIdentifier => [1..None]
+             Task.businessStatus => [None..None]
+             Task.intent => [None..None]
+             Task.authoredOn => [1..None]
+             Task.performerType => [None..None]
+             Task.owner => [1..None]
+             Task.input.type.text => [None..None]
+             Task.input.value[x] => [None..None]
+             Task.output => [1..None]
+             Task.output:result => [1..1]
+             Task.output:result.type.text => [1..None]
+             Task.output:result.value[x] => [None..None]
+             Task.output:comment => [0..1]
+             Task.output:comment.type.text => [1..None]
+             Task.output:comment.value[x] => [None..None]
+             Task.output:type => [0..1]
+             Task.output:type.type.text => [1..None]
+             Task.output:type.value[x] => [None..None]
+             Task.output:problem => [0..1]
+             Task.output:problem.type.text => [1..None]
+             Task.output:problem.value[x] => [None..None]
+             Task.output:suggestion => [0..*]
+             Task.output:suggestion.type.text => [1..None]
+             Task.output:suggestion.value[x] => [None..None]
+             Task.output:intervention => [0..*]
+             Task.output:intervention.type.text => [1..None]
+             Task.output:intervention.value[x] => [None..None]
+        } 
+
+        class FRInpatientPharmaceuticalInterventionSuggestionProfile{
+
+             MedicationRequest => [None..None]
+             MedicationRequest.intent => [None..None]
+             MedicationRequest.supportingInformation => [1..None]
+             MedicationRequest.supportingInformation:updatedLine => [0..*]
+             MedicationRequest.supportingInformation:pharmInter => [1..1]
+             MedicationRequest.groupIdentifier => [1..None]
+        } 
+
+        class LignePrescription{
+
+             fr-ligne-prescription => [None..None]
+             fr-ligne-prescription.traitement => [0..1]
+             fr-ligne-prescription.traitement.identifiant => [0..1]
+             fr-ligne-prescription.traitement.dosage => [0..*]
+             fr-ligne-prescription.traitement.dosage.valeur => [0..1]
+             fr-ligne-prescription.traitement.dosage.unite => [0..1]
+             fr-ligne-prescription.traitement.forme => [0..1]
+             fr-ligne-prescription.dateDebut => [0..1]
+             fr-ligne-prescription.dateFin => [0..1]
+             fr-ligne-prescription.posologie => [0..*]
+             fr-ligne-prescription.quantitePrescrite => [0..*]
+        } 
+
+        class FrRedicationCompound{
+
+             Medication.form => [None..None]
+             Medication.ingredient => [1..None]
+             Medication.ingredient.extension => [None..None]
+             Medication.ingredient.extension:IsVehicle => <&plus>[0..1]
+             Medication.ingredient.item[x] => [None..None]
+             Medication.ingredient.item[x]:itemReference => [0..1]
+             Medication.batch => [None..0]
+        } 
+
+        class FRMedicationNonCompound{
+
+             Medication.extension => [None..None]
+             Medication.extension:drugCharacteristic => <&plus>[0..*]
+             Medication.code => [1..None]
+             Medication.code.coding => [1..None]
+             Medication.code.coding:nonCompoundCode => [1..1]
+             Medication.code.text => [None..None]
+             Medication.form => [None..None]
+             Medication.amount => [None..None]
+             Medication.ingredient => [None..None]
+             Medication.ingredient.item[x] => [None..None]
+             Medication.ingredient.strength => [None..None]
+             Medication.batch => [None..None]
+        } 
+
+        class FRMedicationVirtual{
+
+             Medication.extension => [None..None]
+             Medication.extension:drugCharacteristic => <&plus>[0..*]
+             Medication.form => [1..None]
+             Medication.ingredient => [1..None]
+             Medication.ingredient.strength => [1..None]
+        } 
+
+        class FRMedication{
+
+             Medication.implicitRules => [None..0]
+             Medication.amount => [None..0]
+             Medication.ingredient.item[x] => [None..None]
+             Medication.ingredient.strength => [None..None]
+             Medication.batch => [None..0]
+        } 
+
+        class FRMedicationRequest{
+
+             MedicationRequest.extension => [None..None]
+             MedicationRequest.extension:renderedDosageInstruction => <&plus>[0..1]
+             MedicationRequest.extension:treatmentIntent => <&plus>[0..1]
+             MedicationRequest.extension:treatmentIntent.value[x].coding => <&plus>[None..None]
+             MedicationRequest.medication[x] => [None..None]
+             MedicationRequest.medication[x]:medicationReference => [0..1]
+             MedicationRequest.medication[x]:medicationCodeableConcept => [0..1]
+             MedicationRequest.subject => [None..None]
+             MedicationRequest.encounter => [None..None]
+             MedicationRequest.authoredOn => [1..None]
+             MedicationRequest.requester => [1..None]
+             MedicationRequest.dosageInstruction => [1..None]
+             MedicationRequest.dosageInstruction.patientInstruction => [None..0]
+             MedicationRequest.dosageInstruction.timing.repeat.extension:AdditionalWhenValues => <&plus>[0..1]
+             MedicationRequest.dosageInstruction.route => [None..None]
+             MedicationRequest.dosageInstruction.method => [None..None]
+             MedicationRequest.dosageInstruction.doseAndRate.extension:BasisOfDoseComponent => <&plus>[0..1]
+             MedicationRequest.dosageInstruction.doseAndRate.dose[x] => [None..None]
+             MedicationRequest.dosageInstruction.doseAndRate.dose[x]:doseRange => [0..1]
+             MedicationRequest.dosageInstruction.doseAndRate.dose[x]:doseQuantity => [0..1]
+             MedicationRequest.dosageInstruction.doseAndRate.rate[x] => [None..None]
+             MedicationRequest.dosageInstruction.doseAndRate.rate[x]:rateRatio => [0..1]
+             MedicationRequest.dosageInstruction.doseAndRate.rate[x]:rateRange => [0..1]
+             MedicationRequest.dosageInstruction.doseAndRate.rate[x]:rateQuantity => [0..1]
+             MedicationRequest.dosageInstruction.maxDosePerPeriod.numerator => [None..None]
+             MedicationRequest.dosageInstruction.maxDosePerPeriod.denominator => [None..None]
+             MedicationRequest.dosageInstruction.maxDosePerAdministration => [None..None]
+             MedicationRequest.dosageInstruction.maxDosePerLifetime => [None..None]
+        } 
+
+        class FRMPSubstance{
+
+             CodeableConcept.coding => [None..None]
+        } 
+
+        class FRObservationForPrescription{
+
+             Observation.subject => [1..None]
+        } 
+
+        class Posologie{
+
+             fr-posologie => [None..None]
+             fr-posologie.sequence => [0..1]
+             fr-posologie.instructionPatient => [0..1]
+             fr-posologie.doseEtDebit => [0..*]
+             fr-posologie.doseEtDebit.dose[x] => [0..1]
+             fr-posologie.doseEtDebit.rate[x] => [0..1]
+             fr-posologie.dateDePrise => [0..*]
+             fr-posologie.conditionDePrise => [0..*]
+             fr-posologie.date[x] => [0..1]
+             fr-posologie.dureeAdministration => [0..1]
+             fr-posologie.dureeAdministration.duree => [0..1]
+             fr-posologie.dureeAdministration.dureeUnite => [0..1]
+             fr-posologie.dureeAdministration.dureeMax => [0..1]
+             fr-posologie.frequence => [0..1]
+             fr-posologie.frequence.nombreDeRepetition => [0..1]
+             fr-posologie.frequence.periode => [0..1]
+             fr-posologie.frequence.jourSemaine => [0..*]
+             fr-posologie.frequence.heurePrise => [0..1]
+             fr-posologie.frequence.instructionAdditionnelle => [0..1]
+             fr-posologie.momentDePrise => [0..*]
+             fr-posologie.momentDePrise.code => [0..1]
+             fr-posologie.momentDePrise.offset => [0..1]
+             fr-posologie.evenementFinSequence => [0..1]
+             fr-posologie.voieAdministration => [0..1]
+             fr-posologie.siteAdministration => [0..1]
+             fr-posologie.doseMaxParPeriode => [0..*]
+             fr-posologie.doseMaxParPeriode.quantite => [0..1]
+             fr-posologie.doseMaxParPeriode.duree => [0..1]
+             fr-posologie.doseMaxParAdministration => [0..1]
+             fr-posologie.doseMaxVie => [0..1]
+        } 
+
+        class FRPrescriptionBundleForExample{
+
+             Bundle.implicitRules => [None..0]
+             Bundle.language => [None..None]
+             Bundle.type => [None..None]
+        } 
+
+        class FRRequestGroupForPrescription{
+
+             RequestGroup.groupIdentifier => [1..None]
+             RequestGroup.action.relatedAction.extension => [None..None]
+             RequestGroup.action.relatedAction.extension:additionalRelationship => <&plus>[0..1]
+         }
+
+     }
+     package extension #paleturquoise {
+
+     FRInpatientMedicationRequest -[#black,dashed,thickness=2]-> FrUFRole
+     FRInpatientMedicationRequest -[#black,dashed,thickness=2]-> FRMedicationRequestNoteScope
+     FrRedicationCompound -[#black,dashed,thickness=2]-> FrIsVehicle
+     FRMedicationNonCompound -[#black,dashed,thickness=2]-> FrDrugCharacteristic
+     FRMedicationVirtual -[#black,dashed,thickness=2]-> FrDrugCharacteristic
+     FRMedicationRequest -[#black,dashed,thickness=2]-> FrTeatmentIntent
+     FRMedicationRequest -[#black,dashed,thickness=2]-> FrAdditionalWhenValues
+     FRMedicationRequest -[#black,dashed,thickness=2]-> FrBasisOfDoseComponent
+     FRRequestGroupForPrescription -[#black,dashed,thickness=2]-> FrAdditionalActionRelationship
+
+        class FrAdditionalActionRelationship{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrAdditionalWhenValues{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrBasisOfDoseComponent{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrDrugCharacteristic{
+
+          Extension.extension:type => [0..1]
+          Extension.extension:type.extension => [None..0]
+          Extension.extension:type.url => [None..None]
+          Extension.extension:type.value[x] => [None..None]
+          Extension.extension:value => [0..*]
+          Extension.extension:value.extension => [None..0]
+          Extension.extension:value.url => [None..None]
+          Extension.extension:value.value[x] => [None..None]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..0]
+        } 
+        class FrIsVehicle{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FRMedicationRequestNoteScope{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrStrengthCodeableConcept{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrTeatmentIntent{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+        } 
+        class FrUFRole{
+
+          Extension.extension => [None..0]
+          Extension.url => [None..None]
+          Extension.value[x] => [None..None]
+         }
+     }
+     package valueset #PaleVioletRed{
+
+        class FrAdditionalRequestGroupRelationshipValueSet  
+
+     FrAdditionalActionRelationship -[#black,dotted,thickness=2]-> FrAdditionalRequestGroupRelationshipValueSet
+
+        class FrAdditionalWhenCodes  
+
+     FrAdditionalWhenValues -[#black,dotted,thickness=2]-> FrAdditionalWhenCodes
+
+        class FrPharmaceuticalInterventionDevenirCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionDevenirCodeValueSet
+
+        class FrPharmaceuticalAnalysisPerformerTypeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalAnalysisPerformerTypeValueSet
+
+        class FrPharmaceuticalAnalysisResultCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalAnalysisResultCodeValueSet
+
+        class FrPharmaceuticalInterventionTypeCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionTypeCodeValueSet
+
+        class FrPharmaceuticalInterventionProblemCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionProblemCodeValueSet
+
+        class FrMpDoseForm  
+
+     FrRedicationCompound -[#black,dotted,thickness=2]-> FrMpDoseForm
+
+        class FRMedicationCodes  
+
+     FRMedicationNonCompound -[#black,dotted,thickness=2]-> FRMedicationCodes
+
+        class FrMpDoseForm  
+
+     FRMedicationNonCompound -[#black,dotted,thickness=2]-> FrMpDoseForm
+
+        class FrMpDoseForm  
+
+     FRMedicationVirtual -[#black,dotted,thickness=2]-> FrMpDoseForm
+
+        class FrNoteScopeCodeValueSet  
+
+     FRMedicationRequestNoteScope -[#black,dotted,thickness=2]-> FrNoteScopeCodeValueSet
+
+        class FRMedicationCodes  
+
+     FRMedicationRequest -[#black,dotted,thickness=2]-> FRMedicationCodes
+
+        class FrRouteOfAdministration  
+
+     FRMedicationRequest -[#black,dotted,thickness=2]-> FrRouteOfAdministration
+
+        class FrMethodOfAdministration  
+
+     FRMedicationRequest -[#black,dotted,thickness=2]-> FrMethodOfAdministration
+
+        class FrSubstanceCode  
+
+     FRMPSubstance -[#black,dotted,thickness=2]-> FrSubstanceCode
+
+        class MedicationIngredientStrengthCodes  
+
+     FrStrengthCodeableConcept -[#black,dotted,thickness=2]-> MedicationIngredientStrengthCodes
+
+        class FrTreatmentIntent  
+
+     FrTeatmentIntent -[#black,dotted,thickness=2]-> FrTreatmentIntent
+
+        class FrUfRoleCodesForPrescriptionValueSet  
+
+     FrUFRole -[#black,dotted,thickness=2]-> FrUfRoleCodesForPrescriptionValueSet
+       }
+
+package "Ressources de base" #palegreen {
+
+ class "Range" as  class87ba2ecc8b6915e8bd6f5089918229fd 
+
+    class87ba2ecc8b6915e8bd6f5089918229fd --> FrRangeMedication
+
+ class "Ratio" as  class8334a158298fbcf163f4dcb4a387d150 
+
+    class8334a158298fbcf163f4dcb4a387d150 --> FrRatioMedication
+
+ class "SimpleQuantity" as  class2c391528ab21e799798c2a3a4ed7eed2 
+
+    class2c391528ab21e799798c2a3a4ed7eed2 --> FrSimpleQuantityMedication
+
+ class "Base" as  class095a1b43effec73955e31e790438de49 
+
+    class095a1b43effec73955e31e790438de49 --> FrAnalysePharmaceutiqueLogical
+
+ class "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest" as  classa85dba02d332b9e7b3f4912eb40a7ab5 
+
+    classa85dba02d332b9e7b3f4912eb40a7ab5 --> FRInpatientMedicationRequest
+
+ class "Task" as  classeaeb30f9f18e0c50b178676f3eaef45f 
+
+    classeaeb30f9f18e0c50b178676f3eaef45f --> FRInpatientPharmaceuticalAnalysisResultProfile
+
+ class "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest" as  class259496d4772b8b5efb3dc22c238151bf 
+
+    class259496d4772b8b5efb3dc22c238151bf --> FRInpatientPharmaceuticalInterventionSuggestionProfile
+
+ class "Base" as  class095a1b43effec73955e31e790438de49 
+
+    class095a1b43effec73955e31e790438de49 --> LignePrescription
+
+ class "Medication" as  class353bd6f65060d17097c3b03141e79cce 
+
+    class353bd6f65060d17097c3b03141e79cce --> FrRedicationCompound
+
+ class "Medication" as  class353bd6f65060d17097c3b03141e79cce 
+
+    class353bd6f65060d17097c3b03141e79cce --> FRMedicationNonCompound
+
+ class "Medication" as  class353bd6f65060d17097c3b03141e79cce 
+
+    class353bd6f65060d17097c3b03141e79cce --> FRMedicationVirtual
+
+ class "Medication" as  class353bd6f65060d17097c3b03141e79cce 
+
+    class353bd6f65060d17097c3b03141e79cce --> FRMedication
+
+ class "MedicationRequest" as  class2071abb7e1482ea8731af3cdcaed7225 
+
+    class2071abb7e1482ea8731af3cdcaed7225 --> FRMedicationRequest
+
+ class "CodeableConcept" as  class3521d6f1ff87d9b962b1c77766470bb9 
+
+    class3521d6f1ff87d9b962b1c77766470bb9 --> FRMPSubstance
+
+ class "Observation" as  classc680d437163cc6bab4f9bdb35c3073d0 
+
+    classc680d437163cc6bab4f9bdb35c3073d0 --> FRObservationForPrescription
+
+ class "Base" as  class095a1b43effec73955e31e790438de49 
+
+    class095a1b43effec73955e31e790438de49 --> Posologie
+
+ class "Bundle" as  class94c51f19c37f96ed231f5a0ae512b2a8 
+
+    class94c51f19c37f96ed231f5a0ae512b2a8 --> FRPrescriptionBundleForExample
+
+ class "RequestGroup" as  class55f9b414b19c569dcbf60f6417255621 
+
+    class55f9b414b19c569dcbf60f6417255621 --> FRRequestGroupForPrescription
+}
+@enduml
