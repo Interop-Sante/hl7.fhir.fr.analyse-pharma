@@ -42,7 +42,7 @@ ConceptMap pour la conversion des codes voies d’administration des médicament
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "group" : [{

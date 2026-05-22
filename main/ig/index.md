@@ -82,7 +82,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "APH",
   "title" : "Guide d'implémentation de l'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-22T13:10:34+00:00",
+  "date" : "2026-05-22T13:20:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -95,7 +95,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "packageId" : "hl7.fhir.fr.analyse-pharma",

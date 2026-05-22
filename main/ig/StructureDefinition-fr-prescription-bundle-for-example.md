@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
   "name" : "FRPrescriptionBundleForExample",
   "title" : "FR Prescription Bundle For Example",
   "status" : "draft",
-  "date" : "2026-05-22T13:10:34+00:00",
+  "date" : "2026-05-22T13:20:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -58,7 +58,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "purpose" : "Ce profil est utilisé pour la constitution d'exemples de prescription en FHIR. Toutes les prescriptions en FHIR ne sont pas forcément présentées sous la forme de ressource Bundle suivant ce profil, la représentation dépend de l'architecture du (ou des) serveur(s) FHIR interrogé(s). Cf. section 21 de la page sur la transformation PN13 vers FHIR pour plus de détail.",

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FRPrescriptionBundleForExample"] ; # 
   fhir:title [ fhir:v "FR Prescription Bundle For Example"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-22T13:10:34+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-22T13:20:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -38,7 +38,7 @@
          fhir:l <urn:iso:std:iso:3166>
        ] ;
        fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "FRANCE" ]
+       fhir:display [ fhir:v "France (la)" ]
      ] )
   ] ) ; # 
   fhir:purpose [ fhir:v "Ce profil est utilisé pour la constitution d'exemples de prescription en FHIR. Toutes les prescriptions en FHIR ne sont pas forcément présentées sous la forme de ressource Bundle suivant ce profil, la représentation dépend de l'architecture du (ou des) serveur(s) FHIR interrogé(s). Cf. section 21 de la page sur la transformation PN13 vers FHIR pour plus de détail."] ; # 

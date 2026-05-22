@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR du patient d’une prescritpion de 
   "name" : "FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le patient d'une prescription de médicaments avec uniquement un identifiant fourni",
   "status" : "draft",
-  "date" : "2026-05-22T13:10:34+00:00",
+  "date" : "2026-05-22T13:20:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -41,7 +41,7 @@ ConceptMap pour la conversion PN13 vers FHIR du patient d’une prescritpion de 
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
