@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-analyse-pharmaceu
   "name" : "FrAnalysePharmaceutiqueLogical",
   "title" : "Résultat d'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-22T14:05:37+00:00",
+  "date" : "2026-05-22T14:31:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
   "name" : "FRInpatientPharmaceuticalAnalysisResultProfile",
   "title" : "FR Pharmaceutical Analysis Result",
   "status" : "draft",
-  "date" : "2026-05-22T14:05:37+00:00",
+  "date" : "2026-05-22T14:31:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
       "path" : "Task.input.value[x]",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
       }]
     },
     {

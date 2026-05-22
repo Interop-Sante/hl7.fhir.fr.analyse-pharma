@@ -44,8 +44,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"21.188"}
-    h3,h4,h5,h6{--heading-prefix:"21.188"}</style>
+    <style type="text/css">h2{--heading-prefix:"17.86"}
+    h3,h4,h5,h6{--heading-prefix:"17.86"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -94,25 +94,6 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Accueil</a>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Prescription
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="prescription-Intro.html">Introduction</a>
-      </li>
-      <li>
-        <a href="prescription-VueEnsemble.html">Vue d&apos;ensemble</a>
-      </li>
-      <li>
-        <a href="prescription-CasUsage.html">Cas d&apos;usage</a>
-      </li>
-      <li>
-        <a href="prescription-Exemples.html">Exemples</a>
-      </li>
-    </ul>
   </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Analyse pharmaceutique
@@ -289,7 +270,7 @@
 
   <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">MedicationRequest</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.meta">meta</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion&quot;/&gt;
@@ -330,7 +311,7 @@
   &lt;/<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.encounter">encounter</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.supportingInformation">supportingInformation</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Reference.extension">extension</a>
-               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role&quot;&gt;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;UFMED&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Reference.extension">extension</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
@@ -364,7 +345,7 @@
   &lt;/<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.groupIdentifier">groupIdentifier</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.note">note</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Annotation.extension">extension</a>
-               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope&quot;&gt;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;LIPRESCTXT&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Annotation.extension">extension</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">text</a>
@@ -457,7 +438,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.analyse-pharma#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 22, 2026 14:05+0000">2026-05-22</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package hl7.fhir.fr.analyse-pharma#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 22, 2026 14:31+0000">2026-05-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

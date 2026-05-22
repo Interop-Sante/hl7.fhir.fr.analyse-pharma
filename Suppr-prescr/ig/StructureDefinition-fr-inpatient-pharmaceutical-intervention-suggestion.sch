@@ -13,34 +13,34 @@
     <sch:title>f:MedicationRequest</sch:title>
     <sch:rule context="f:MedicationRequest">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-treatment-intent': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:groupIdentifier) &gt;= 1">groupIdentifier: minimum cardinality of 'groupIdentifier' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:MedicationRequest/f:supportingInformation</sch:title>
     <sch:rule context="f:MedicationRequest/f:supportingInformation">
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:MedicationRequest/f:note</sch:title>
     <sch:rule context="f:MedicationRequest/f:note">
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:MedicationRequest/f:dosageInstruction/f:timing/f:repeat</sch:title>
     <sch:rule context="f:MedicationRequest/f:dosageInstruction/f:timing/f:repeat">
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-additional-when-values': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:MedicationRequest/f:dosageInstruction/f:doseAndRate</sch:title>
     <sch:rule context="f:MedicationRequest/f:dosageInstruction/f:doseAndRate">
-      <sch:assert test="count(f:extension[@url = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component']) &lt;= 1">extension with URL = 'https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-basis-of-dose-component': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component']) &lt;= 1">extension with URL = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

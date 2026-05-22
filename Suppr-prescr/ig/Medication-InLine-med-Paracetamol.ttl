@@ -11,13 +11,13 @@
   fhir:id [ fhir:v "InLine-med-Paracetamol"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"^^xsd:anyURI ;
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Médication InLine-med-Paracetamol</b></p><a name=\"InLine-med-Paracetamol\"> </a><a name=\"hcInLine-med-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication.html\">FR Medication</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090270}\">PARACETAMOL</span></p></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Médication InLine-med-Paracetamol</b></p><a name=\"InLine-med-Paracetamol\"> </a><a name=\"hcInLine-med-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-medication.html\">FR Medication</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090270}\">PARACETAMOL</span></p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:code [
      fhir:coding ( [
