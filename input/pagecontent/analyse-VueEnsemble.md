@@ -29,7 +29,7 @@ En plus des éléments communs à tous les résultats d'analyse pharmaceutique p
 
 - une ou plusieurs instance(s) de `Task.input.valueReference`renseignée(s) avec la/les référence(s) de la/des ligne(s) de prescription analysée(s)
 - une éventuelle instance de `Task.output.valueString`pour un éventuel commentaire de validation
-- une ou plusieurs eventuelle(s) instance(s) de `Task.output.valueReference` référençant une/des ressource(s) *Task* représentant d'éventuelle(s) Intervention(s) Pharmaceutique(s) de type Ajout (type 1)
+- une ou plusieurs eventuelle(s) instance(s) de `Task.output.valueReference` référençant une/des ressource(s) *Task* représentant d'éventuelle(s) Intervention(s) Pharmaceutique(s) liée(s)
 
 ### Intervention pharmaceutique
 
