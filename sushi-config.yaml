@@ -26,14 +26,6 @@ dependencies:
 pages:
     index.md: 
       title: Accueil
-    prescription-Intro.md:
-      title: La prescription - Introduction
-    prescription-VueEnsemble.md:
-      title: La prescription - Vue d'ensemble
-    prescription-CasUsage.md:
-      title: La prescription - Cas d'usage
-    prescription-Exemples.md:
-      title: La prescription - Exemples
     analyse-Intro.md:
       title: L'analyse pharmaceutique - Introduction
     analyse-VueEnsemble.md:
@@ -68,11 +60,6 @@ pages:
 
 menu:
   Accueil: index.html
-  Prescription:
-      Introduction: prescription-Intro.html
-      Vue d'ensemble: prescription-VueEnsemble.html
-      Cas d'usage: prescription-CasUsage.html
-      Exemples: prescription-Exemples.html
   Analyse pharmaceutique:
       Introduction: analyse-Intro.html
       Vue d'ensemble: analyse-VueEnsemble.html
