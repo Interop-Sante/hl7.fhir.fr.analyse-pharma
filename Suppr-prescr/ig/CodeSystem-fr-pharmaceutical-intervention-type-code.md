@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code | *Version*:0.1.0 |
-| Draft as of 2026-05-22 | *Computable Name*:FrPharmaceuticalInterventionTypeCode |
+| Draft as of 2026-05-25 | *Computable Name*:FrPharmaceuticalInterventionTypeCode |
 
  
 Le système de codage pour le typage de l’intervention pharmaceutique. 
@@ -35,7 +35,7 @@ Le système de codage pour le typage de l’intervention pharmaceutique.
   "title" : "code system d'Interop'Santé - Codes du type d'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-22T14:31:46+00:00",
+  "date" : "2026-05-25T08:11:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

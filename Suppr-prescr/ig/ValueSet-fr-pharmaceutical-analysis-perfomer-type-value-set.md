@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set | *Version*:0.1.0 |
-| Draft as of 2026-05-22 | *Computable Name*:FrPharmaceuticalAnalysisPerformerTypeValueSet |
+| Draft as of 2026-05-25 | *Computable Name*:FrPharmaceuticalAnalysisPerformerTypeValueSet |
 
  
 Codes représentant le type de résultat de l’analyse pharmaceutique 
@@ -54,7 +54,7 @@ Codes représentant le type de résultat de l’analyse pharmaceutique
   "title" : "Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-22T14:31:46+00:00",
+  "date" : "2026-05-25T08:11:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion | *Version*:0.1.0 |
-| Draft as of 2026-05-22 | *Computable Name*:FRInpatientPharmaceuticalInterventionSuggestionProfile |
+| Draft as of 2026-05-25 | *Computable Name*:FRInpatientPharmaceuticalInterventionSuggestionProfile |
 
  
 Profile de proposition d’évolution de ligne de prescritpion dans le cadre d’une intervention pharmaceutique 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
   "name" : "FRInpatientPharmaceuticalInterventionSuggestionProfile",
   "title" : "FR Pharmaceutical Intervention Suggestion",
   "status" : "draft",
-  "date" : "2026-05-22T14:31:46+00:00",
+  "date" : "2026-05-25T08:11:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
