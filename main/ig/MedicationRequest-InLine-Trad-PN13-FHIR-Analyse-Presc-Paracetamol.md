@@ -6,7 +6,7 @@
 
 ## Example MedicationRequest: InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol
 
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
+Profil: [FR Inpatient MedicationRequest](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-inpatient-medicationrequest.html)
 
 **R5: Full representation of the dosage instructions (new)**: 
 
@@ -70,7 +70,7 @@ Indication: En cas de douleur
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
@@ -101,7 +101,7 @@ Indication: En cas de douleur
   },
   "supportingInformation" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
       "valueCode" : "UFMED"
     }],
     "identifier" : {
@@ -125,14 +125,14 @@ Indication: En cas de douleur
   },
   "note" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCTXT"
     }],
     "text" : "Prescription textuelle: PARACETAMOL (Voie orale) A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours"
   },
   {
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCIND"
     }],
     "text" : "Indication: En cas de douleur"

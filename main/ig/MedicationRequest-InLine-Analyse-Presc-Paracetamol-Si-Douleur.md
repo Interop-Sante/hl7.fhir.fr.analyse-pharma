@@ -6,7 +6,7 @@
 
 ## Example MedicationRequest: InLine-Analyse-Presc-Paracetamol-Si-Douleur
 
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
+Profil: [FR Inpatient MedicationRequest](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-inpatient-medicationrequest.html)
 
 **R5: Full representation of the dosage instructions (new)**: 
 
@@ -51,7 +51,7 @@ Prescription textuelle: PARACETAMOL 500 mg gélule : Si douleur -dose max/prise 
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-Paracetamol-Si-Douleur",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",

@@ -6,7 +6,7 @@
 
 ## Example MedicationRequest: InLine-Analyse-Presc-NEFOPAM
 
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
+Profil: [FR Inpatient MedicationRequest](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-inpatient-medicationrequest.html)
 
 **status**: Active
 
@@ -44,7 +44,7 @@ Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medica
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-NEFOPAM",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "status" : "active",
   "intent" : "order",

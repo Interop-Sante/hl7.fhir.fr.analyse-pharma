@@ -6,7 +6,7 @@
 
 ## Example MedicationRequest: InLine-Analyse-Presc-LEVOTHYROX
 
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
+Profil: [FR Inpatient MedicationRequest](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-inpatient-medicationrequest.html)
 
 **R5: Full representation of the dosage instructions (new)**: 
 
@@ -54,7 +54,7 @@ Prescription textuelle: LEVOTHYROX 38µG: 1 comprimé une heure avant le petit d
   "resourceType" : "MedicationRequest",
   "id" : "InLine-Analyse-Presc-LEVOTHYROX",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-medicationrequest"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",

@@ -1,117 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://hl7.org/fhir/ValueSet/action-cardinality-behavior",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionCardinalityBehavior",
-    "title" : "ActionCardinalityBehavior",
-    "description" : "Defines behavior for an action or a group for how many times that item may be repeated.",
-    "systems" : ["http://hl7.org/fhir/action-cardinality-behavior"],
-    "oids" : ["2.16.840.1.113883.4.642.3.807"],
-    "sources" : ["2.16.840.1.113883.4.642.3.807"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-condition-kind",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionConditionKind",
-    "title" : "ActionConditionKind",
-    "description" : "Defines the kinds of conditions that can appear on actions.",
-    "systems" : ["http://hl7.org/fhir/action-condition-kind"],
-    "oids" : ["2.16.840.1.113883.4.642.3.815"],
-    "sources" : ["2.16.840.1.113883.4.642.3.815"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-grouping-behavior",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionGroupingBehavior",
-    "title" : "ActionGroupingBehavior",
-    "description" : "Defines organization behavior of a group.",
-    "systems" : ["http://hl7.org/fhir/action-grouping-behavior"],
-    "oids" : ["2.16.840.1.113883.4.642.3.799"],
-    "sources" : ["2.16.840.1.113883.4.642.3.799"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-precheck-behavior",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionPrecheckBehavior",
-    "title" : "ActionPrecheckBehavior",
-    "description" : "Defines selection frequency behavior for an action or group.",
-    "systems" : ["http://hl7.org/fhir/action-precheck-behavior"],
-    "oids" : ["2.16.840.1.113883.4.642.3.805"],
-    "sources" : ["2.16.840.1.113883.4.642.3.805"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-relationship-type",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionRelationshipType",
-    "title" : "ActionRelationshipType",
-    "description" : "Defines the types of relationships between actions.",
-    "systems" : ["http://hl7.org/fhir/action-relationship-type"],
-    "oids" : ["2.16.840.1.113883.4.642.3.813"],
-    "sources" : ["2.16.840.1.113883.4.642.3.813"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-required-behavior",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionRequiredBehavior",
-    "title" : "ActionRequiredBehavior",
-    "description" : "Defines expectations around whether an action or action group is required.",
-    "systems" : ["http://hl7.org/fhir/action-required-behavior"],
-    "oids" : ["2.16.840.1.113883.4.642.3.803"],
-    "sources" : ["2.16.840.1.113883.4.642.3.803"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-selection-behavior",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionSelectionBehavior",
-    "title" : "ActionSelectionBehavior",
-    "description" : "Defines selection behavior of a group.",
-    "systems" : ["http://hl7.org/fhir/action-selection-behavior"],
-    "oids" : ["2.16.840.1.113883.4.642.3.801"],
-    "sources" : ["2.16.840.1.113883.4.642.3.801"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/action-type",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ActionType",
-    "title" : "ActionType",
-    "description" : "The type of action to be performed.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/action-type"],
-    "oids" : ["2.16.840.1.113883.4.642.3.809"],
-    "sources" : ["2.16.840.1.113883.4.642.3.809"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
     "url" : "http://hl7.org/fhir/ValueSet/additional-instruction-codes",
     "version" : "4.0.1",
     "status" : "draft",
@@ -123,9 +11,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.95"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/approach-site-codes",
@@ -139,37 +25,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.346"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/body-site",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTBodyStructures",
-    "title" : "SNOMED CT Body Structures",
-    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.141"],
-    "sources" : ["2.16.840.1.113883.4.642.3.141"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "BundleType",
-    "title" : "BundleType",
-    "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
-    "systems" : ["http://hl7.org/fhir/bundle-type"],
-    "oids" : ["2.16.840.1.113883.4.642.3.620"],
-    "sources" : ["2.16.840.1.113883.4.642.3.620"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -183,23 +39,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.161"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "DataAbsentReason",
-    "title" : "DataAbsentReason",
-    "description" : "Used to specify why the normally expected content of the data element is missing.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
-    "oids" : ["2.16.840.1.113883.4.642.3.5"],
-    "sources" : ["2.16.840.1.113883.4.642.3.5"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -213,9 +53,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.512"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/dose-rate-type",
@@ -229,9 +67,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.981"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/event-timing",
@@ -246,23 +82,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.75"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/http-verb",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "HTTPVerb",
-    "title" : "HTTPVerb",
-    "description" : "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
-    "systems" : ["http://hl7.org/fhir/http-verb"],
-    "oids" : ["2.16.840.1.113883.4.642.3.624"],
-    "sources" : ["2.16.840.1.113883.4.642.3.624"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -276,17 +96,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result",
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -300,88 +111,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.96"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTMedicationCodes",
-    "title" : "SNOMED CT Medication Codes",
-    "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.375"],
-    "sources" : ["2.16.840.1.113883.4.642.3.375"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication.html" : "FR Medication"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTFormCodes",
-    "title" : "SNOMED CT Form Codes",
-    "description" : "This value set includes all dose form codes from SNOMED CT - provided as an exemplar.",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.374"],
-    "sources" : ["2.16.840.1.113883.4.642.3.374"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication.html" : "FR Medication"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-ingredientstrength",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "MedicationIngredientStrengthCodes",
-    "title" : null,
-    "description" : "Medication Ingredient Strength Codes",
-    "systems" : ["http://hl7.org/fhir/CodeSystem/medication-ingredientstrength"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1426"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1426"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-strength-codeableconcept.html" : "Strength CodeableConcept"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medication-status",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "Medication Status Codes",
-    "title" : "Medication  status  codes",
-    "description" : "Medication Status Codes",
-    "systems" : ["http://hl7.org/fhir/CodeSystem/medication-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.376"],
-    "sources" : ["2.16.840.1.113883.4.642.3.376"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication.html" : "FR Medication"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "medicationKnowledge Characteristic Codes",
-    "title" : "Medication knowledge  characteristic  codes",
-    "description" : "MedicationKnowledge Characteristic Codes",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic"],
-    "oids" : ["2.16.840.1.113883.4.642.3.1337"],
-    "sources" : ["2.16.840.1.113883.4.642.3.1337"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-drug-characteristic.html" : "Medication descriptive properties"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-category",
@@ -395,9 +125,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1322"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
@@ -411,9 +139,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1326"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-intent",
@@ -427,9 +153,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1321"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status",
@@ -443,9 +167,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1320"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-status-reason",
@@ -459,79 +181,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1324"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ObservationCategoryCodes",
-    "title" : "Observation Category Codes",
-    "description" : "Observation Category codes.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
-    "oids" : ["2.16.840.1.113883.4.642.3.403"],
-    "sources" : ["2.16.840.1.113883.4.642.3.403"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "LOINCCodes",
-    "title" : "LOINC Codes",
-    "description" : "This value set includes all LOINC codes",
-    "systems" : ["http://loinc.org"],
-    "oids" : ["2.16.840.1.113883.4.642.3.396"],
-    "sources" : ["2.16.840.1.113883.4.642.3.396"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "ObservationInterpretationCodes",
-    "title" : "Observation Interpretation Codes",
-    "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"],
-    "oids" : ["2.16.840.1.113883.4.642.3.399"],
-    "sources" : ["2.16.840.1.113883.4.642.3.399"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ObservationMethods",
-    "title" : "Observation Methods",
-    "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.395"],
-    "sources" : ["2.16.840.1.113883.4.642.3.395"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "ObservationStatus",
-    "title" : "ObservationStatus",
-    "description" : "Codes providing the status of an observation.",
-    "systems" : ["http://hl7.org/fhir/observation-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.400"],
-    "sources" : ["2.16.840.1.113883.4.642.3.400"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/performer-role",
@@ -545,9 +195,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.433"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -561,52 +209,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-FrSimpleQuantityMedication.html" : "SimpleQuantity with UCUM or EDQM codes or code not used"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ObservationReferenceRangeAppliesToCodes",
-    "title" : "Observation Reference Range Applies To Codes",
-    "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Race",
-    "http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.407"],
-    "sources" : ["2.16.840.1.113883.4.642.3.407"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "ObservationReferenceRangeMeaningCodes",
-    "title" : "Observation Reference Range Meaning Codes",
-    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/referencerange-meaning"],
-    "oids" : ["2.16.840.1.113883.4.642.3.397"],
-    "sources" : ["2.16.840.1.113883.4.642.3.397"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/request-intent",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "RequestIntent",
-    "title" : "RequestIntent",
-    "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
-    "systems" : ["http://hl7.org/fhir/request-intent"],
-    "oids" : ["2.16.840.1.113883.4.642.3.113"],
-    "sources" : ["2.16.840.1.113883.4.642.3.113"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -621,24 +224,7 @@
     "uses" : {
     },
     "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result",
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/request-status",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "RequestStatus",
-    "title" : "RequestStatus",
-    "description" : "Codes identifying the lifecycle stage of a request.",
-    "systems" : ["http://hl7.org/fhir/request-status"],
-    "oids" : ["2.16.840.1.113883.4.642.3.111"],
-    "sources" : ["2.16.840.1.113883.4.642.3.111"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
+    "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -652,22 +238,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.27"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "SearchEntryMode",
-    "title" : "SearchEntryMode",
-    "description" : "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
-    "systems" : ["http://hl7.org/fhir/search-entry-mode"],
-    "oids" : ["2.16.840.1.113883.4.642.3.622"],
-    "sources" : ["2.16.840.1.113883.4.642.3.622"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/task-code",
@@ -724,9 +295,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.78"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/units-of-time",
@@ -740,9 +309,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.77"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
@@ -756,9 +323,7 @@
     "sources" : ["2.16.840.1.113883.1.11.16621"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
@@ -772,90 +337,7 @@
     "sources" : ["2.16.840.1.113883.1.11.19377"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/FrMethodOfAdministration",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrMethodOfAdministration",
-    "title" : "French Method Of Administration",
-    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *dosageInstruction.method* de la ressource *FRMedicationRequest*.",
-    "systems" : ["http://standardterms.edqm.eu"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-action-relationship-type-value-set",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrAdditionalRequestGroupRelationshipValueSet",
-    "title" : "Interop'Santé value set - Additional codes for relationship between action",
-    "description" : "Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type.",
-    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-action-relationship-type"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-additional-action-relationship.html" : "Additional relatedAction relationship"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-additional-when-codes",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrAdditionalWhenCodes",
-    "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
-    "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
-    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-additional-when-codes"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-additional-when-values.html" : "Additional values for when element"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-medication-code",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FRMedicationCodes",
-    "title" : "value set Interop'Santé - Codes identifiant les médicaments",
-    "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
-    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
-    "http://data.esante.gouv.fr/ansm/medicament/substance",
-    "http://data.esante.gouv.fr/ansm/medicament/UCD"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-mp-dose-form",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrMpDoseForm",
-    "title" : "French Medicinal product Dose form",
-    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *doseForm* des ressources *FrMedication*.",
-    "systems" : ["http://standardterms.edqm.eu"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-medication-virtual.html" : "FR Medication Virtual",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-note-scope-codes-vs",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrNoteScopeCodeValueSet",
-    "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
-    "description" : "Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR",
-    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-note-scope-codes"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-medicationrequest-note-scope.html" : "Scope for note element in MedicationRequest"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set",
@@ -920,8 +402,34 @@
     "StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html" : "FR Pharmaceutical Analysis Result"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-route-of-administration",
-    "version" : "0.1.0",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrMethodOfAdministration",
+    "title" : "French Method Of Administration",
+    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *dosageInstruction.method* de la ressource *FRMedicationRequest*.",
+    "systems" : ["http://standardterms.edqm.eu"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FRInpatientMedicationCodes",
+    "title" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
+    "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
+    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+    "http://data.esante.gouv.fr/ansm/medicament/substance",
+    "http://data.esante.gouv.fr/ansm/medicament/UCD"],
+    "uses" : {
+    },
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrRouteOfAdministration",
     "title" : "French Route of Administration",
@@ -929,26 +437,11 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   },
   {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-substance-code",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrSubstanceCode",
-    "title" : "value set Interop'Santé - Codes identifiant les substances",
-    "description" : "Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code",
-    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
-    "http://data.esante.gouv.fr/ansm/medicament/substance"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-mp-substance.html" : "FR Meditinal Product Substance"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-treatment-intent",
-    "version" : "0.1.0",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrTreatmentIntent",
     "title" : "French overall intention of the treatment",
@@ -956,21 +449,6 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent"
-  },
-  {
-    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-uf-role-code-for-prescription",
-    "version" : "0.1.0",
-    "status" : "draft",
-    "name" : "FrUfRoleCodesForPrescriptionValueSet",
-    "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
-    "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
-    "systems" : ["https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-uf-role-codes"],
-    "uses" : {
-    },
-    "StructureDefinition-fr-uf-role.html" : "UF Role"
+    "StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html" : "FR Pharmaceutical Intervention Suggestion"
   }]
 }

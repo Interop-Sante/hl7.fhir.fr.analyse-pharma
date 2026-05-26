@@ -98,7 +98,7 @@ Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 6 heures p
   },
   "supportingInformation" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
       "valueCode" : "UFMED"
     }],
     "identifier" : {
@@ -131,7 +131,7 @@ Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 6 heures p
   },
   "note" : [{
     "extension" : [{
-      "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
       "valueCode" : "LIPRESCTXT"
     }],
     "text" : "Prescription textuelle: PARACETAMOL (Voie orale) : 1000 mg toutes les 6 heures pendant 2 jours, 4000 mg max/j"

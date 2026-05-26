@@ -6,7 +6,7 @@
 
 ## Example Medication: InLine-med-Paracetamol
 
-Profil: [FR Medication](StructureDefinition-fr-medication.md)
+Profil: [FR Medication](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-medication.html)
 
 **code**: PARACETAMOL
 
@@ -19,7 +19,7 @@ Profil: [FR Medication](StructureDefinition-fr-medication.md)
   "resourceType" : "Medication",
   "id" : "InLine-med-Paracetamol",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"]
   },
   "code" : {
     "coding" : [{

@@ -66,8 +66,8 @@
   fhir:supportingInformation ( [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-uf-role>
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role>
        ] ;
        fhir:value [
          a fhir:Code ;
@@ -114,8 +114,8 @@
   fhir:note ( [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-         fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medicationrequest-note-scope>
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope>
        ] ;
        fhir:value [
          a fhir:Code ;
