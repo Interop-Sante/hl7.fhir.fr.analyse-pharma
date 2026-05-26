@@ -1,10 +1,10 @@
 {
     "package-id" : "hl7.fhir.fr.analyse-pharma",
     "version" : "1.1.0-ballot",
-    "path" : "https://hl7.fr/ig/fhir/analyse-pharma",
+    "path" : "https://hl7.fr/ig/fhir/analyse-pharma/1.1.0-ballot",
     "mode" : "working",
     "status" : "ballot",
-    "sequence" : "STU 1",
+    "sequence" : "draft",
     "desc" : "Première publication en concertation publique de ce guide d'implémentation sur l'analyse pharmaceutique dans un contexte hospitalier",
     "changes" : "change-log.html",
     "first" : true,
