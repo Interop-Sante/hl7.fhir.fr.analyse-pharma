@@ -4,8 +4,8 @@ La transformation d'un message PN13 compte-rendu d'analyse pharmaceutique en res
 
 Elle résulte en:
 - une ressource *Task* suivant le profil [FrInpatientPharmaceuticalAnalysisResultProfile](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html) pour le résultat de l'analyse
-- éventuellement une à plusieur(s) ressource(s) *Task* suivant le profil [FrInpatientPharmaceuticalAnalysisResultProfile](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html) pour la/les intervention(s) pharmaceutique de type ajout en complément de validation
-- éventuellement une ou plusieurs ressource(s) *MedicationRequest* suivant le profil [FrInpatientPharmaceuticalInterventionSuggestionProfile](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html) si une ou plusieurs propositions est/sont associée(s) au résultat de l'analyse pharmaceutique (que le resulta soit une validation pharmaceutique ou une intervention pharmaceutique).
+- éventuellement une à plusieur(s) ressource(s) *Task* suivant le profil [FrInpatientPharmaceuticalAnalysisResultProfile](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.html) pour la/les intervention(s) pharmaceutique(s) liées à la validation validation
+- éventuellement une ou plusieurs ressource(s) *MedicationRequest* suivant le profil [FrInpatientPharmaceuticalInterventionSuggestionProfile](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html) si une ou plusieurs intervention(s) pharmaceutique(s) est/sont associée(s) au résultat de l'analyse pharmaceutique.
 
 La manière dont les ressources FHIR résultantes sont mises à disposition dépend du serveur FHIR (ex. operation spécifique pour la recherche d'analyse pharmaceutique par identifiant de prescription, mise en oeuvre de `_include` et de `_revInclude`). Pour des raisons de lisibilité, les exemples présentés en FHIR sont les ressources *Task* correspondant aux résultats d'analyse avec les ressources *MedicationRequest* associées en ligne.
 
@@ -20,7 +20,7 @@ Même si l'ensemble de la ligne de prescription est reprise dans l'élément `Me
 
 La/les éventuelle(s) proposition(s) sont représentées par les éléments `Message/M_Compte_rendu_analyse_pharm/Compte_rendu_pharm/Elément_prescr_pharm` pour lesquels l'élément `Message/M_Compte_rendu_analyse_pharm/Compte_rendu_pharm/Elément_prescr_pharm/Cré_arr_mod_val` a pour valeur `C`.
 
-Pour chaque proposition, créer une ressource *MedicationRequest* suivant le profil [FrInpatientPharmaceuticalInterventionSuggestionProfile](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html) en utilisant le même processus que pour la transformation PN13 en FHIR d'une ligne de prescription présentée dans l'IG ePrescription (**Lien à fournir lorsque l'IG sera publié**) avec les exceptions suivantes:
+Pour chaque proposition, créer une ressource *MedicationRequest* suivant le profil [FrInpatientPharmaceuticalInterventionSuggestionProfile](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.html) en utilisant le même processus que pour la transformation PN13 en FHIR d'une ligne de prescription présentée dans l'[IG ePrescription](https://interop.esante.gouv.fr/ig/fhir/eprescription/1.1.0-ballot) avec les exceptions suivantes:
 - le parsing sur l'élément `M_Prescription_médicaments` et ses éléments enfants dans le processus de l'IG ePrescription doit être appliqué sur l'élément `M_Compte_rendu_analyse_pharm` est ses éléments enfants
 - le parsing sur l'élément `Prescription` et ses éléments enfants dans le processus de l'IG ePrescription doit être appliqué sur l'élément `Compte_rendu_pharm` est ses éléments enfants
 - le parsing sur l'élément `Elément_prescr_médic` et ses éléments enfants dans le processus de l'IG ePrescription doit être appliqué sur l'élément `Elément_prescr_pharm` est ses éléments enfants

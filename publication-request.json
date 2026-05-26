@@ -1,0 +1,18 @@
+{
+    "package-id" : "hl7.fhir.fr.analyse-pharma",
+    "version" : "1.1.0-ballot",
+    "path" : "https://hl7.fr/ig/fhir/analyse-pharma",
+    "mode" : "working",
+    "status" : "ballot",
+    "sequence" : "STU 1",
+    "desc" : "Première publication en concertation publique de ce guide d'implémentation sur l'analyse pharmaceutique dans un contexte hospitalier",
+    "changes" : "change-log.html",
+    "first" : true,
+    "title" : "Guide d'implémentation de l'analyse pharmaceutique hospitalière",
+    "ci-build" : "https://interop-sante.github.io/hl7.fhir.fr.analyse-pharma/main/ig/",
+    "registry-description" : "Guide d'implémentation FHIR pour l'analyse pharmaceutique hospitalière en France",
+    "registry-country" : "fr",
+    "registry-authority" : "Interop'Santé",
+    "category" : "Pharmacy",
+    "introduction" : "Ce guide définit les spécifications FHIR pour les échanges liés à l'analyse pharmaceutique hospitalière en France."
+}
