@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-medication | *Version*:0.1.0 |
-| Draft as of 2026-05-22 | *Computable Name*:FRMedication |
+| Draft as of 2026-05-26 | *Computable Name*:FRMedication |
 
  
 profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp’Santé 
@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2026-05-22T13:20:51+00:00",
+  "date" : "2026-05-26T09:02:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

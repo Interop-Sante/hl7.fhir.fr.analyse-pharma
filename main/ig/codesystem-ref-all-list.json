@@ -12,198 +12,216 @@
   },
   {
     "url" : "http://hl7.org/fhir/CodeSystem/medication-status",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "MedicationStatusCodes",
-    "title" : "Medication Status Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Medication Status Codes",
+    "title" : "Medication  status  codes",
     "description" : "Medication Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1380"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medication-status.html" : "Medication  status  codes"
   },
   {
     "url" : "http://hl7.org/fhir/CodeSystem/medicationrequest-intent",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "MedicationRequestIntentCodes",
-    "title" : "MedicationRequest Intent Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationRequest Intent",
+    "title" : "Medication request  intent",
     "description" : "MedicationRequest Intent Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1378"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationrequest-intent.html" : "Medication request  intent"
   },
   {
     "url" : "http://hl7.org/fhir/CodeSystem/medicationrequest-status",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "MedicationRequestStatusCodes",
-    "title" : "MedicationRequest Status Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationrequest Status",
+    "title" : "Medicationrequest  status",
     "description" : "MedicationRequest Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1377"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationrequest-status.html" : "Medicationrequest  status"
   },
   {
     "url" : "http://hl7.org/fhir/CodeSystem/task-code",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "TaskCode",
     "title" : "Task Codes",
     "description" : "Codes indicating the type of action that is expected to be performed",
+    "oids" : ["2.16.840.1.113883.4.642.4.1397"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-task-code.html" : "Task Codes"
   },
   {
     "url" : "http://hl7.org/fhir/action-cardinality-behavior",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionCardinalityBehavior",
-    "title" : "Action Cardinality Behavior",
+    "title" : "ActionCardinalityBehavior",
     "description" : "Defines behavior for an action or a group for how many times that item may be repeated.",
+    "oids" : ["2.16.840.1.113883.4.642.4.808"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-cardinality-behavior.html" : "ActionCardinalityBehavior"
   },
   {
     "url" : "http://hl7.org/fhir/action-condition-kind",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionConditionKind",
-    "title" : "Action Condition Kind",
+    "title" : "ActionConditionKind",
     "description" : "Defines the kinds of conditions that can appear on actions.",
+    "oids" : ["2.16.840.1.113883.4.642.4.816"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-condition-kind.html" : "ActionConditionKind"
   },
   {
     "url" : "http://hl7.org/fhir/action-grouping-behavior",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionGroupingBehavior",
-    "title" : "Action Grouping Behavior",
+    "title" : "ActionGroupingBehavior",
     "description" : "Defines organization behavior of a group.",
+    "oids" : ["2.16.840.1.113883.4.642.4.800"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-grouping-behavior.html" : "ActionGroupingBehavior"
   },
   {
     "url" : "http://hl7.org/fhir/action-precheck-behavior",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionPrecheckBehavior",
-    "title" : "Action Precheck Behavior",
+    "title" : "ActionPrecheckBehavior",
     "description" : "Defines selection frequency behavior for an action or group.",
+    "oids" : ["2.16.840.1.113883.4.642.4.806"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-precheck-behavior.html" : "ActionPrecheckBehavior"
   },
   {
     "url" : "http://hl7.org/fhir/action-relationship-type",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionRelationshipType",
-    "title" : "Action Relationship Type",
+    "title" : "ActionRelationshipType",
     "description" : "Defines the types of relationships between actions.",
+    "oids" : ["2.16.840.1.113883.4.642.4.814"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-relationship-type.html" : "ActionRelationshipType"
   },
   {
     "url" : "http://hl7.org/fhir/action-required-behavior",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionRequiredBehavior",
-    "title" : "Action Required Behavior",
+    "title" : "ActionRequiredBehavior",
     "description" : "Defines expectations around whether an action or action group is required.",
+    "oids" : ["2.16.840.1.113883.4.642.4.804"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-required-behavior.html" : "ActionRequiredBehavior"
   },
   {
     "url" : "http://hl7.org/fhir/action-selection-behavior",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionSelectionBehavior",
-    "title" : "Action Selection Behavior",
+    "title" : "ActionSelectionBehavior",
     "description" : "Defines selection behavior of a group.",
+    "oids" : ["2.16.840.1.113883.4.642.4.802"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-selection-behavior.html" : "ActionSelectionBehavior"
   },
   {
     "url" : "http://hl7.org/fhir/bundle-type",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "BundleType",
-    "title" : "Bundle Type",
+    "title" : "BundleType",
     "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
+    "oids" : ["2.16.840.1.113883.4.642.4.621"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-bundle-type.html" : "BundleType"
   },
   {
     "url" : "http://hl7.org/fhir/days-of-week",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "DaysOfWeek",
-    "title" : "Days Of Week",
+    "title" : "DaysOfWeek",
     "description" : "The days of the week.",
+    "oids" : ["2.16.840.1.113883.4.642.4.513"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-days-of-week.html" : "DaysOfWeek"
   },
   {
     "url" : "http://hl7.org/fhir/event-timing",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "EventTiming",
     "title" : "EventTiming",
-    "description" : "Real-world event relating to the schedule.",
+    "description" : "Real world event relating to the schedule.",
+    "oids" : ["2.16.840.1.113883.4.642.4.76"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-event-timing.html" : "EventTiming"
   },
   {
     "url" : "http://hl7.org/fhir/http-verb",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "HTTPVerb",
-    "title" : "H T T P Verb",
+    "title" : "HTTPVerb",
     "description" : "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
+    "oids" : ["2.16.840.1.113883.4.642.4.625"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-http-verb.html" : "HTTPVerb"
   },
   {
     "url" : "http://hl7.org/fhir/observation-status",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "ObservationStatus",
-    "title" : "Observation Status",
+    "title" : "ObservationStatus",
     "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
   },
   {
     "url" : "http://hl7.org/fhir/quantity-comparator",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "QuantityComparator",
     "title" : "QuantityComparator",
     "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
   },
   {
     "url" : "http://hl7.org/fhir/request-intent",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "draft",
     "name" : "RequestIntent",
     "title" : "RequestIntent",
     "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.114"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-request-intent.html" : "RequestIntent",
@@ -211,22 +229,24 @@
   },
   {
     "url" : "http://hl7.org/fhir/request-priority",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "draft",
     "name" : "RequestPriority",
     "title" : "RequestPriority",
     "description" : "Identifies the level of importance to be assigned to actioning the request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.116"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-request-priority.html" : "Request priority"
   },
   {
     "url" : "http://hl7.org/fhir/request-status",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "draft",
     "name" : "RequestStatus",
     "title" : "RequestStatus",
     "description" : "Codes identifying the lifecycle stage of a request.",
+    "oids" : ["2.16.840.1.113883.4.642.4.112"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
@@ -244,33 +264,36 @@
   },
   {
     "url" : "http://hl7.org/fhir/search-entry-mode",
-    "version" : "5.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "SearchEntryMode",
-    "title" : "Search Entry Mode",
+    "title" : "SearchEntryMode",
     "description" : "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
+    "oids" : ["2.16.840.1.113883.4.642.4.623"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-search-entry-mode.html" : "SearchEntryMode"
   },
   {
     "url" : "http://hl7.org/fhir/task-intent",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "TaskIntent",
-    "title" : "Task Intent",
+    "title" : "TaskIntent",
     "description" : "Distinguishes whether the task is a proposal, plan or full order.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1241"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-task-intent.html" : "TaskIntent"
   },
   {
     "url" : "http://hl7.org/fhir/task-status",
-    "version" : "5.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "TaskStatus",
-    "title" : "Task Status",
+    "title" : "TaskStatus",
     "description" : "The current status of the task.",
+    "oids" : ["2.16.840.1.113883.4.642.4.791"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-task-status.html" : "TaskStatus"
@@ -297,17 +320,17 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "ValueSet-fr-treatment-intent.html" : "French overall intention of the treatment",
-    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
     "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
-    "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
     "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "ValueSet-fr-treatment-intent.html" : "French overall intention of the treatment",
+    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
     "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes"
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes"
   },
   {
     "url" : "http://standardterms.edqm.eu",
@@ -319,28 +342,28 @@
     "oids" : ["0.4.0.127.0.16.1.1.2.1"],
     "uses" : {
     },
+    "ValueSet-FrMethodOfAdministration.html" : "French Method Of Administration",
     "ValueSet-fr-route-of-administration.html" : "French Route of Administration",
     "ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.html" : "Mapping Free Set CIO-DC VOIE",
-    "ValueSet-fr-mp-dose-form.html" : "French Medicinal product Dose form",
-    "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html" : "Mapping Free Set CIO-DC UNITE",
     "ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.html" : "Mapping Free Set CIO-DC FORME",
-    "ValueSet-FrMethodOfAdministration.html" : "French Method Of Administration"
+    "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html" : "Mapping Free Set CIO-DC UNITE",
+    "ValueSet-fr-mp-dose-form.html" : "French Medicinal product Dose form"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/action-type",
-    "version" : "1.0.1",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ActionType",
     "title" : "ActionType",
     "description" : "The type of action to be performed.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1246"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1246"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-action-type.html" : "ActionType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-    "version" : "1.0.0",
+    "version" : "4.0.1",
     "status" : "active",
     "name" : "DataAbsentReason",
     "title" : "DataAbsentReason",
@@ -352,107 +375,107 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/dose-rate-type",
-    "version" : "2.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "DoseAndRateType",
     "title" : "DoseAndRateType",
     "description" : "The kind of dose or rate specified.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1069"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1069"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-dose-rate-type.html" : "DoseAndRateType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "MedicationKnowledgeCharacteristicCodes",
-    "title" : "MedicationKnowledge Characteristic Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationKnowledge Characteristic Codes",
+    "title" : "Medication knowledge  characteristic  codes",
     "description" : "MedicationKnowledge Characteristic Codes",
-    "oids" : ["2.16.840.1.113883.4.642.1.1338"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1338"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationknowledge-characteristic.html" : "Medication knowledge  characteristic  codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
-    "version" : "2.0.0",
-    "status" : "active",
-    "name" : "MedicationRequestCategoryCodes",
-    "title" : "MedicationRequest Category Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationRequest Category Codes",
+    "title" : "Medication request  category  codes",
     "description" : "MedicationRequest Category Codes",
-    "oids" : ["2.16.840.1.113883.4.642.1.1323"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1323"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationrequest-category.html" : "Medication request  category  codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "MedicationRequestCourseOfTherapyCodes",
-    "title" : "MedicationRequest Course of Therapy Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationRequest Course of Therapy Codes",
+    "title" : "Medication request  course of  therapy  codes",
     "description" : "MedicationRequest Course of Therapy Codes",
-    "oids" : ["2.16.840.1.113883.4.642.1.1327"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1327"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationrequest-course-of-therapy.html" : "Medication request  course of  therapy  codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-status-reason",
-    "version" : "1.0.1",
-    "status" : "active",
-    "name" : "MedicationRequestStatusReasonCodes",
-    "title" : "MedicationRequest Status Reason Codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "medicationRequest Status Reason Codes",
+    "title" : "Medication request  status  reason  codes",
     "description" : "MedicationRequest Status Reason Codes",
-    "oids" : ["2.16.840.1.113883.4.642.1.1325"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1325"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medicationrequest-status-reason.html" : "Medication request  status  reason  codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-    "version" : "2.0.0",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ObservationCategoryCodes",
     "title" : "Observation Category Codes",
     "description" : "Observation Category codes.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1125"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
-    "version" : "1.0.1",
-    "status" : "active",
+    "version" : "4.0.1",
+    "status" : "draft",
     "name" : "ObservationReferenceRangeMeaningCodes",
     "title" : "Observation Reference Range Meaning Codes",
     "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
-    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "oids" : ["2.16.840.1.113883.4.642.4.1124"],
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "ActReason",
-    "title" : "ActReason",
-    "description" : "A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type \"has reason\" linking to another Act.\r\n\r\n*Examples:* Example reasons that might qualify for being coded in this field might be: \"routine requirement\", \"infectious disease reporting requirement\", \"on patient request\", \"required by law\".",
+    "name" : "v3.ActReason",
+    "title" : "v3 Code System ActReason",
+    "description" : " A set of codes specifying the motivation, cause, or rationale of an Act, when such rationale is not reasonably represented as an ActRelationship of type \"has reason\" linking to another Act.  Examples:\r\nExample reasons that might qualify for being coded in this field might be: \"routine requirement\", \"infectious disease reporting requirement\", \"on patient request\", \"required by law\".",
     "oids" : ["2.16.840.1.113883.5.8"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
+    "http://hl7.org/fhir/R4/v3/SubstanceAdminSubstitutionReason/vs.html" : "V3 Value SetSubstanceAdminSubstitutionReason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "GTSAbbreviation",
-    "title" : "GTSAbbreviation",
-    "description" : "*Open Issue:* It appears that the printnames are suboptimal and should be improved for many of the existing codes.",
+    "name" : "v3.GTSAbbreviation",
+    "title" : "v3 Code System GTSAbbreviation",
+    "description" : "  Open Issue:\r\nIt appears that the printnames are suboptimal and should be improved for many of the existing codes.",
     "oids" : ["2.16.840.1.113883.5.1022"],
     "uses" : {
     },
@@ -460,11 +483,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "ObservationInterpretation",
-    "title" : "ObservationInterpretation",
-    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "name" : "v3.ObservationInterpretation",
+    "title" : "v3 Code System ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" /  \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
     "oids" : ["2.16.840.1.113883.5.83"],
     "uses" : {
     },
@@ -472,11 +495,11 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "TimingEvent",
-    "title" : "TimingEvent",
-    "description" : "**** MISSING DESCRIPTION ****",
+    "name" : "v3.TimingEvent",
+    "title" : "v3 Code System TimingEvent",
+    "description" : "**** MISSING DEFINITIONS ****",
     "oids" : ["2.16.840.1.113883.5.139"],
     "uses" : {
     },
@@ -484,15 +507,15 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
-    "version" : "4.0.0",
+    "version" : "2018-08-12",
     "status" : "active",
-    "name" : "SubstanceAdminSubstitution",
-    "title" : "Substance Admin Substitution",
-    "description" : "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
+    "name" : "v3.substanceAdminSubstitution",
+    "title" : "v3 Code System substanceAdminSubstitution",
+    "description" : " Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
     "oids" : ["2.16.840.1.113883.5.1070"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
+    "http://hl7.org/fhir/R4/v3/ActSubstanceAdminSubstitutionCode/vs.html" : "V3 Value SetActSubstanceAdminSubstitutionCode"
   },
   {
     "url" : "http://unitsofmeasure.org",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-ligne-prescription | *Version*:0.1.0 |
-| Draft as of 2026-05-22 | *Computable Name*:LignePrescription |
+| Draft as of 2026-05-26 | *Computable Name*:LignePrescription |
 
  
 Structuration d’une ligne de prescription [WIP - à compléter]. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
   "name" : "LignePrescription",
   "title" : "Ligne de prescription",
   "status" : "draft",
-  "date" : "2026-05-22T13:20:51+00:00",
+  "date" : "2026-05-26T09:02:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
