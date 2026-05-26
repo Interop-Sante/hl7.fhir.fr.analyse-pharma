@@ -1,0 +1,109 @@
+@startuml
+set namespaceSeparator ?
+hide circle
+hide class fields
+
+package IG #DDDDDD{
+
+     package Profiles #DDDDDD{
+
+        class FrAnalysePharmaceutiqueLogical{
+
+             fr-analyse-pharmaceutique-logical => [None..None]
+             fr-analyse-pharmaceutique-logical.date => [1..1]
+             fr-analyse-pharmaceutique-logical.auteur => [1..1]
+             fr-analyse-pharmaceutique-logical.lignePrescriptionAnalysee => [1..*]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse => [1..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.type => [1..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.commentaire => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.proposition => [0..*]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.typeIntervention => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.typeProbleme => [0..1]
+             fr-analyse-pharmaceutique-logical.resultatAnalyse.devenirIntervention => [0..1]
+        } 
+
+        class FRInpatientPharmaceuticalAnalysisResultProfile{
+
+             Task.groupIdentifier => [1..None]
+             Task.businessStatus => [None..None]
+             Task.intent => [None..None]
+             Task.authoredOn => [1..None]
+             Task.performerType => [None..None]
+             Task.owner => [1..None]
+             Task.input.type.text => [None..None]
+             Task.input.value[x] => [None..None]
+             Task.output => [1..None]
+             Task.output:result => [1..1]
+             Task.output:result.type.text => [1..None]
+             Task.output:result.value[x] => [None..None]
+             Task.output:comment => [0..1]
+             Task.output:comment.type.text => [1..None]
+             Task.output:comment.value[x] => [None..None]
+             Task.output:type => [0..1]
+             Task.output:type.type.text => [1..None]
+             Task.output:type.value[x] => [None..None]
+             Task.output:problem => [0..1]
+             Task.output:problem.type.text => [1..None]
+             Task.output:problem.value[x] => [None..None]
+             Task.output:suggestion => [0..*]
+             Task.output:suggestion.type.text => [1..None]
+             Task.output:suggestion.value[x] => [None..None]
+             Task.output:intervention => [0..*]
+             Task.output:intervention.type.text => [1..None]
+             Task.output:intervention.value[x] => [None..None]
+        } 
+
+        class FRInpatientPharmaceuticalInterventionSuggestionProfile{
+
+             MedicationRequest => [None..None]
+             MedicationRequest.intent => [None..None]
+             MedicationRequest.supportingInformation => [1..None]
+             MedicationRequest.supportingInformation:updatedLine => [0..*]
+             MedicationRequest.supportingInformation:pharmInter => [1..1]
+             MedicationRequest.groupIdentifier => [1..None]
+         }
+
+     }
+     package extension #paleturquoise {
+
+
+         }
+     }
+     package valueset #PaleVioletRed{
+
+        class FrPharmaceuticalInterventionDevenirCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionDevenirCodeValueSet
+
+        class FrPharmaceuticalAnalysisPerformerTypeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalAnalysisPerformerTypeValueSet
+
+        class FrPharmaceuticalAnalysisResultCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalAnalysisResultCodeValueSet
+
+        class FrPharmaceuticalInterventionTypeCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionTypeCodeValueSet
+
+        class FrPharmaceuticalInterventionProblemCodeValueSet  
+
+     FRInpatientPharmaceuticalAnalysisResultProfile -[#black,dotted,thickness=2]-> FrPharmaceuticalInterventionProblemCodeValueSet
+       }
+
+package "Ressources de base" #palegreen {
+
+ class "Base" as  class095a1b43effec73955e31e790438de49 
+
+    class095a1b43effec73955e31e790438de49 --> FrAnalysePharmaceutiqueLogical
+
+ class "Task" as  classeaeb30f9f18e0c50b178676f3eaef45f 
+
+    classeaeb30f9f18e0c50b178676f3eaef45f --> FRInpatientPharmaceuticalAnalysisResultProfile
+
+ class "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" as  class804f2b0c87b048b55a57c69863c4ab56 
+
+    class804f2b0c87b048b55a57c69863c4ab56 --> FRInpatientPharmaceuticalInterventionSuggestionProfile
+}
+@enduml
