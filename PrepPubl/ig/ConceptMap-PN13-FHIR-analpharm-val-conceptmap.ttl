@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FrPN13FHIRPharmaceuticalAnalysisValidationConceptMap"] ; # 
   fhir:title [ fhir:v "Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type validation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-26T09:32:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-26T09:45:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

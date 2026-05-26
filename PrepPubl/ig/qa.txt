@@ -3,7 +3,7 @@ APH : Validation Results
 
 err = 606, warn = 215, info = 43
 IG Publisher Version: 2.2.8
-Generated Tue May 26 09:34:56 UTC 2026. FHIR version 4.0.1 for hl7.fhir.fr.analyse-pharma#0.1.0 (canonical = https://hl7.fr/ig/fhir/analyse-pharma)
+Generated Tue May 26 09:48:04 UTC 2026. FHIR version 4.0.1 for hl7.fhir.fr.analyse-pharma#0.1.0 (canonical = https://hl7.fr/ig/fhir/analyse-pharma)
  Build Errors : 114 / 3 / 0
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE : 25 / 8 / 7
  /home/runner/work/hl7.fhir.fr.analyse-pharma/hl7.fhir.fr.analyse-pharma/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE : 24 / 9 / 7

@@ -141,11 +141,11 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
+    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-fr-treatment-intent.html" : "French overall intention of the treatment",
     "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
     "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
-    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
-    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-fr-treatment-intent.html" : "French overall intention of the treatment"
+    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes"
   },
   {
     "url" : "http://standardterms.edqm.eu",
@@ -157,8 +157,8 @@
     "oids" : ["0.4.0.127.0.16.1.1.2.1"],
     "uses" : {
     },
-    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-FrMethodOfAdministration.html" : "French Method Of Administration",
-    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-fr-route-of-administration.html" : "French Route of Administration"
+    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-fr-route-of-administration.html" : "French Route of Administration",
+    "https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/ValueSet-FrMethodOfAdministration.html" : "French Method Of Administration"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/dose-rate-type",

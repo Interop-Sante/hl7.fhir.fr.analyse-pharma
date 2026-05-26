@@ -35,7 +35,7 @@ Le système de codage pour le typage de l’intervention pharmaceutique.
   "title" : "code system d'Interop'Santé - Codes du type d'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-26T09:32:38+00:00",
+  "date" : "2026-05-26T09:45:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
