@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’un résultat d’une analyse ph
   "name" : "FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type intervention pharmaceutique avec proposition",
   "status" : "draft",
-  "date" : "2026-05-26T09:10:26+00:00",
+  "date" : "2026-05-26T09:52:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

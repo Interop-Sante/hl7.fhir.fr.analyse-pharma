@@ -35,7 +35,7 @@ Le système de codage pour le typage du devenir l’intervention pharmaceutique.
   "title" : "code system d'Interop'Santé - Codes de devenir de l'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-26T09:10:26+00:00",
+  "date" : "2026-05-26T09:52:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
