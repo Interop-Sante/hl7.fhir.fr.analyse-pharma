@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma | *Version*:0.1.0 |
-| Draft as of 2026-05-26 | *Computable Name*:APH |
+| Draft as of 2026-05-27 | *Computable Name*:APH |
 
 ### Introduction
 
@@ -74,7 +74,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "APH",
   "title" : "Guide d'implémentation de l'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-26T09:52:39+00:00",
+  "date" : "2026-05-27T13:47:07+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

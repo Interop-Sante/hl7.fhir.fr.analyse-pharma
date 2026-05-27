@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code | *Version*:0.1.0 |
-| Draft as of 2026-05-26 | *Computable Name*:FrPharmaceuticalInterventionDevenirCode |
+| Draft as of 2026-05-27 | *Computable Name*:FrPharmaceuticalInterventionDevenirCode |
 
  
 Le système de codage pour le typage du devenir l’intervention pharmaceutique. 
@@ -35,7 +35,7 @@ Le système de codage pour le typage du devenir l’intervention pharmaceutique.
   "title" : "code system d'Interop'Santé - Codes de devenir de l'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-26T09:52:39+00:00",
+  "date" : "2026-05-27T13:47:07+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
