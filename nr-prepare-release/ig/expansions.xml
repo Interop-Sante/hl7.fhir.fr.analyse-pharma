@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="3a3bc58c-1ba7-4f4a-a607-de70d1cc7bc5"/>
+  <meta>
+    <lastUpdated value="2026-05-29T11:32:52.174+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion effectuée en interne basée sur :</p>
+              <ul>
+                <li>
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-G15-ProfessionSante.html">codesystem TRE_G15-ProfessionSante v1.3.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|1.3.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-G16-ProfessionFormation.html">codesystem TRE_G16-ProfessionFormation v1.3.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation|1.3.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-R85-RolePriseCharge.html">codesystem TRE_R85-RolePriseCharge v1.3.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge|1.3.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante-21"> </a>
+                  <code>https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-G15-ProfessionSante.html#TRE-G15-ProfessionSante-21">21</a>
+                </td>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&quot;, &quot;version&quot;: &quot;1.3.0&quot;, &quot;code&quot;: &quot;21&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante&quot;&gt;&lt;version value=&quot;1.3.0&quot;&gt;&lt;code value=&quot;21&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation-21"> </a>
+                  <code>https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-G16-ProfessionFormation.html#TRE-G16-ProfessionFormation-21">21</a>
+                </td>
+                <td/>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation&quot;, &quot;version&quot;: &quot;1.3.0&quot;, &quot;code&quot;: &quot;21&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation&quot;&gt;&lt;version value=&quot;1.3.0&quot;&gt;&lt;code value=&quot;21&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge-316"> </a>
+                  <code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="https://interop.esante.gouv.fr/ig/nos/1.3.0/CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-316">316</a>
+                </td>
+                <td/>
+                <td>CSP Articles L4241-1 à L4241-18 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/526b?champRecherche=true</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge&quot;, &quot;version&quot;: &quot;1.3.0&quot;, &quot;code&quot;: &quot;316&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge&quot;&gt;&lt;version value=&quot;1.3.0&quot;&gt;&lt;code value=&quot;316&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set"/>
+        <version value="0.1.0-ballot"/>
+        <name value="FrPharmaceuticalAnalysisPerformerTypeValueSet"/>
+        <title value="Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-05-29T11:32:52+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:d0dce488-e2da-4f6c-aabc-29f516801bf0"/>
+          <timestamp value="2026-05-29T11:34:22+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante|1.3.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation|1.3.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge|1.3.0"/>
+          </parameter>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
+            <code value="21"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"/>
+            <code value="21"/>
+          </contains>
+          <contains>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+            <code value="316"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-fr-pharmaceutical-analysis-result-code.html">codesystem code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique v0.1.0-ballot (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code|0.1.0-ballot" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code-VALIDATION"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-analysis-result-code.html#fr-pharmaceutical-analysis-result-code-VALIDATION">VALIDATION</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;VALIDATION&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;VALIDATION&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code-INTERVENTION"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-analysis-result-code.html#fr-pharmaceutical-analysis-result-code-INTERVENTION">INTERVENTION</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;INTERVENTION&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;INTERVENTION&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set"/>
+        <version value="0.1.0-ballot"/>
+        <name value="FrPharmaceuticalAnalysisResultCodeValueSet"/>
+        <title value="Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-05-29T11:32:52+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:428fda34-5db4-4b89-88a8-115232bc29e8"/>
+          <timestamp value="2026-05-29T11:34:22+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code|0.1.0-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code"/>
+            <code value="VALIDATION"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code"/>
+            <code value="INTERVENTION"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-fr-pharmaceutical-intervention-devenir-code.html">codesystem code system d'Interop'Santé - Codes de devenir de l'intervention pharmaceutique v0.1.0-ballot (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code|0.1.0-ballot" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code-1"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-devenir-code.html#fr-pharmaceutical-intervention-devenir-code-1">1</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;1&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code-2"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-devenir-code.html#fr-pharmaceutical-intervention-devenir-code-2">2</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;2&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set"/>
+        <version value="0.1.0-ballot"/>
+        <name value="FrPharmaceuticalInterventionDevenirCodeValueSet"/>
+        <title value="Jeu de valeurs Interop'Santé - Codes de devenir de l'intervention pharmaceutique"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-05-29T11:32:52+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:a338a463-0a59-4983-bc23-9ab9dcffe6e9"/>
+          <timestamp value="2026-05-29T11:34:22+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code|0.1.0-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code"/>
+            <code value="1"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code"/>
+            <code value="2"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html">codesystem code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique v0.1.0-ballot (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code|0.1.0-ballot" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 14 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-1"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-1">1</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;1&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-2"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-2">2</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;2&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-3"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-3">3</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;3&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-4"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-4">4</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;4&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-5"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-5">5</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;5&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-6.1"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-6.461">6.1</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6.1&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6.1&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-6.2"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-6.462">6.2</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6.2&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6.2&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-6.3"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-6.463">6.3</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6.3&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6.3&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-6.4"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-6.464">6.4</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6.4&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6.4&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-6.5"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-6.465">6.5</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6.5&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6.5&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-7"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-7">7</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;7&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-8"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-8">8</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;8&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-9"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-9">9</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;9&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code-10"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-problem-code.html#fr-pharmaceutical-intervention-problem-code-10">10</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;10&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;10&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set"/>
+        <version value="0.1.0-ballot"/>
+        <name value="FrPharmaceuticalInterventionProblemCodeValueSet"/>
+        <title value="Jeu de valeurs Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-05-29T11:32:52+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:65e54698-d145-4366-be96-f8276a442666"/>
+          <timestamp value="2026-05-29T11:34:22+00:00"/>
+          <total value="14"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code|0.1.0-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="1"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="2"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="3"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="4"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="5"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="6.1"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="6.2"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="6.3"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="6.4"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="6.5"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="7"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="8"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="9"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code"/>
+            <code value="10"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html">codesystem code system d'Interop'Santé - Codes du type d'intervention pharmaceutique v0.1.0-ballot (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code|0.1.0-ballot" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-1"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-1">1</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;1&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-2"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-2">2</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;2&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-3"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-3">3</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;3&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-4"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-4">4</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;4&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-5"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-5">5</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;5&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-6"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-6">6</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;6&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code-7"> </a>
+                  <code>https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-fr-pharmaceutical-intervention-type-code.html#fr-pharmaceutical-intervention-type-code-7">7</a>
+                </td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;, &quot;version&quot;: &quot;0.1.0-ballot&quot;, &quot;code&quot;: &quot;7&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code&quot;&gt;&lt;version value=&quot;0.1.0-ballot&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set"/>
+        <version value="0.1.0-ballot"/>
+        <name value="FrPharmaceuticalInterventionTypeCodeValueSet"/>
+        <title value="Jeu de valeurs Interop'Santé - Codes du type d'intervention pharmaceutique"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-05-29T11:32:52+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="France (la)"/>
+          </coding>
+        </jurisdiction>
+        <immutable value="false"/>
+        <expansion>
+          <identifier value="urn:uuid:d58ce016-6b90-4623-b035-dd38fba1d631"/>
+          <timestamp value="2026-05-29T11:34:22+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code|0.1.0-ballot"/>
+          </parameter>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="1"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="2"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="3"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="4"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="5"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="6"/>
+          </contains>
+          <contains>
+            <system value="https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code"/>
+            <code value="7"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

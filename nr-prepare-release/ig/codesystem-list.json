@@ -1,0 +1,34 @@
+{
+  "codeSystems" : [{
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code",
+    "version" : "0.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrPharmaceuticalAnalysisResultCode",
+    "title" : "code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique",
+    "description" : "Le système de codage pour le typage du résultat d'analyse pharmaceutique."
+  },
+  {
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code",
+    "version" : "0.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrPharmaceuticalInterventionDevenirCode",
+    "title" : "code system d'Interop'Santé - Codes de devenir de l'intervention pharmaceutique",
+    "description" : "Le système de codage pour le typage du devenir l'intervention pharmaceutique."
+  },
+  {
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code",
+    "version" : "0.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrPharmaceuticalInterventionProblemCode",
+    "title" : "code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique",
+    "description" : "Le système de codage pour le typage du problème identifié dans l'intervention pharmaceutique."
+  },
+  {
+    "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code",
+    "version" : "0.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrPharmaceuticalInterventionTypeCode",
+    "title" : "code system d'Interop'Santé - Codes du type d'intervention pharmaceutique",
+    "description" : "Le système de codage pour le typage de l'intervention pharmaceutique."
+  }]
+}

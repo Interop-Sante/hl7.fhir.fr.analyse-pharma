@@ -1,0 +1,136 @@
+# hl7.fhir.fr.analyse-pharma#0.1.0-ballot: Guide d'implémentation de l'analyse pharmaceutique
+
+## Pages
+
+* [Accueil](index.md)
+* [L'analyse pharmaceutique - Cas d'usage](analyse-CasUsage.md)
+* [Intervention pharmaceutique PN13 avec commentaire](PN13-intervention-pharma-avec-commentaire.md)
+* [Intervention pharmaceutique PN13 avec proposition de substitution](PN13-intervention-pharma-avec-substitution.md)
+* [L'analyse pharmaceutique - Introduction](analyse-Intro.md)
+* [Téléchargements et usages](downloads.md)
+* [Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR](transformation-PN13-vers-FHIR-AnalysePharma.md)
+* [Validation pharmaceutique PN13 sans commentaire](PN13-validation-pharma-sans-commentaire.md)
+* [Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique](PN13-prescription-pour-exemple-analyse-pharma.md)
+* [Exemples PN13 de CR d'analyse pharmaceutique - Introduction](PN13-exemples-AnalysePharma-Intro.md)
+* [L'analyse pharmaceutique - Exemples](analyse-Exemples.md)
+* [Validation pharmaceutique PN13 et intervention liée](PN13-validation-pharma-intervention-liee.md)
+* [L'analyse pharmaceutique - Vue d'ensemble](analyse-VueEnsemble.md)
+* [Artifacts Summary](artifacts.md)
+* [Historique des travaux](suivitravaux.md)
+* [Intervention pharmaceutique PN13 avec proposition de modification](PN13-intervention-pharma-avec-modification.md)
+* [Validation pharmaceutique PN13 avec commentaire](PN13-validation-pharma-avec-commentaire.md)
+
+## Resources
+
+### CodeSystems
+
+* [code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique](CodeSystem-fr-pharmaceutical-analysis-result-code.md)
+* [code system d'Interop'Santé - Codes de devenir de l'intervention pharmaceutique](CodeSystem-fr-pharmaceutical-intervention-devenir-code.md)
+* [code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique](CodeSystem-fr-pharmaceutical-intervention-problem-code.md)
+* [code system d'Interop'Santé - Codes du type d'intervention pharmaceutique](CodeSystem-fr-pharmaceutical-intervention-type-code.md)
+
+### ValueSets
+
+* [Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique](ValueSet-fr-pharmaceutical-analysis-perfomer-type-value-set.md)
+* [Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique](ValueSet-fr-pharmaceutical-analysis-result-code-value-set.md)
+* [Jeu de valeurs Interop'Santé - Codes de devenir de l'intervention pharmaceutique](ValueSet-fr-pharmaceutical-intervention-devenir-code-value-set.md)
+* [Jeu de valeurs Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique](ValueSet-fr-pharmaceutical-intervention-problem-code-value-set.md)
+* [Jeu de valeurs Interop'Santé - Codes du type d'intervention pharmaceutique](ValueSet-fr-pharmaceutical-intervention-type-code-value-set.md)
+
+### Logicals
+
+* [Résultat d'analyse pharmaceutique](StructureDefinition-fr-analyse-pharmaceutique-logical.md)
+
+### Resource Profiles
+
+* [FR Pharmaceutical Analysis Result](StructureDefinition-fr-inpatient-pharmaceutical-analysis-result.md)
+* [FR Pharmaceutical Intervention Suggestion](StructureDefinition-fr-inpatient-pharmaceutical-intervention-suggestion.md)
+
+### ConceptMaps
+
+* [Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type intervention pharmaceutique avec proposition](ConceptMap-PN13-FHIR-analpharm-interv-avec-prop-conceptmap.md)
+* [Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutique de type intervention pharmaceutique sans proposition](ConceptMap-PN13-FHIR-analpharm-interv-sans-prop-conceptmap.md)
+* [Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type validation](ConceptMap-PN13-FHIR-analpharm-val-conceptmap.md)
+
+### ImplementationGuides
+
+* [Guide d'implémentation de l'analyse pharmaceutique](index.md)
+
+### Examples
+
+* [MultiLine-Presc-METFORMINE-GLICLAZIDE (Bundle)](Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.md)
+* [MultiLine-Presc-METHOTREXATE-LEDERFOLINE (Bundle)](Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.md)
+* [MultiLine-Presc-Sucralfate-Paracetamol (Bundle)](Bundle-MultiLine-Presc-Sucralfate-Paracetamol.md)
+* [InLine-patient-group-01 (Group)](Group-InLine-patient-group-01.md)
+* [InLine-DOLIPRANE (Medication)](Medication-InLine-DOLIPRANE.md)
+* [InLine-med-EFFERALGAN (Medication)](Medication-InLine-med-EFFERALGAN.md)
+* [InLine-med-Paracetamol (Medication)](Medication-InLine-med-Paracetamol.md)
+* [InLine-Analyse-Presc-BINOCRIT (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-BINOCRIT.md)
+* [InLine-Analyse-Presc-CALCIDOSE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-CALCIDOSE.md)
+* [InLine-Analyse-Presc-CELLUVISC (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-CELLUVISC.md)
+* [InLine-Analyse-Presc-CETAFEN-CPR (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-CETAFEN-CPR.md)
+* [InLine-Analyse-Presc-CETAFEN-INJ (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-CETAFEN-INJ.md)
+* [InLine-Analyse-Presc-COTAREG (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-COTAREG.md)
+* [InLine-Analyse-Presc-DOSTINEX (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-DOSTINEX.md)
+* [InLine-Analyse-Presc-Diazepam (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-Diazepam.md)
+* [InLine-Analyse-Presc-ELIQUIS-25 (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-ELIQUIS-25.md)
+* [InLine-Analyse-Presc-ELIQUIS-50 (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-ELIQUIS-50.md)
+* [InLine-Analyse-Presc-ESIDREX (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-ESIDREX.md)
+* [InLine-Analyse-Presc-ESOMEPRAZOLE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-ESOMEPRAZOLE.md)
+* [InLine-Analyse-Presc-EZETIMIBE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-EZETIMIBE.md)
+* [InLine-Analyse-Presc-INEGY (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-INEGY.md)
+* [InLine-Analyse-Presc-INNOHEP (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-INNOHEP.md)
+* [InLine-Analyse-Presc-LACRIFLUID (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-LACRIFLUID.md)
+* [InLine-Analyse-Presc-LANSOPRAZOLE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-LANSOPRAZOLE.md)
+* [InLine-Analyse-Presc-LEVOTHYROX (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-LEVOTHYROX.md)
+* [InLine-Analyse-Presc-LOXAPAC (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-LOXAPAC.md)
+* [InLine-Analyse-Presc-MACROGOL (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-MACROGOL.md)
+* [InLine-Analyse-Presc-METFORMINE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-METFORMINE.md)
+* [InLine-Analyse-Presc-Morphine (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-Morphine.md)
+* [InLine-Analyse-Presc-NEFOPAM (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-NEFOPAM.md)
+* [InLine-Analyse-Presc-Paracetamol-Si-Douleur (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-Paracetamol-Si-Douleur.md)
+* [InLine-Analyse-Presc-Paracetamol (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-Paracetamol.md)
+* [InLine-Analyse-Presc-SIMVASTATINE (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-SIMVASTATINE.md)
+* [InLine-Analyse-Presc-TAREG (MedicationRequest)](MedicationRequest-InLine-Analyse-Presc-TAREG.md)
+* [InLine-Inter-Arret-Paracetamol-Si-Douleur (MedicationRequest)](MedicationRequest-InLine-Inter-Arret-Paracetamol-Si-Douleur.md)
+* [InLine-Presc-EFFERALGAN (MedicationRequest)](MedicationRequest-InLine-Presc-EFFERALGAN.md)
+* [InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition (MedicationRequest)](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Proposition.md)
+* [InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution (MedicationRequest)](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Intervention-Substitution.md)
+* [InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol (MedicationRequest)](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Presc-Paracetamol.md)
+* [InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition (MedicationRequest)](MedicationRequest-InLine-Trad-PN13-FHIR-Analyse-Validation-Proposition.md)
+* [InLine-presc-EFFERALGAN2 (MedicationRequest)](MedicationRequest-InLine-presc-EFFERALGAN2.md)
+* [InLine-presc-Paracetamol1 (MedicationRequest)](MedicationRequest-InLine-presc-Paracetamol1.md)
+* [InLine-presc-Paracetamol2 (MedicationRequest)](MedicationRequest-InLine-presc-Paracetamol2.md)
+* [InLine-Observation-poids-Avion (Observation)](Observation-InLine-Observation-poids-Avion.md)
+* [InLine-observation-taille-Avion (Observation)](Observation-InLine-observation-taille-Avion.md)
+* [InLine-patient-Avion (Patient)](Patient-InLine-patient-Avion.md)
+* [InLine-practitioner-Luiggi (Practitioner)](Practitioner-InLine-practitioner-Luiggi.md)
+* [Analyse-Intervention-Acceptee (Task)](Task-Analyse-Intervention-Acceptee.md)
+* [Analyse-Intervention-Commentaire-Trad-PN13-FHIR (Task)](Task-Analyse-Intervention-Commentaire-Trad-PN13-FHIR.md)
+* [Analyse-Intervention-Liee-Validation-Trad-PN13-FHIR (Task)](Task-Analyse-Intervention-Liee-Validation-Trad-PN13-FHIR.md)
+* [Analyse-Intervention-NonAcceptee (Task)](Task-Analyse-Intervention-NonAcceptee.md)
+* [Analyse-Intervention-Proposition-Trad-PN13-FHIR (Task)](Task-Analyse-Intervention-Proposition-Trad-PN13-FHIR.md)
+* [Analyse-Intervention-Substitution-Trad-PN13-FHIR (Task)](Task-Analyse-Intervention-Substitution-Trad-PN13-FHIR.md)
+* [Analyse-Intervention-Type1-DOSTINEX (Task)](Task-Analyse-Intervention-Type1-DOSTINEX.md)
+* [Analyse-Intervention-Type1-MACROGOL (Task)](Task-Analyse-Intervention-Type1-MACROGOL.md)
+* [Analyse-Intervention-Type1-METFORMINE (Task)](Task-Analyse-Intervention-Type1-METFORMINE.md)
+* [Analyse-Intervention-Type2-Arret-Paracetamol (Task)](Task-Analyse-Intervention-Type2-Arret-Paracetamol.md)
+* [Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM (Task)](Task-Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM.md)
+* [Analyse-Intervention-Type3-ELIQUIS (Task)](Task-Analyse-Intervention-Type3-ELIQUIS.md)
+* [Analyse-Intervention-Type3-ESOMEPRAZOLE (Task)](Task-Analyse-Intervention-Type3-ESOMEPRAZOLE.md)
+* [Analyse-Intervention-Type3-Remplacement1pour2-INEGY (Task)](Task-Analyse-Intervention-Type3-Remplacement1pour2-INEGY.md)
+* [Analyse-Intervention-Type3-Remplacement2pour1-COTAREG (Task)](Task-Analyse-Intervention-Type3-Remplacement2pour1-COTAREG.md)
+* [Analyse-Intervention-Type4-CETAFEN-INJ (Task)](Task-Analyse-Intervention-Type4-CETAFEN-INJ.md)
+* [Analyse-Intervention-Type5-DOSTINEX (Task)](Task-Analyse-Intervention-Type5-DOSTINEX.md)
+* [Analyse-Intervention-Type5-INNOHEP (Task)](Task-Analyse-Intervention-Type5-INNOHEP.md)
+* [Analyse-Intervention-Type6-CALCIDOSE (Task)](Task-Analyse-Intervention-Type6-CALCIDOSE.md)
+* [Analyse-Intervention-Type6-LOXAPAC (Task)](Task-Analyse-Intervention-Type6-LOXAPAC.md)
+* [Analyse-Intervention-Type7-BINOCRIT (Task)](Task-Analyse-Intervention-Type7-BINOCRIT.md)
+* [Analyse-Validation-Ajout-Morphine (Task)](Task-Analyse-Validation-Ajout-Morphine.md)
+* [Analyse-Validation-Commentaire-Diazepam (Task)](Task-Analyse-Validation-Commentaire-Diazepam.md)
+* [Analyse-Validation-Commentaire-LACRIFLUID (Task)](Task-Analyse-Validation-Commentaire-LACRIFLUID.md)
+* [Analyse-Validation-Commentaire-Morphine (Task)](Task-Analyse-Validation-Commentaire-Morphine.md)
+* [Analyse-Validation-Commentaire-Trad-PN13-FHIR (Task)](Task-Analyse-Validation-Commentaire-Trad-PN13-FHIR.md)
+* [Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR (Task)](Task-Analyse-Validation-Intervention-Liee-Trad-PN13-FHIR.md)
+* [Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR (Task)](Task-Analyse-Validation-Sans-Commentaire-Trad-PN13-FHIR.md)
+* [Analyse-Validation-Simple-paracetamol (Task)](Task-Analyse-Validation-Simple-paracetamol.md)

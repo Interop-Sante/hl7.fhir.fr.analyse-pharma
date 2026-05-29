@@ -1,0 +1,112 @@
+[{
+  "id" : "fr-pharmaceutical-analysis-result-code",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalAnalysisResultCode"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-devenir-code",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-devenir-code",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionDevenirCode"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-problem-code",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionProblemCode"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-type-code",
+  "type" : "CodeSystem",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-type-code",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionTypeCode"
+},
+{
+  "id" : "PN13-FHIR-analpharm-interv-avec-prop-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-interv-avec-prop-conceptmap",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap"
+},
+{
+  "id" : "PN13-FHIR-analpharm-interv-sans-prop-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-interv-sans-prop-conceptmap",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap"
+},
+{
+  "id" : "PN13-FHIR-analpharm-val-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-val-conceptmap",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPN13FHIRPharmaceuticalAnalysisValidationConceptMap"
+},
+{
+  "id" : "hl7.fhir.fr.analyse-pharma",
+  "type" : "ImplementationGuide",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma",
+  "version" : "0.1.0-ballot",
+  "name" : "APH"
+},
+{
+  "id" : "fr-analyse-pharmaceutique-logical",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical",
+  "version" : "0.1.0-ballot",
+  "name" : "FrAnalysePharmaceutiqueLogical"
+},
+{
+  "id" : "fr-inpatient-pharmaceutical-analysis-result",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result",
+  "version" : "0.1.0-ballot",
+  "name" : "FRInpatientPharmaceuticalAnalysisResultProfile"
+},
+{
+  "id" : "fr-inpatient-pharmaceutical-intervention-suggestion",
+  "type" : "StructureDefinition",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion",
+  "version" : "0.1.0-ballot",
+  "name" : "FRInpatientPharmaceuticalInterventionSuggestionProfile"
+},
+{
+  "id" : "fr-pharmaceutical-analysis-perfomer-type-value-set",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalAnalysisPerformerTypeValueSet"
+},
+{
+  "id" : "fr-pharmaceutical-analysis-result-code-value-set",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalAnalysisResultCodeValueSet"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-devenir-code-value-set",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionDevenirCodeValueSet"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-problem-code-value-set",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionProblemCodeValueSet"
+},
+{
+  "id" : "fr-pharmaceutical-intervention-type-code-value-set",
+  "type" : "ValueSet",
+  "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set",
+  "version" : "0.1.0-ballot",
+  "name" : "FrPharmaceuticalInterventionTypeCodeValueSet"
+}]
