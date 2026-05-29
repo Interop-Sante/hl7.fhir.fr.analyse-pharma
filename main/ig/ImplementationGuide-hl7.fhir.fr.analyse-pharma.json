@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide hl7.fhir.fr.analyse-pharma</b></p><a name=\"hl7.fhir.fr.analyse-pharma\"> </a><a name=\"hchl7.fhir.fr.analyse-pharma\"> </a><h2>APH</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma</pre></div>"
   },
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "APH",
   "title" : "Guide d'implémentation de l'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -65,7 +65,7 @@
     "id" : "ans_fhir_fr_eprescription",
     "uri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
     "packageId" : "ans.fhir.fr.eprescription",
-    "version" : "current"
+    "version" : "1.1.0-ballot"
   }],
   "definition" : {
     "extension" : [{

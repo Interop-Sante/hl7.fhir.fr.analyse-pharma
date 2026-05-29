@@ -1,24 +1,24 @@
-# hl7.fhir.fr.analyse-pharma#0.1.0: Guide d'implémentation de l'analyse pharmaceutique
+# hl7.fhir.fr.analyse-pharma#0.1.0-ballot: Guide d'implémentation de l'analyse pharmaceutique
 
 ## Pages
 
 * [Accueil](index.md)
+* [L'analyse pharmaceutique - Cas d'usage](analyse-CasUsage.md)
 * [Intervention pharmaceutique PN13 avec commentaire](PN13-intervention-pharma-avec-commentaire.md)
 * [Intervention pharmaceutique PN13 avec proposition de substitution](PN13-intervention-pharma-avec-substitution.md)
-* [Validation pharmaceutique PN13 avec commentaire](PN13-validation-pharma-avec-commentaire.md)
-* [Artifacts Summary](artifacts.md)
 * [L'analyse pharmaceutique - Introduction](analyse-Intro.md)
-* [Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR](transformation-PN13-vers-FHIR-AnalysePharma.md)
-* [Historique des travaux](suivitravaux.md)
-* [L'analyse pharmaceutique - Cas d'usage](analyse-CasUsage.md)
-* [Validation pharmaceutique PN13 et intervention liée](PN13-validation-pharma-intervention-liee.md)
-* [Validation pharmaceutique PN13 sans commentaire](PN13-validation-pharma-sans-commentaire.md)
 * [Téléchargements et usages](downloads.md)
-* [L'analyse pharmaceutique - Vue d'ensemble](analyse-VueEnsemble.md)
+* [Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR](transformation-PN13-vers-FHIR-AnalysePharma.md)
+* [Validation pharmaceutique PN13 sans commentaire](PN13-validation-pharma-sans-commentaire.md)
+* [Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique](PN13-prescription-pour-exemple-analyse-pharma.md)
 * [Exemples PN13 de CR d'analyse pharmaceutique - Introduction](PN13-exemples-AnalysePharma-Intro.md)
 * [L'analyse pharmaceutique - Exemples](analyse-Exemples.md)
-* [Prescription initale PN13 pour exemples de resultats d'analyse pharmaceutique](PN13-prescription-pour-exemple-analyse-pharma.md)
+* [Validation pharmaceutique PN13 et intervention liée](PN13-validation-pharma-intervention-liee.md)
+* [L'analyse pharmaceutique - Vue d'ensemble](analyse-VueEnsemble.md)
+* [Artifacts Summary](artifacts.md)
+* [Historique des travaux](suivitravaux.md)
 * [Intervention pharmaceutique PN13 avec proposition de modification](PN13-intervention-pharma-avec-modification.md)
+* [Validation pharmaceutique PN13 avec commentaire](PN13-validation-pharma-avec-commentaire.md)
 
 ## Resources
 

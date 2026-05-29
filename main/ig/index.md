@@ -1,4 +1,4 @@
-# Accueil - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Accueil - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma | *Version*:0.1.0 |
-| Draft as of 2026-05-27 | *Computable Name*:APH |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma | *Version*:0.1.0-ballot |
+| Draft as of 2026-05-29 | *Computable Name*:APH |
 
 ### Introduction
 
@@ -70,11 +70,11 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.fr.analyse-pharma",
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "APH",
   "title" : "Guide d'implémentation de l'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -129,7 +129,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     "id" : "ans_fhir_fr_eprescription",
     "uri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
     "packageId" : "ans.fhir.fr.eprescription",
-    "version" : "current"
+    "version" : "1.1.0-ballot"
   }],
   "definition" : {
     "extension" : [{

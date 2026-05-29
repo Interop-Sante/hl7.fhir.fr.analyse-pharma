@@ -1,4 +1,4 @@
-# Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type intervention pharmaceutique avec proposition - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type intervention pharmaceutique avec proposition - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-interv-avec-prop-conceptmap | *Version*:0.1.0 |
-| Draft as of 2026-05-27 | *Computable Name*:FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-interv-avec-prop-conceptmap | *Version*:0.1.0-ballot |
+| Draft as of 2026-05-29 | *Computable Name*:FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un résultat d’une analyse pharmaceutique de type intervention pharmaceutique avec proposition 
@@ -23,11 +23,11 @@ ConceptMap pour la conversion PN13 vers FHIR d’un résultat d’une analyse ph
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-analpharm-interv-avec-prop-conceptmap",
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ConceptMap/PN13-FHIR-analpharm-interv-avec-prop-conceptmap",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutiquede type intervention pharmaceutique avec proposition",
   "status" : "draft",
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# Exemples PN13 de CR d'analyse pharmaceutique - Introduction - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Exemples PN13 de CR d'analyse pharmaceutique - Introduction - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Exemples PN13 de CR d'analyse pharmaceutique - Introduction**

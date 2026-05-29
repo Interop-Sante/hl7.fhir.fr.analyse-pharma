@@ -1,4 +1,4 @@
-# Intervention pharmaceutique PN13 avec proposition de substitution - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Intervention pharmaceutique PN13 avec proposition de substitution - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Intervention pharmaceutique PN13 avec proposition de substitution**

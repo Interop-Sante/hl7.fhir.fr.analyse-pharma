@@ -1,4 +1,4 @@
-# Téléchargements et usages - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Téléchargements et usages - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Téléchargements et usages**

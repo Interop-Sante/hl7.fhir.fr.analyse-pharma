@@ -1,4 +1,4 @@
-# Analyse-Validation-Commentaire-LACRIFLUID - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Analyse-Validation-Commentaire-LACRIFLUID - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# InLine-DOLIPRANE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# InLine-DOLIPRANE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,7 +6,7 @@
 
 ## Example Medication: InLine-DOLIPRANE
 
-Profil: [FR Medication](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-medication.html)
+Profil: [FR Medication](https://interop.esante.gouv.fr/ig/fhir/eprescription/1.1.0-ballot/StructureDefinition-fr-medication.html)
 
 **code**: DOLIPRANE® 500 mg, gélule
 

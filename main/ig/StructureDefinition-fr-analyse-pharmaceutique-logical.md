@@ -1,4 +1,4 @@
-# Résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical | *Version*:0.1.0 |
-| Draft as of 2026-05-27 | *Computable Name*:FrAnalysePharmaceutiqueLogical |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical | *Version*:0.1.0-ballot |
+| Draft as of 2026-05-29 | *Computable Name*:FrAnalysePharmaceutiqueLogical |
 
  
 Structure du résultat d’analyse pharmaceutique (validation ou intervention pharmacetique) 
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-analyse-pharmaceu
   "resourceType" : "StructureDefinition",
   "id" : "fr-analyse-pharmaceutique-logical",
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "FrAnalysePharmaceutiqueLogical",
   "title" : "Résultat d'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

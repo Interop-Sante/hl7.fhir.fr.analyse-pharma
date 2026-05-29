@@ -1,4 +1,4 @@
-# InLine-Analyse-Presc-CALCIDOSE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# InLine-Analyse-Presc-CALCIDOSE - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,7 +6,7 @@
 
 ## Example MedicationRequest: InLine-Analyse-Presc-CALCIDOSE
 
-Profil: [FR Inpatient MedicationRequest](https://build.fhir.org/ig/ansforge/interop-ig-fhir-ePrescription/StructureDefinition-fr-inpatient-medicationrequest.html)
+Profil: [FR Inpatient MedicationRequest](https://interop.esante.gouv.fr/ig/fhir/eprescription/1.1.0-ballot/StructureDefinition-fr-inpatient-medicationrequest.html)
 
 **R5: Full representation of the dosage instructions (new)**: 
 

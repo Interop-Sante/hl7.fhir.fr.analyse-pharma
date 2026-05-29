@@ -1,4 +1,4 @@
-# Validation pharmaceutique PN13 sans commentaire - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Validation pharmaceutique PN13 sans commentaire - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Validation pharmaceutique PN13 sans commentaire**

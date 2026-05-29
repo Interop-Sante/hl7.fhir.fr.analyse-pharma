@@ -1,4 +1,4 @@
-# Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Tranformation d'un message PN13 compte-rendu d'analyse pharmaceutique en FHIR**

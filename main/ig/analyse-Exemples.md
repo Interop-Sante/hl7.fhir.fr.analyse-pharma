@@ -1,4 +1,4 @@
-# L'analyse pharmaceutique - Exemples - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# L'analyse pharmaceutique - Exemples - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **L'analyse pharmaceutique - Exemples**

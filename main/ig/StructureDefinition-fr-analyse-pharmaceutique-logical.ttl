@@ -17,11 +17,11 @@
      fhir:v "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical"^^xsd:anyURI ;
      fhir:l <https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-analyse-pharmaceutique-logical>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.0-ballot"] ; # 
   fhir:name [ fhir:v "FrAnalysePharmaceutiqueLogical"] ; # 
   fhir:title [ fhir:v "Résultat d'analyse pharmaceutique"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-27T13:47:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-29T13:46:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

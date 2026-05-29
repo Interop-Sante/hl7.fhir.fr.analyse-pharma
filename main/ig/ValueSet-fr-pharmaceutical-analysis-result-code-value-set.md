@@ -1,4 +1,4 @@
-# Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set | *Version*:0.1.0 |
-| Draft as of 2026-05-27 | *Computable Name*:FrPharmaceuticalAnalysisResultCodeValueSet |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set | *Version*:0.1.0-ballot |
+| Draft as of 2026-05-29 | *Computable Name*:FrPharmaceuticalAnalysisResultCodeValueSet |
 
  
 Codes représentant le type de résultat de l’analyse pharmaceutique 
@@ -49,12 +49,12 @@ Codes représentant le type de résultat de l’analyse pharmaceutique
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "FrPharmaceuticalAnalysisResultCodeValueSet",
   "title" : "Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

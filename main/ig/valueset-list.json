@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-perfomer-type-value-set",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "status" : "draft",
     "name" : "FrPharmaceuticalAnalysisPerformerTypeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique",
@@ -12,7 +12,7 @@
   },
   {
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-analysis-result-code-value-set",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "status" : "draft",
     "name" : "FrPharmaceuticalAnalysisResultCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes de résultat d'analyse pharmaceutique",
@@ -21,7 +21,7 @@
   },
   {
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-devenir-code-value-set",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionDevenirCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes de devenir de l'intervention pharmaceutique",
@@ -30,7 +30,7 @@
   },
   {
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-problem-code-value-set",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionProblemCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique",
@@ -39,7 +39,7 @@
   },
   {
     "url" : "https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set",
-    "version" : "0.1.0",
+    "version" : "0.1.0-ballot",
     "status" : "draft",
     "name" : "FrPharmaceuticalInterventionTypeCodeValueSet",
     "title" : "Jeu de valeurs Interop'Santé - Codes du type d'intervention pharmaceutique",

@@ -1,4 +1,4 @@
-# Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

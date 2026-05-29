@@ -1,4 +1,4 @@
-# Historique des travaux - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# Historique des travaux - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Historique des travaux**

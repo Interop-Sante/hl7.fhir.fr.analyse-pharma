@@ -1,4 +1,4 @@
-# FR Pharmaceutical Intervention Suggestion - Guide d'implémentation de l'analyse pharmaceutique v0.1.0
+# FR Pharmaceutical Intervention Suggestion - Guide d'implémentation de l'analyse pharmaceutique v0.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion | *Version*:0.1.0 |
-| Draft as of 2026-05-27 | *Computable Name*:FRInpatientPharmaceuticalInterventionSuggestionProfile |
+| *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion | *Version*:0.1.0-ballot |
+| Draft as of 2026-05-29 | *Computable Name*:FRInpatientPharmaceuticalInterventionSuggestionProfile |
 
  
 Profile de proposition d’évolution de ligne de prescritpion dans le cadre d’une intervention pharmaceutique 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-pharmaceutical-intervention-suggestion",
   "url" : "https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-intervention-suggestion",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "FRInpatientPharmaceuticalInterventionSuggestionProfile",
   "title" : "FR Pharmaceutical Intervention Suggestion",
   "status" : "draft",
-  "date" : "2026-05-27T13:47:07+00:00",
+  "date" : "2026-05-29T13:46:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
