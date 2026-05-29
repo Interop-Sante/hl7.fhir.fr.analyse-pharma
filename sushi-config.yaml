@@ -6,7 +6,7 @@ publisher:
   name: Interop'Santé
   url: http://interopsante.org/
 status: draft
-version: 0.1.0
+version: 0.1.0-ballot
 fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: ci-build
@@ -21,7 +21,7 @@ parameters:
 dependencies:
   hl7.fhir.fr.core: 2.1.0
   hl7.fhir.extensions.r5: 4.0.1
-  ans.fhir.fr.eprescription: current
+  ans.fhir.fr.eprescription: 1.1.0-ballot
 
 pages:
     index.md: 
