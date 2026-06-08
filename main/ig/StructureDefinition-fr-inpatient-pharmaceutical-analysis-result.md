@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/StructureDefinition/fr-inpatient-pharmaceutical-analysis-result | *Version*:0.1.0-ballot |
-| Draft as of 2026-05-29 | *Computable Name*:FRInpatientPharmaceuticalAnalysisResultProfile |
+| Draft as of 2026-06-08 | *Computable Name*:FRInpatientPharmaceuticalAnalysisResultProfile |
 
  
 French Pharmaceutical Analysis Result profile 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-pharmac
   "name" : "FRInpatientPharmaceuticalAnalysisResultProfile",
   "title" : "FR Pharmaceutical Analysis Result",
   "status" : "draft",
-  "date" : "2026-05-29T13:46:19+00:00",
+  "date" : "2026-06-08T12:47:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

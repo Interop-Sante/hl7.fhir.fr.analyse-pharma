@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-intervention-problem-code | *Version*:0.1.0-ballot |
-| Draft as of 2026-05-29 | *Computable Name*:FrPharmaceuticalInterventionProblemCode |
+| Draft as of 2026-06-08 | *Computable Name*:FrPharmaceuticalInterventionProblemCode |
 
  
 Le système de codage pour le typage du problème identifié dans l’intervention pharmaceutique. 
@@ -35,7 +35,7 @@ Le système de codage pour le typage du problème identifié dans l’interventi
   "title" : "code system d'Interop'Santé - Codes du problème identifié dans l'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T13:46:19+00:00",
+  "date" : "2026-06-08T12:47:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

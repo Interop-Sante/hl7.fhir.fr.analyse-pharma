@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/CodeSystem/fr-pharmaceutical-analysis-result-code | *Version*:0.1.0-ballot |
-| Draft as of 2026-05-29 | *Computable Name*:FrPharmaceuticalAnalysisResultCode |
+| Draft as of 2026-06-08 | *Computable Name*:FrPharmaceuticalAnalysisResultCode |
 
  
 Le système de codage pour le typage du résultat d’analyse pharmaceutique. 
@@ -35,7 +35,7 @@ Le système de codage pour le typage du résultat d’analyse pharmaceutique.
   "title" : "code system d'Interop'Santé - Codes de résultat d'analyse pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T13:46:19+00:00",
+  "date" : "2026-06-08T12:47:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

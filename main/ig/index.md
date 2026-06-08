@@ -8,11 +8,11 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ImplementationGuide/hl7.fhir.fr.analyse-pharma | *Version*:0.1.0-ballot |
-| Draft as of 2026-05-29 | *Computable Name*:APH |
+| Draft as of 2026-06-08 | *Computable Name*:APH |
 
 ### Introduction
 
->  **Attention !** Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique (https://hl7.fr/ig/fhir/medication) lorsque celui-ci sera publié. 
+>  **Attention !** Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique (https://hl7.fr/ig/fhir/analyse-pharma) lorsque celui-ci sera publié. 
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier les flux d’information autour de l’analyse pharmaceutique pour un patient dans un contexte hospitalier dans un premier temps.
 
@@ -74,7 +74,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "APH",
   "title" : "Guide d'implémentation de l'analyse pharmaceutique",
   "status" : "draft",
-  "date" : "2026-05-29T13:46:19+00:00",
+  "date" : "2026-06-08T12:47:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

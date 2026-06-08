@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://hl7.fr/ig/fhir/analyse-pharma/ValueSet/fr-pharmaceutical-intervention-type-code-value-set | *Version*:0.1.0-ballot |
-| Draft as of 2026-05-29 | *Computable Name*:FrPharmaceuticalInterventionTypeCodeValueSet |
+| Draft as of 2026-06-08 | *Computable Name*:FrPharmaceuticalInterventionTypeCodeValueSet |
 
  
 Codes représentant le type d’intervention pharmaceutique 
@@ -54,7 +54,7 @@ Codes représentant le type d’intervention pharmaceutique
   "title" : "Jeu de valeurs Interop'Santé - Codes du type d'intervention pharmaceutique",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T13:46:19+00:00",
+  "date" : "2026-06-08T12:47:39+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

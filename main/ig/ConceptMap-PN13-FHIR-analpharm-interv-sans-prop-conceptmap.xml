@@ -10,7 +10,7 @@
   <name value="FrPN13FHIRPharmaceuticalAnalysisInterventionSansPropositionConceptMap"/>
   <title value="Conversion PN13 vers FHIR pour le résultat d'une analyse pharmaceutique de type intervention pharmaceutique sans proposition"/>
   <status value="draft"/>
-  <date value="2026-05-29T13:46:19+00:00"/>
+  <date value="2026-06-08T12:47:39+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
