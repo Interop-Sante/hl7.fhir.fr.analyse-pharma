@@ -1,8 +1,8 @@
-Instance: Analyse-Validation-Commentaire-Morphine
+Instance: Analyse-Validation-Commentaire-Paracetamol-4g
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
 Description: "Validation d'une prescription de morphine avec commentaire"
-* groupIdentifier.value = "Presc-3657"
+* groupIdentifier.value = "Presc-3965"
 * status = #completed
 * intent = #proposal
 * authoredOn = "2025-07-23T10:56:00+01:00"
@@ -13,4 +13,4 @@ Description: "Validation d'une prescription de morphine avec commentaire"
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #VALIDATION
 * output[+].type.text = "commentaire"
-* output[=].valueString = "Dose totale de morphine pour ce patient proche de la limite haute recommandée"
+* output[=].valueString = "la posologie maximale recommandée chez la personne âgée de paracétamol est de 3 g par jour"

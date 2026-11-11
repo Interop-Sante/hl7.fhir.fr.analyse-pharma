@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type3-ESOMEPRAZOLE
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 3 Substitution/Echange - Problème: 1 Non conformité aux référentiels"
+Description: "Intervention pharmaceutique Problème: 1 Non conformité aux référentiels - Type: 3 Substitution/Echange"
 * groupIdentifier.value = "Presc-20260322161900"
 * status = #completed
 * intent = #proposal
@@ -13,7 +13,7 @@ Description: "Intervention pharmaceutique Type: 3 Substitution/Echange - Problè
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #INTERVENTION
 * output[+].type.text = "commentaire"
-* output[=].valueString = "L'ESOMEPRAZOLE n'est pas référencé au livret thérapeutique. Proposition de substitution par LANSOPRAZOLE"
+* output[=].valueString = "L'ESOMEPRAZOLE 20 mg n'est pas référencé au livret thérapeutique. Proposition de substitution par LANSOPRAZOLE 15 mg"
 * output[+].type.text = "type d'intervention"
 * output[=].valueCodeableConcept = #3 "Substitution/Echange"
 * output[+].type.text = "type de problème"

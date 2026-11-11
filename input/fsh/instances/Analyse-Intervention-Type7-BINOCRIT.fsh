@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type7-BINOCRIT
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 7 Adaptation posologique - Problème: 3 Sous-dosage"
+Description: "Intervention pharmaceutique Problème: 3 Sous-dosage - Type: 7 Adaptation posologique"
 * groupIdentifier.value = "Presc-20260320115000"
 * status = #completed
 * intent = #proposal

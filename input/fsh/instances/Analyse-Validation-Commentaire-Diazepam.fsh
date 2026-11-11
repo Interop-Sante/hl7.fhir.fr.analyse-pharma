@@ -13,4 +13,4 @@ Description: "Validation d'une prescription de diazépam avec commentaire"
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #VALIDATION
 * output[+].type.text = "commentaire"
-* output[=].valueString = "Le diazepam est prescrit depuis plus de 6 mois, il serait judicieux de commencer à proposer une diminution des doses"
+* output[=].valueString = "Le diazepam est une benzodiazépine prescrit depuis 6 mois. Veuillez SVP envisager de protocole de sevrage"

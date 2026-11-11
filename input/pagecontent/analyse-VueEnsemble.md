@@ -63,7 +63,7 @@ Lorsque l'intervention pharmaceutique consiste en une suggestion de suppression 
 
 Lorsque l'intervention pharmaceutique consiste en une suggestion d'ajout de ligne de prescritpion sans modification d'autre ligne, l'attribut `MedicationRequest.supportingInformation` n'est utilisé que pour référencer la ressource *Task* représentant le résultat de l'analyse pharmaceutique, il n'y a pas de `MedicationRequest.supportingInformation` référençant de ligne de prescription.
 
-#### Cas particulier de la proposition de remplacement
+#### Cas particulier de la proposition de substitution/échange (remplacement) 
 
 Lorsque l'intervention pharmaceutique consiste en une suggestion de remplacement de ligne(s) de prescription:
 - chaque ligne remplacée est fournie sous forme de `MedicationRequest` avec :

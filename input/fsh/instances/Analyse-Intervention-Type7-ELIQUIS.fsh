@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type3-ELIQUIS
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 7 Adaptation posologique - Problème: 4 Surdosage"
+Description: "Intervention pharmaceutique Problème: 4 Surdosage - Type: 7 Adaptation posologique"
 * groupIdentifier.value = "Presc-20260322163400"
 * status = #completed
 * intent = #proposal

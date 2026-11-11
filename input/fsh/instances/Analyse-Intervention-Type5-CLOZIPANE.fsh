@@ -1,7 +1,7 @@
-Instance: Analyse-Intervention-Type5-DOSTINEX
+Instance: Analyse-Intervention-Type5-CLOZIPANE
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 5 Suivi thérapeutique - Problème: 7 Effet indésirable"
+Description: "Intervention pharmaceutique Problème: 7 Effet indésirable - Type: 5 Suivi thérapeutique"
 * groupIdentifier.value = "Presc-20260320163100"
 * status = #completed
 * intent = #proposal
@@ -9,11 +9,11 @@ Description: "Intervention pharmaceutique Type: 5 Suivi thérapeutique - Problè
 * performerType = $TRE-G15-ProfessionSante#21 "Pharmacien"
 * owner.reference = "Practitioner/smart-Practitioner-27865023"
 * input.type.text = "ligne de prescription analysée"
-* input.valueReference.reference = "MedicationRequest/InLine-Analyse-Presc-DOSTINEX"
+* input.valueReference.reference = "MedicationRequest/InLine-Analyse-Presc-CLOZIPANE"
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #INTERVENTION
 * output[+].type.text = "commentaire"
-* output[=].valueString = "Au cours d'un traitement à long terme de Dostinex qui est indiqué dans l'adénome hypophysaire qui secrète prolactine, des troubles fibrotiques peuvent apparaître. Il convient donc de rechercher régulièrement chez les patients des manifestations éventuelles de fibrose progressive."
+* output[=].valueString = "La clozapine est un médicament pouvant entraîner des agranulocytoses. Il nécessite une surveillance des polynucléaires neutrophiles. Les modalités de surveillance sont les suivantes : une surveillance par semaine durant les 18 premières semaines puis 1 fois par mois pendant les 34 semaines suivantes."
 * output[+].type.text = "type d'intervention"
 * output[=].valueCodeableConcept = #5 "Suivi thérapeutique"
 * output[+].type.text = "type de problème"

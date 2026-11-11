@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type5-INNOHEP
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 5 Suivi thérapeutique - Problème: 10 Monitorage à suivre"
+Description: "Intervention pharmaceutique Problème: 10 Monitorage à suivre - Type: 5 Suivi thérapeutique"
 * groupIdentifier.value = "Presc-20260320173100"
 * status = #completed
 * intent = #proposal

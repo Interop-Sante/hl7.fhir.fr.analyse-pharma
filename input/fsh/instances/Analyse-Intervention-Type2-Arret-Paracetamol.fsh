@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type2-Arret-Paracetamol
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type 2: Arrêt - Problème 5: Médicament non indiqué"
+Description: "Intervention pharmaceutique Problème 5: Médicament non indiqué - Type 2: Arrêt"
 * groupIdentifier.value = "Presc-4130"
 * status = #completed
 * intent = #proposal

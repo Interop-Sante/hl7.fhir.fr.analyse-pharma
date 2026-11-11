@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type6-CALCIDOSE
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 6 Optimisation modalités d'administration - Problème: 6.2 Interaction - Précaution d'emploi"
+Description: "Intervention pharmaceutique Problème: 6.2 Interaction - Précaution d'emploi - Type: 6 Optimisation modalités d'administration"
 * groupIdentifier.value = "Presc-20260320161000"
 * status = #completed
 * intent = #proposal

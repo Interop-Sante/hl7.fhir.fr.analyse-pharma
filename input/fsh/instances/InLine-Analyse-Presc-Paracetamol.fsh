@@ -1,7 +1,7 @@
 Instance: InLine-Analyse-Presc-Paracetamol
 InstanceOf: fr-inpatient-medicationrequest
 Usage: #example
-Description: "Prescription de Paracétamol pour exemple de vaidation pharmaceutique"
+Description: "Prescription de Paracétamol pour exemple de validation pharmaceutique"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $Medicabase#MV00000557 "PARACETAMOL 500 mg gélule"

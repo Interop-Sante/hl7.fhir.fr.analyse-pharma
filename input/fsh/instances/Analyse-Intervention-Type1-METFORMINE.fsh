@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type1-METFORMINE
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 1 Ajout (prescription nouvelle) - Problème: 2 Indication non traitée"
+Description: "Intervention pharmaceutique Problème: 2 Indication non traitée - Type: 1 Ajout (prescription nouvelle)"
 * groupIdentifier.value = "Presc-20260323112700"
 * status = #completed
 * intent = #proposal

@@ -10,7 +10,7 @@
 
 ### Validation pharmaceutique
 
-Un professionnel effectue une ananlyse pharmaceutique et valide une/des ligne(s) de prescription. Cette validation peut être:
+Un professionnel effectue une analyse pharmaceutique et valide une/des ligne(s) de prescription. Cette validation peut être:
 - sans commentaire
 - avec un/des commentaire(s)
 - avec une/des proposition(s) de prescription complémentaire(s) pour améliorer la prise en charge du patient (ex. prescription complémentaire de laxatif dans le cas d'un traitement à la morphine) 

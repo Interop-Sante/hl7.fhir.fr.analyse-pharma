@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type4-CETAFEN-INJ
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 4 Choix de la voie d'administration - Problème: 8 Voie/administration inappropriée"
+Description: "Intervention pharmaceutique Problème: 8 Voie/administration inappropriée - Type: 4 Choix de la voie d'administration"
 * groupIdentifier.value = "Presc-20260320174600"
 * status = #completed
 * intent = #proposal

@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type1-MACROGOL
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 1 Ajout (prescription nouvelle) - Problème: 7 Effet indésirable"
+Description: "Intervention pharmaceutique Problème: 7 Effet indésirable - Type: 1 Ajout (prescription nouvelle)"
 * groupIdentifier.value = "Presc-3657"
 * status = #completed
 * intent = #proposal

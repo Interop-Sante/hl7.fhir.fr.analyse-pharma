@@ -38,8 +38,8 @@ La concertation publique est ouverte du 22 mai 2026 au 22 septembre 2026.
   - Marine Rodriguez
 - Logipren
   - Aurore Berthe-Aucejo
-- APHM
-  - Marjorie Roudot
+- SNPHPU
+  - Marjorie Roudot (Pharmacien à l’AP-HM)
 - APHP
   - David Ouagne
 - Bowmedical

@@ -9,8 +9,10 @@ Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $UCD = http://data.esante.gouv.fr/ansm/medicament/UCD
 Alias: $SMS = http://data.esante.gouv.fr/ansm/medicament/codeSMS
 Alias: $TechANSM = http://data.esante.gouv.fr/ansm/medicament/substance
+Alias: $SpecialitePharmaceutique = http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique
 Alias: $EDQM = http://standardterms.edqm.eu
-Alias: $Medicabase = http://BogusSystemMedicabase.com
+Alias: $Medicabase = http://data.esante.gouv.fr/assoc_medicabase/MEDICABASE
+Alias: $NUVA = http://data.esante.gouv.fr/NUVA
 
 Alias: $fr-document-type = https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type
 

@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type3-Remplacement1pour2-INEGY
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 3 Substitution/Echange - Problème: 1 Non conformité aux référentiels"
+Description: "Intervention pharmaceutique Problème: 1 Non conformité aux référentiels - Type: 3 Substitution/Echange"
 * groupIdentifier.value = "Presc-20260319151900"
 * status = #completed
 * intent = #proposal
@@ -15,7 +15,7 @@ Description: "Intervention pharmaceutique Type: 3 Substitution/Echange - Problè
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #INTERVENTION
 * output[+].type.text = "commentaire"
-* output[=].valueString = "La SIMVASTATINE et l'EZEMITIBE ne sont pas référencées au livret thérapeutique. Proposition de substitution par INEGY"
+* output[=].valueString = "La SIMVASTATINE 20 mg et l'EZETIMIBE 10 mg ne sont pas référencées au livret thérapeutique. Proposition de substitution par INEGY® 10mg/20mg qui est l’association d’EZETIMIBE 10 mg et de SIMVASTATINE 20 mg"
 * output[+].type.text = "type d'intervention"
 * output[=].valueCodeableConcept = #3 "Substitution/Echange"
 * output[+].type.text = "type de problème"

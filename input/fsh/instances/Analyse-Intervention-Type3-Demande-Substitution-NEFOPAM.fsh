@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type3-Demande-Substitution-NEFOPAM
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 3 Substitution/Echange - Problème: 6.3 Interaction - Association déconseillée"
+Description: "Intervention pharmaceutique Problème: 6.3 Interaction - Association déconseillée - Type: 3 Substitution/Echange"
 * groupIdentifier.value = "Presc-4254"
 * status = #completed
 * intent = #proposal

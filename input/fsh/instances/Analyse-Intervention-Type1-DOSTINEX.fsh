@@ -1,7 +1,7 @@
 Instance: Analyse-Intervention-Type1-DOSTINEX
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
-Description: "Intervention pharmaceutique Type: 1 Ajout (prescription nouvelle) - Problème: 9 Traitement non reçu"
+Description: "Intervention pharmaceutique Problème: 9 Traitement non reçu - Type: 1 Ajout (prescription nouvelle)"
 * groupIdentifier.value = "Presc-20260320163100"
 * status = #completed
 * intent = #proposal
