@@ -1,4 +1,4 @@
-Instance: Analyse-Intervention-Type4-CETAFEN-INJ
+Instance: Analyse-Intervention-Type4-Paracetamol-INJ
 InstanceOf: FRInpatientPharmaceuticalAnalysisResultProfile
 Usage: #example
 Description: "Intervention pharmaceutique Problème: 8 Voie/administration inappropriée - Type: 4 Choix de la voie d'administration"
@@ -9,7 +9,7 @@ Description: "Intervention pharmaceutique Problème: 8 Voie/administration inapp
 * performerType = $TRE-G15-ProfessionSante#21 "Pharmacien"
 * owner.reference = "Practitioner/smart-Practitioner-27865023"
 * input.type.text = "ligne de prescription analysée"
-* input.valueReference.reference = "MedicationRequest/InLine-Analyse-Presc-CETAFEN-INJ"
+* input.valueReference.reference = "MedicationRequest/InLine-Analyse-Presc-Paracetamol-INJ"
 * output[0].type.text = "résultat de l'analyse"
 * output[=].valueCode = #INTERVENTION
 * output[+].type.text = "commentaire"

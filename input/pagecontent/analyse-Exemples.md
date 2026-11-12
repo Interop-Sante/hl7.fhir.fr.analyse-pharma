@@ -50,7 +50,7 @@
 
 #### Intervention type 4: Choix de la voie d'administration
 
-- [Intervention pharmaceutique Problème: 8 Voie/administration inappropriée - Type: 4 Choix de la voie d'administration](Task-Analyse-Intervention-Type4-CETAFEN-INJ.html)
+- [Intervention pharmaceutique Problème: 8 Voie/administration inappropriée - Type: 4 Choix de la voie d'administration](Task-Analyse-Intervention-Type4-Paracetamol-INJ.html)
 
 #### Intervention type 5: Suivi thérapeutique
 
